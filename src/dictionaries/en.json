@@ -107,10 +107,8 @@
         "ctaLabel": "More technical details",
         "linkText": "To Knowledge Area & all Interviews →",
         "linkHref": "/en/knowledge",
-        "isHeading": true,
-        "downloadLabel": "More details on installation",
-        "downloadHref": "/downloads/biszet-b7-build-in-sketch.pdf",
-        "backgroundColor": "white"
+        "isHeading": false,
+        "backgroundColor": "turkis"
       },
       "editorialSplit": {
         "title": "Your Beauty Fridge: Exclusive Design and Innovative Quality for the Bathroom",

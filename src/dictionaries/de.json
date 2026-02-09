@@ -107,10 +107,8 @@
         "ctaLabel": "Mehr technische Details",
         "linkText": "Zum Wissens-Bereich & allen Interviews →",
         "linkHref": "/de/wissen",
-        "isHeading": true,
-        "downloadLabel": "Weitere Details zum Einbau",
-        "downloadHref": "/downloads/biszet-b7-Einbauskizze.pdf",
-        "backgroundColor": "white"
+        "isHeading": false,
+        "backgroundColor": "turkis"
       },
       "editorialSplit": {
         "title": "Ihr Beauty Kühlschrank: Exklusives Design und innovative Qualität für das Badezimmer",

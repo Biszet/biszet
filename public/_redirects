@@ -1,27 +1,50 @@
-/de/produkte /de 301
-/en/products /en 301
-/de/bar /de 301
-/en/bar /en 301
-/de/bath /de 301
-/en/bath /en 301
-/de/benefits-of-cooling /de 301
-/en/benefits-of-cooling /en 301
-/de/chilling-me-softly /de 301
-/en/chilling-me-softly /en 301
-/de/impressum /de/imprint 301
-/de/kontakt.html /de/contact 301
-/de/kontakt /de/contact 301
-/de/datenschutz /de/dataprotection 301
-/en/imprint /en/dataprotection 301
+# --- 1. Fix für die Knowledge-Section (Rewrite 200) ---
+# Das löst das 404 Problem! Der User sieht /knowledge, Next.js bekommt /wissen
+/en/knowledge/* /en/wissen/:splat  200
+/en/knowledge    /en/wissen         200
 
-https://www.biszet.de/* https://biszet.de/:splat 301!
-https://biszet.com/*                  https://biszet.de/:splat  301!
-https://www.biszet.com/*              https://biszet.de/:splat  301!
-https://biszet-beauty-fridge.com/*    https://biszet.de/:splat  301!
-https://www.biszet-beauty-fridge.com/* https://biszet.de/:splat  301!
-https://biszet-beauty-fridge.de/*     https://biszet.de/:splat  301!
-https://www.biszet-beauty-fridge.de/* https://biszet.de/:splat  301!
-https://beauty-fridge.de/*            https://biszet.de/:splat  301!
-https://www.beauty-fridge.de/*        https://biszet.de/:splat  301!
-https://cosmeticfridge.de/*           https://biszet.de/:splat  301!
-https://www.cosmeticfridge.de/*       https://biszet.de/:splat  301!
+# --- 2. Alte Pfade aufräumen (Legacy) ---
+/de/produkte             /de                 301
+/en/products             /en                 301
+/de/bar                  /de                 301
+/en/bar                  /en                 301
+/de/bath                 /de                 301
+/en/bath                 /en                 301
+/de/benefits-of-cooling  /de                 301
+/en/benefits-of-cooling  /en                 301
+/de/chilling-me-softly   /de                 301
+/en/chilling-me-softly   /en                 301
+/de/impressum            /de/imprint         301
+/de/kontakt.html         /de/contact         301
+/de/kontakt              /de/contact         301
+/de/datenschutz          /de/data-protection 301
+/en/imprint              /en/data-protection 301
+
+# --- 3. Domain-Strategie: Alles auf biszet.com (301!) ---
+# WICHTIG: Das '!' erzwingt die Umleitung, auch wenn die Datei existiert.
+
+# Alte .de Domain -> ab nach .com
+https://biszet.de/* https://biszet.com/:splat  301!
+https://www.biszet.de/* https://biszet.com/:splat  301!
+
+# Andere Domains -> ab nach .com
+https://biszet-beauty-fridge.com/* https://biszet.com/:splat  301!
+https://www.biszet-beauty-fridge.com/* https://biszet.com/:splat  301!
+https://biszet-beauty-fridge.de/* https://biszet.com/:splat  301!
+https://www.biszet-beauty-fridge.de/* https://biszet.com/:splat  301!
+https://beauty-fridge.de/* https://biszet.com/:splat  301!
+https://www.beauty-fridge.de/* https://biszet.com/:splat  301!
+https://cosmeticfridge.de/* https://biszet.com/:splat  301!
+https://www.cosmeticfridge.de/* https://biszet.com/:splat  301!
+
+# www.biszet.com -> biszet.com (SEO Canonical)
+https://www.biszet.com/* https://biszet.com/:splat  301!
+
+# --- 4. Startseiten-Logik (Spracherkennung) ---
+# Nur auf der Startseite ("/") prüfen wir die Browser-Sprache
+
+# Wenn Browser = Deutsch -> /de
+/  /de  302  Language=de
+
+# Alle anderen (Default) -> /en
+/  /en  301

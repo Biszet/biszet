@@ -24,8 +24,8 @@ export type FeatureShowcaseProps = {
 }
 
 export const FeatureShowcase: React.FC<FeatureShowcaseProps> = (props) => {
+
     const {title, shortText, description, imageAlt, imageSrc, ctaLabel, ctaHref, first, isHeading, downloadLabel, downloadHref, backgroundColor = 'turkis'} = props
-    
     const backgroundClass = backgroundColor === 'turkis' ? 'bg-turkis' : 'bg-secondary';
     
     return (
