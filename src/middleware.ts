@@ -1,4 +1,3 @@
-// middleware.ts
 import { match } from '@formatjs/intl-localematcher'
 import Negotiator from 'negotiator'
 import { NextRequest, NextResponse } from 'next/server'
@@ -23,7 +22,7 @@ function getLocale(request: NextRequest) {
 export function middleware(request: NextRequest) {
     const pathname = request.nextUrl.pathname
 
-    // Prüfen, ob der Pfad schon eine Sprache enthält (z.B. /de/story)
+    // 1. PRÜFUNG: Fehlt die Sprache? (Ihre bestehende Logik)
     const pathnameIsMissingLocale = locales.every(
         (locale) => !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`
     )
@@ -31,12 +30,27 @@ export function middleware(request: NextRequest) {
     // Redirect, wenn keine Sprache in der URL ist
     if (pathnameIsMissingLocale) {
         const locale = getLocale(request)
-
-        // Weiterleitung zur richtigen Sprache
-        // WICHTIG: pathname startet bereits mit / (z.B. "/story")
-        // Daher schreiben wir `/${locale}${pathname}` um "//" zu vermeiden
+        // WICHTIG: pathname startet bereits mit /
         return NextResponse.redirect(new URL(`/${locale}${pathname}`, request.url))
     }
+
+    // -----------------------------------------------------------------
+    // 2. NEUE LOGIC: Rewrite für Knowledge-Bereich
+    // Das behebt den 404-Fehler auf Netlify/Vercel
+    // -----------------------------------------------------------------
+    if (pathname.startsWith('/en/knowledge')) {
+        // Wir klonen die URL, um sie zu manipulieren
+        const targetUrl = request.nextUrl.clone()
+
+        // Wir ersetzen 'knowledge' durch 'wissen', damit Next.js den echten Ordner findet
+        targetUrl.pathname = pathname.replace('/en/knowledge', '/en/wissen')
+
+        // Rewrite: URL bleibt im Browser 'knowledge', Server liefert 'wissen'
+        return NextResponse.rewrite(targetUrl)
+    }
+
+    // Wenn nichts zutrifft, normal weitermachen
+    return NextResponse.next()
 }
 
 export const config = {

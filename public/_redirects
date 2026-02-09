@@ -1,9 +1,4 @@
-# --- 1. Fix für die Knowledge-Section (Rewrite 200) ---
-# Das löst das 404 Problem! Der User sieht /knowledge, Next.js bekommt /wissen
-/en/knowledge/* /en/wissen/:splat  200
-/en/knowledge    /en/wissen         200
-
-# --- 2. Alte Pfade aufräumen (Legacy) ---
+# --- 1. Alte Pfade aufräumen (Legacy) ---
 /de/produkte             /de                 301
 /en/products             /en                 301
 /de/bar                  /de                 301
@@ -20,7 +15,7 @@
 /de/datenschutz          /de/data-protection 301
 /en/imprint              /en/data-protection 301
 
-# --- 3. Domain-Strategie: Alles auf biszet.com (301!) ---
+# --- 2. Domain-Strategie: Alles auf biszet.com (301!) ---
 # WICHTIG: Das '!' erzwingt die Umleitung, auch wenn die Datei existiert.
 
 # Alte .de Domain -> ab nach .com
@@ -40,7 +35,7 @@ https://www.cosmeticfridge.de/* https://biszet.com/:splat  301!
 # www.biszet.com -> biszet.com (SEO Canonical)
 https://www.biszet.com/* https://biszet.com/:splat  301!
 
-# --- 4. Startseiten-Logik (Spracherkennung) ---
+# --- 3. Startseiten-Logik (Spracherkennung) ---
 # Nur auf der Startseite ("/") prüfen wir die Browser-Sprache
 
 # Wenn Browser = Deutsch -> /de
