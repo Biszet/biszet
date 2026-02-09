@@ -1,0 +1,9 @@
+@import "bootstrap/scss/functions";
+@import "../styles/variables";
+@import "bootstrap/scss/mixins";
+
+@include media-breakpoint-down(md) {
+    .contactTeaser__image {
+      height: 50vh
+  }
+}

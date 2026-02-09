@@ -1,0 +1,643 @@
+{
+  "header": {
+    "logo": {
+      "src": "/images_en/biszet-logo-cosmetics-fridge.svg",
+      "alt": "biszet Logo – The Luxury Cosmetics Refrigerator"
+    }
+  },
+  "footer": {
+    "logo": {
+      "src": "/images_en/biszet-logo-white-made-in-germany.svg",
+      "alt": "biszet GmbH – Luxury Cosmetics Refrigerator from Cologne"
+    }
+  },
+  "home": {
+    "meta": {
+      "currentUrl": "https://biszet.com/en",
+      "title": "biszet b7 | The Luxury Cosmetics Refrigerator made of Stainless Steel",
+      "description": "The first cosmetics refrigerator with 3 climate zones. Made in Germany. Protect your beauty products in elegant stainless steel. Discover the b7 now.",
+      "image": {
+        "src": "/images_en/biszet-b7-interior-led-lighting-glass-shelves.jpg",
+        "alt": "biszet cosmetics refrigerator"
+      },
+      "keywords": "Cosmetics Refrigerator, Beauty Fridge, Cool Cosmetics, Bathroom Refrigerator, Chilled Cosmetics"
+    },
+    "modules": {
+      "stage": {
+        "headline": "The first luxury cosmetics refrigerator made in Germany.",
+        "subline": "Sensuality and Aesthetics",
+        "ctaHref": "/en/contact",
+        "ctaLabel": "Order the b7 now",
+        "variant": "overlay",
+        "imageSrc": "/images_en/product-images/B7-Cosmetics-Fridge-Scene.jpg",
+        "imageSrcMobile": "/images_en/product-images/B7-Cosmetics-Fridge-Scene-Mobile.jpg"
+      },
+      "carousel": {
+        "title": "As seen in: Vogue, Elle & Trade Press",
+        "items": [
+          [
+            {
+              "title": "Wallpaper Magazine",
+              "imageSrc": "/images_en/logos/biszet-press-wallpaper-design-magazine.svg",
+              "imageAlt": "Wallpaper Magazine Feature: The biszet as a design highlight",
+              "description": "“It's the latest accessory for the hi-tech home”"
+            },
+            {
+              "title": "AD Architectural Digest",
+              "imageSrc": "/images_en/logos/biszet-press-ad-architectural-digest.svg",
+              "imageAlt": "Featured in AD Architectural Digest: Exclusive bathroom furniture from biszet",
+              "description": "“You keep your cosmetics in the fridge? Then you will find something at biszet that saves you the trip to the kitchen”"
+            },
+            {
+              "title": "VOGUE",
+              "imageSrc": "/images_en/logos/biszet-press-vogue-magazine.svg",
+              "imageAlt": "As seen in VOGUE: The cosmetics refrigerator as a beauty must-have",
+              "description": "“If beauty products are stored incorrectly, they can lose their effectiveness.”"
+            }
+          ],
+          [
+            {
+              "title": "House and Garden",
+              "imageSrc": "/images_en/logos/biszet-press-house-and-garden.svg",
+              "imageAlt": "House and Garden Recommendation: Luxury for the bathroom",
+              "description": "“Bring a bit of the kitchen into the bathroom. biszet's cosmetics cooler is the perfect cold storage…”"
+            },
+            {
+              "title": "BILD",
+              "imageSrc": "/images_en/logos/biszet-press-bild-newspaper.svg",
+              "imageAlt": "Report in BILD: German manufacturing quality conquers the world",
+              "description": "“Cool business idea: Cologne cosmetics refrigerator conquers the world!”"
+            },
+            {
+              "title": "ELLE Decoration",
+              "imageSrc": "/images_en/logos/biszet-press-elle-decoration.svg",
+              "imageAlt": "ELLE Decoration: The biszet b7 as an interior design trend",
+              "description": "“Cosmetics cooler for cool creams: The bathroom furniture with mini-fridge makes cosmetics last longer”"
+            }
+          ],
+          [
+            {
+              "title": "Myself",
+              "imageSrc": "/images_en/logos/biszet-press-myself-magazine.svg",
+              "imageAlt": "Myself Magazine on the Rolls-Royce of beauty fridges",
+              "description": "“The Rolls-Royce of beauty refrigerators”"
+            },
+            {
+              "title": "ELLE Italia",
+              "imageSrc": "/images_en/logos/biszet-press-elle-italia.svg",
+              "imageAlt": "ELLE Italia Feature: Italian design meets German technology",
+              "description": "“The 'coolest' object of the moment? The bathroom refrigerator b7 from biszet”"
+            },
+            {
+              "title": "Gulf Interiors Magazine",
+              "imageSrc": "/images_en/logos/biszet-press-ad-architectural-digest.svg",
+              "imageAlt": "Gulf Interiors Magazine: biszet as equipment for luxury hotels",
+              "description": "“The product soon became a runaway success. Optimum effect is coupled with optimum presentation”"
+            }
+          ]
+        ]
+      },
+      "featureShowcase": {
+        "title": "The b7: Unique Design Object with Patented Climate Technology",
+        "shortText": "A combination of minimalist design and German engineering.",
+        "imageSrc": "/images_en/biszet-cosmetics-fridge-climate-zones.svg",
+        "imageAlt": "Graphic of the three temperature climate zones in the biszet cosmetics refrigerator",
+        "description": "<h3 class=\"h5 mt-3 mb-3\">Maximum Shelf Life through Three Climate Zones</h3><p>Developed in collaboration with <a href=\"/en/knowledge/expert-interview-dr-kruppa\" style=\"text-decoration:underline;\">dermatologists</a> and <a href=\"/en/knowledge/expert-interview-dr-stockebrand\" style=\"text-decoration:underline;\">pharmacists</a>, three climate zones in the elegant stainless steel cabinet ensure maximum shelf life and effectiveness of your high-quality beauty products.</p><h3 class=\"h5 mt-3 mb-3\">Protection for Vitamin C, Retinol & Collagen</h3><p>As soon as cosmetics are opened, <a href=\"/en/knowledge/expert-interview-dr-stockebrand\" style=\"text-decoration:underline;\">bacteria</a> multiply up to 30 times faster at a temperature of 20 degrees than at a cool 10 degrees. The potency of noble ingredients such as Vitamin C, Retinol, peptides, acids and collagen is lost and in the worst case, allergic skin reactions occur.</p><h3 class=\"h5 mt-3 mb-3\">The Cooling Effect: Perfect for Natural Cosmetics</h3><p>Through the cooling effect, high-quality cosmetics retain their purity, consistency and shelf life, even with products without preservatives, such as natural cosmetics. When cooled, the active ingredients can penetrate deeper and faster into the skin to unfold their full power there.</p>",
+        "ctaHref": "/en/technology",
+        "ctaLabel": "More technical details",
+        "linkText": "To Knowledge Area & all Interviews →",
+        "linkHref": "/en/knowledge",
+        "isHeading": true,
+        "downloadLabel": "More details on installation",
+        "downloadHref": "/downloads/biszet-b7-build-in-sketch.pdf",
+        "backgroundColor": "white"
+      },
+      "editorialSplit": {
+        "title": "Your Beauty Fridge: Exclusive Design and Innovative Quality for the Bathroom",
+        "imageSrc": "/images_en/biszet-beauty-fridge-animation-poster.jpg",
+        "imageAlt": "Cabinet Animation",
+        "imageType": "video",
+        "videoSrc": "/videos/biszet-cosmetics-fridge.m4v",
+        "description": "<h3 class=\"h5 mt-3 mb-3\">Made in Germany: Purist Design & Precision</h3><p>In this convincing combination of purist design and German precision, the b7 from biszet is the ideal cosmetics refrigerator. It blends harmoniously into sophisticated architecture and individually designed bathrooms.</p><h3 class=\"h5 mt-3 mb-3\">A Statement for Luxury Interiors & Spas</h3><p>The b7 is now at home almost everywhere in the world: In chic private homes as well as in sophisticated hotels around the globe. It enhances the guest suites of mega-yachts and is the must-have of the most sought-after spa locations. Free-standing or harmoniously integrated, the b7 enriches every luxurious living concept.</p>",
+        "ctaHref": "/en/story",
+        "ctaLabel": "b7 - the Story",
+        "variant": "background",
+        "logos": [
+          {
+            "src": "/images/badges/biszet.png",
+            "alt": "biszet logo"
+          },
+          {
+            "src": "/images/badges/Madeingermany.png",
+            "alt": "Made in Germany"
+          },
+          {
+            "src": "/images/badges/AD_siegel.png",
+            "alt": "AD"
+          }
+        ]
+      },
+      "textTeaser": {
+        "title": "The world of sophisticated interior design and individually designed bathrooms gets a new highlight with the b7",
+        "ctaHref": "/en/contact",
+        "ctaLabel": "Order the b7 now"
+      },
+      "textTeaserStory": {
+        "title": "An idea conquers the world",
+        "ctaHref": "/en/story",
+        "ctaLabel": "Learn more about our story"
+      },
+      "contactTeaser": {
+        "title": "Personal Consultation & <br/> Individual Planning",
+        "shortText": "Do you have questions about dimensions, installation or delivery times? Contact us. We look forward to hearing from you.",
+        "ctaHref": "/en/contact",
+        "ctaLabel": "Mail to",
+        "imageSrc": "/images_en/biszet-b7-cosmetics-fridge-diagonal-view.jpg",
+        "imageAlt": "Diagonal view of the biszet b7 cosmetics refrigerator – Your partner for individual bathroom planning"
+      }
+    }
+  },
+  "technology": {
+    "meta": {
+      "currentUrl": "https://biszet.com/en/technology",
+      "title": "Dimensions, Technology & Installation | biszet b7 Cosmetics Refrigerator",
+      "description": "Detailed specifications for the biszet b7. All dimensions (H/W/D), 3-zone climate, power consumption and installation information for architects and planners.",
+      "image": {
+        "src": "/images_en/biszet-b7-interior-led-lighting-glass-shelves.jpg",
+        "alt": "Technical details of the biszet b7 cosmetics refrigerator"
+      },
+      "keywords": "biszet dimensions, installation dimensions cosmetics fridge, power consumption b7, technical data, 3 climate zones temperature, noise level dB, installation sketch, architect datasheet"
+    },
+    "modules": {
+      "featureShowcase": {
+        "title": "The b7 from biszet is the first cosmetics refrigerator for the highest demands",
+        "shortText": "Developed according to European guidelines and produced in Germany",
+        "imageSrc": "/images_en/biszet-b7-technical-drawing-dimensions.svg",
+        "imageAlt": "Technical drawing: Dimensions and installation dimensions of the biszet b7",
+        "description": "<p>The b7 from biszet is made entirely of <strong>high-quality stainless steel</strong> – inside and out. The door consists of a satin-finished insulating glass pane, framed by a narrow stainless steel frame. Glass and frame are separated by a fine, hand-inlaid suede strip.</p><h3>The Special Feature</h3><p>The depth of only 25 centimeters is a <strong>technical masterpiece</strong> and gives “the fridge” an elegant lightness – whether as a free-standing sculpture or integrated as a design element.</p><p>We are happy to support you individually with your project planning. Contact us.</p>",
+        "ctaHref": "/en/contact",
+        "ctaLabel": "Contact",
+        "isHeading": true,
+        "downloadLabel": "More details on installation",
+        "downloadHref": "/downloads/biszet-b7-build-in-sketch.pdf",
+        "backgroundColor": "white"
+      },
+      "editorialSplit": {
+        "title": "Elegant Design and Precise Technology",
+        "shortText": "Discover biszet",
+        "imageSrc": "/images_en/biszet-b7-cosmetics-fridge-elegant-design-made-in-germany.jpg",
+        "imageSrcMobile": "/images_en/biszet-b7-cosmetics-fridge-elegant-design-made-in-germany-mobile.jpg",
+        "imageAlt": "Interior of the b7: Sandblasted glass shelves and LED lighting",
+        "description": "<p>The b7 leaves nothing to be desired, even the hinge was specially developed for the b7 and blends harmoniously into the <strong>elegant overall design</strong>.</p><p>The glass shelves are sandblasted, impregnated and rest on filigree holders. Soft LED lighting lets the noble cosmetics shimmer through satin-finished glass.</p><p>Every design cabinet from biszet is equipped with an ergonomic and beautifully shaped stainless steel handle. In addition, the b7 has a discreet lock to lock “the fridge” and its valuable contents against unauthorized access.</p>",
+        "ctaHref": "/downloads/biszet_manual_english.pdf",
+        "ctaLabel": "Current User Manual",
+        "variant": "background",
+        "overlayColor": "white"
+      },
+      "editorialSplit2": {
+        "title": "Technical Details",
+        "imageSrc": "/images_en/biszet-b7-front-view-stainless-steel-door-handle.jpg",
+        "imageAlt": "Front view: Stainless steel frame and satin glass door",
+        "description": "<p class='mb-5'>The b7 works with a highly efficient compressor of the latest generation.</p>",
+        "linkText": "Why 10°C is ideal: Interview with Dermatologist Dr. Kruppa →",
+        "linkHref": "/en/knowledge/expert-interview-dr-kruppa",
+        "flip": true,
+        "table": {
+          "caption": "The b7 from biszet complies with European requirements for electromagnetic compatibility (2014/30/EU) and the Low Voltage Directive (2006/95/EC).",
+          "details": [
+            {
+              "detail": "Cooling compartment temperature top",
+              "specification": "approx. +12 °C"
+            },
+            {
+              "detail": "Cooling compartment temperature middle",
+              "specification": "approx. +8 to +10 °C"
+            },
+            {
+              "detail": "Cooling compartment temperature bottom",
+              "specification": "approx. +5 to +8 °C"
+            },
+            {
+              "detail": "Interior lighting",
+              "specification": "approx. 3 W, LED Tape warm white"
+            },
+            {
+              "detail": "Cooling capacity",
+              "specification": "67 W (Injection temperature: - 10 °C)"
+            },
+            {
+              "detail": "Electrical power",
+              "specification": "approx. 35 W"
+            },
+            {
+              "detail": "Compressor",
+              "specification": "SECOP BD-Nano BDN50K"
+            },
+            {
+              "detail": "Condenser",
+              "specification": "Wire tube condenser"
+            },
+            {
+              "detail": "Rated voltage",
+              "specification": "DC24 V (SELV)"
+            },
+            {
+              "detail": "Current consumption",
+              "specification": "2.9 A"
+            },
+            {
+              "detail": "Refrigerant",
+              "specification": "R600a"
+            },
+            {
+              "detail": "Refrigerant quantity",
+              "specification": "0.010 kg"
+            },
+            {
+              "detail": "CO₂ equivalent",
+              "specification": "0.00003 t"
+            },
+            {
+              "detail": "Electrical protection class",
+              "specification": "IP20"
+            },
+            {
+              "detail": "Recommended ambient temperature",
+              "specification": "+16 to +32 °C"
+            },
+            {
+              "detail": "Climate class",
+              "specification": "N"
+            },
+            {
+              "detail": "Operating volume (from 1m)",
+              "specification": "max. 46 dBA"
+            },
+            {
+              "detail": "Dimensions (W, H, D)",
+              "specification": "340 mm, 640 mm, 250 mm"
+            },
+            {
+              "detail": "Cooling compartment volume",
+              "specification": "16 L"
+            },
+            {
+              "detail": "Weight incl. power supply unit",
+              "specification": "21 kg"
+            },
+            {
+              "detail": "Load capacity glass shelves",
+              "specification": "max. 2 kg each"
+            }
+          ]
+        }
+      },
+      "textTeaser": {
+        "title": "<blockquote>“It`s the latest accessory for the hi-tech home.”</blockquote>",
+        "quoteImageSrc": "/images_en/logos/biszet-press-wallpaper-design-magazine.svg",
+        "quoteImageAlt": "Wallpaper",
+        "ctaHref": "/en/contact",
+        "ctaLabel": "Order the b7 here",
+        "variant": "secondary",
+        "backgroundColor": "turkis"
+      },
+      "textTeaserStory": {
+        "title": "An idea conquers the world",
+        "ctaHref": "/en/story",
+        "ctaLabel": "Learn more about our story",
+        "variant": "secondary"
+      }
+    }
+  },
+  "story": {
+    "meta": {
+      "currentUrl": "https://biszet.com/en/story",
+      "title": "From Startup to World Market Leader | The biszet Story",
+      "description": "The biszet history: From startup to world market leader. In luxury hotels like Ritz-Carlton, Park Hyatt, Cheval Blanc LVMH and on mega-yachts worldwide.",
+      "image": {
+        "src": "/images_en/biszet-manufactory-handcraft-suede-seal.jpg",
+        "alt": "Handcrafted quality from Germany"
+      },
+      "keywords": "biszet history, world market leader cosmetics refrigerator, luxury hotels equipment, mega-yachts interior, Ritz-Carlton, Cheval Blanc LVMH, Made in Germany"
+    },
+    "modules": {
+      "imageSplit": {
+        "title": "An idea conquers the world",
+        "imageSrc1": "/images_en/juergen-kraus-ceo-biszet-gmbh.jpg",
+        "imageAlt1": "Jürgen Kraus",
+        "imageCaption1": "<strong>Jürgen Kraus</strong><br/>CEO<br/>Marketing and Sales",
+        "imageSrc2": "/images_en/ulla-kraus-ceo-technology-development.jpg",
+        "imageAlt2": "Ulla Kraus",
+        "imageCaption2": "<strong>Ulla Kraus</strong><br/>CEO<br/>Technology and Development",
+        "isHeading": true
+      },
+      "editorial": {
+        "title": "Chilling me softly",
+        "shortText": "From idea to brand",
+        "image1Src": "/images_en/biszet-b7-at-park-hyatt.jpg",
+        "image1Alt": "Park Hyatt, Istanbul",
+        "image2Src": "/images_en/biszet-b7-cosmetics-fridge-at-ritz-carlton-berlin.jpg",
+        "image2Alt": "Ritz Carlton, Berlin",
+        "image3Src": "/images_en/biszet-b7-cosmetics-fridge-at-ritz-carlton-berlin-closeup.jpg",
+        "image3Alt": "Zoom",
+        "description": "<p><strong>High-quality natural cosmetics without preservatives characterize the world of beauty today and require cool storage.</strong><br/>Cosmetic manufacturers often advise this themselves, but also dermatologists. Ulla and Jürgen Kraus decided to develop stylish storage for the precious products. This was intended to create a new must-have for every modern bathroom.</p><h3>The idea of the b7 was born</h3><p>A slim design and three special climate zones require unique technology. After several years of development, the first cosmetics cooler for chic bathrooms was created. Since then, the daily beauty ritual has become a true joy.</p>",
+        "description2": "<p>Today, the b7 is delivered to almost every country in the world. Sophisticated private customers, international architectural firms and renowned <strong>yacht builders and boat outfitters</strong> are among biszet's customers.</p><p><strong>Luxury hotels</strong> also quickly recognized that “the fridge” is an exclusive highlight for their demanding guests. As one of the first, the <strong>Jumeirah Emirates Towers</strong> in Dubai equipped the entire 40th floor as a “Ladies Floor” with the b7 from biszet. Many other hotels followed this avant-garde trend: Noble hotels such as the <strong>Cheval Blanc (LVMH)</strong> in Paris or the guest suite of <strong>DIOR</strong> on Avenue Montaigne pamper their discerning visitors with the amenity and special freshness of a biszet cosmetics climate cabinet.</p>",
+        "quote": "“We put butter in the fridge, but face creams, some costing over 100 € are left out in hot and steamy bathrooms.”",
+        "quoteImageSrc": "/images_en/logos/biszet-press-wallpaper-design-magazine.svg",
+        "quoteImageAlt": "Wallpaper-Logo"
+      },
+      "textTeaser": {
+        "title": "Do you want this luxury for your bathroom too?",
+        "ctaHref": "/en/contact",
+        "ctaLabel": "Order the b7 here"
+      },
+      "reference": {
+        "title": "Cheval Blanc, Paris",
+        "shortText": "The b7 from biszet is at home here",
+        "description": "Modern luxury meets French flair: Since 2021, the magnificent Parisian luxury hotel Cheval Blanc from LVMH has been pampering its guests with the convenience of a biszet cosmetics climate cabinet",
+        "videoSrc": "/videos/biszet-reference-cheval-blanc-paris.mp4",
+        "videoPosterSrc": "/videos/biszet-reference-cheval-blanc-paris.jpg",
+        "videoCaption": "Cheval Blanc, Paris"
+      },
+      "carousel": {
+        "title": "World-class Trust: References from LVMH to Ritz Carlton",
+        "items": [
+          [
+            {
+              "title": "Cheval Blanc Hotel (LVMH), Paris",
+              "imageSrc": "/images_en/logos/reference-cheval-blanc-hotel-paris-lvmh.svg",
+              "imageAlt": "Reference Hotel Cheval Blanc Paris (LVMH) with biszet cosmetics climate cabinet",
+              "description": "Modern luxury meets French flair: The 5-star hotel “Cheval Blanc” pampers its guests with the comfort of a biszet cosmetics climate cabinet. A standard for the highest demands in the hotel segment."
+            },
+            {
+              "title": "Dior Flagshipstore, Avenue Montaigne",
+              "imageSrc": "/images_en/logos/reference-dior-flagshipstore-paris.svg",
+              "imageAlt": "Reference Dior Flagshipstore Paris: Luxury bathroom with beauty fridge",
+              "description": "Above the flagship store in Paris, the fashion house has set up an apartment for VIP customers. In the luxurious onyx stone bathroom, the beauty fridge is integrated as a stylish design element."
+            },
+            {
+              "title": "The Shard, London",
+              "imageSrc": "/images_en/logos/reference-the-shard-london-luxury-apartments.svg",
+              "imageAlt": "Reference The Shard London: Equipment with biszet cosmetics cooler",
+              "description": "Star architect Renzo Piano created London's landmark with this skyscraper. In the luxury apartments (55th-65th floor), the biszet cosmetics cooler is a permanent fixture in the bathrooms."
+            }
+          ],
+          [
+            {
+              "title": "Jumeirah Emirates Towers, Dubai",
+              "imageSrc": "/images_en/logos/reference-jumeirah-emirates-towers-dubai.svg",
+              "imageAlt": "Reference Jumeirah Emirates Towers Dubai: b7 on the Ladies Floor",
+              "description": "One of the most impressive hotels in the world relies on German quality. In addition to numerous suites, the entire “Ladies Floor” on the 40th floor is equipped with the b7 – exclusive service for discerning guests."
+            },
+            {
+              "title": "The Ritz-Carlton, Berlin",
+              "imageSrc": "/images_en/logos/reference-ritz-carlton-berlin-potsdamer-platz.svg",
+              "imageAlt": "Reference The Ritz-Carlton Berlin: Installation in marble bathroom",
+              "description": "In the 5-star hotel at Potsdamer Platz, the sophisticated marble bathroom of the Ritz-Carlton Apartment was perfectly tailored to the b7. A perfect unity of natural stone and stainless steel design."
+            },
+            {
+              "title": "Park Hyatt, Istanbul",
+              "imageSrc": "/images_en/logos/reference-park-hyatt-istanbul.svg",
+              "imageAlt": "Reference Park Hyatt Istanbul: Recommended by architects for biszet",
+              "description": "On the recommendation of New York architects “Gerner Kronick & Valcarcel”, the cosmetics refrigerator was installed in many suites. Proof of international recognition among top planners."
+            }
+          ],
+          [
+            {
+              "title": "Sylter Fährhaus, Sylt",
+              "imageSrc": "/images_en/logos/reference-sylter-faehrhaus-wellness-hotel.png",
+              "imageAlt": "Reference Sylter Fährhaus: 5-star hotel with biszet b7",
+              "description": "The top address on the sophisticated North Sea island. The 5-star superior hotel equips its suites with the biszet b7 – a sign of tangible passion for service and wellness expertise."
+            },
+            {
+              "title": "Hotel Budersand, Sylt-Hörnum",
+              "imageSrc": "/images_en/logos/reference-hotel-budersand-sylt.png",
+              "imageAlt": "Reference Hotel Budersand Sylt: Cosmetics cabinet in wellness area",
+              "description": "Modern interior design meets exclusive natural materials. The epitome of self-care wellness is provided by the refrigerated cosmetics cabinet in numerous rooms of this 5-star hotel."
+            },
+            {
+              "title": "B.S.C. Group, Hong Kong",
+              "imageSrc": "/images_en/logos/reference-bsc-group-hong-kong-interiors.png",
+              "imageAlt": "Reference B.S.C. Group Hong Kong: Partner for hoteliers and architects",
+              "description": "As a leading interior decorator in the Far East, B.S.C. represents first-class brands. biszet is listed here as a provider of total solutions for hoteliers and architects in the Asian region."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "contact": {
+    "meta": {
+      "currentUrl": "https://biszet.com/en/contact",
+      "title": "Contact & Consultation | biszet Service & Planning",
+      "description": "Do you have questions about the b7 or are you planning a project? Contact the biszet team directly. We are happy to advise you on installation, dimensions and details.",
+      "image": {
+        "src": "/images_en/biszet-b7-interior-led-lighting-glass-shelves.jpg",
+        "alt": "Personal consultation at biszet"
+      },
+      "keywords": "biszet contact, consultation cosmetics refrigerator, request b7, customer service biszet"
+    },
+    "modules": {
+      "contact": {
+        "title": "Would you like personal information?",
+        "description": "We look forward to hearing from you",
+        "formTitle": "Your Message",
+        "formFieldNameLabel": "Name",
+        "formFieldNamePlaceholder": "Your Name...",
+        "formFieldNameError": "Please enter your name",
+        "formFieldAwareLabel": "How did you hear about us?",
+        "formFieldAwarePlaceholder": "Your input...",
+        "formFieldEmailLabel": "E-Mail",
+        "formFieldEmailPlaceholder": "Your E-Mail...",
+        "formFieldEmailError": "Please enter your email address",
+        "formFieldPhoneLabel": "Phone",
+        "formFieldPhonePlaceholder": "Your Phone Number...",
+        "formFieldPhoneError": "Please enter your phone number in an international format (e.g. +49123123456)",
+        "formFieldMessageLabel": "Your message to us",
+        "formFieldMessagePlaceholder": "Your message...",
+        "formFieldMessageError": "Please enter a message",
+        "formFieldConsentLabel": "I agree to the processing of the entered data and the privacy policy.",
+        "formFieldConsentError": "Please agree to the privacy policy",
+        "formFieldsetPersonalData": "Personal Details",
+        "formFieldsetTypeOfContact": "Best way to reach me",
+        "formFieldsetYourRequest": "My Request",
+        "formSubmitLabel": "Send now",
+        "formSubmitThankYouUrl": "/en/thankyou/ ",
+        "formCaption": "* Mandatory fields",
+        "mailTitle": "Write us an email",
+        "phoneTitle": "Call us now",
+        "addressTitle": "Address",
+        "address": "biszet GmbH<br/>[STREET_NO]<br/>[ZIP_CITY]<br/>Germany",
+        "email": "[EMAIL]",
+        "phone": "[PHONE]"
+      }
+    }
+  },
+  "contactSuccess": {
+    "meta": {
+      "currentUrl": "https://biszet.com/en/contact/success",
+      "title": "Thank you for your request | biszet",
+      "description": "Thank you for your inquiry. We have received your message and will contact you personally shortly.",
+      "image": {
+        "src": "/images_en/biszet-b7-interior-led-lighting-glass-shelves.jpg",
+        "alt": "Contact request successful"
+      },
+      "keywords": "biszet contact confirmation"
+    },
+    "modules": {
+      "success": {
+        "title": "Thank you for your request!",
+        "imageSrc": "/images_en/B1-Animation.gif",
+        "imageAlt": "Cabinet Animation",
+        "imageType": "gif",
+        "description": "<p>We will contact you immediately.</p><p>In this convincing combination of purist design and German precision, “the fridge” from biszet is the ideal cosmetics refrigerator, which blends harmoniously into the world of sophisticated architecture and individually designed bathrooms.</p>",
+        "ctaHref": "/en",
+        "ctaLabel": "back to homepage",
+        "variant": "background",
+        "logos": [
+          {
+            "src": "/images/badges/biszet.png",
+            "alt": "biszet"
+          },
+          {
+            "src": "/images/badges/Madeingermany.png",
+            "alt": "Made in Germany"
+          },
+          {
+            "src": "/images/badges/AD_siegel.png",
+            "alt": "AD"
+          }
+        ]
+      }
+    }
+  },
+  "imprint": {
+    "meta": {
+      "currentUrl": "https://biszet.com/en/imprint",
+      "title": "Imprint & Legal | biszet GmbH Cologne",
+      "description": "Details according to § 5 TMG. Contact, commercial register entry and legal notices of biszet GmbH, Cologne.",
+      "image": {
+        "src": "/images_en/biszet-b7-interior-led-lighting-glass-shelves.jpg",
+        "alt": "biszet GmbH Cologne"
+      },
+      "keywords": "biszet Imprint, biszet GmbH CEO, Commercial Register Cologne, Contact"
+    },
+    "modules": {
+      "imprint": {
+        "headline": "Imprint & Legal",
+        "editor": "Publisher",
+        "editorAddress": "biszet GmbH<br/>Genter Str. 26<br/>50672 Cologne<br/>Germany<br/><br/>Tax No.: 215/5805/2679<br/>VAT-ID No.: DE 233 149 288<br/><br/>Managing Directors: Ulla Kraus, Jürgen Kraus<br/>Tel: +49 221 / 51 80 08<br/><a href=\"mailto:info@biszet.de\">info@biszet.de</a>",
+        "legalHeadline": "Legal",
+        "legalText": "<p>We, BISZET GmbH, 50672 Cologne, take the protection of your personal data very seriously and strictly adhere to the rules of data protection laws. Personal data is collected on this website only to the extent technically necessary. In no case will the collected data be sold or passed on to third parties for other reasons.</p><p>The following declaration gives you an overview of how we ensure this protection and what kind of data is collected for what purpose.</p>",
+        "dataHeadline": "Personal Data",
+        "dataText": "The data you transmit (by email or contact form) is used exclusively to process your request. Only the data that is absolutely necessary for this purpose is stored and processed. We do not pass on your personal data to third parties. Your trust is important to us. Therefore, we would like to be accountable to you at any time regarding the processing of your personal data. If you have questions that this privacy policy could not answer or if you wish for more in-depth information on any point, please contact us at any time.",
+        "googleHeadline": "Use of Google Analytics",
+        "googleText": "Our homepage uses Google Analytics, a web analysis service from Google. Google Analytics uses so-called cookies (small text files) that are stored on your computer and enable an analysis of your use of the website. The information generated by the cookie about your use of this homepage (including your IP address) is transmitted to a Google server in the USA and stored there. Google will use this information to evaluate your use of the website, to compile reports on website activities for the homepage operators and to provide further services associated with website use and internet use. Google may also transfer this information to third parties where required to do so by law, or where such third parties process the information on Google's behalf. Google will in no case associate your IP address with other Google data. You can prevent the installation of cookies by setting your browser software accordingly; however, we point out that in this case you may not be able to use all functions of this website to their full extent. By using our homepage, you agree to the processing of data collected about you by Google in the manner described above and for the aforementioned purpose.",
+        "liabilityHeadline": "Liability Notice",
+        "liabilityText": "<p>All information and details contained on our websites have been carefully researched and checked. Despite all care, BISZET GmbH cannot assume any liability for correctness, completeness and timeliness.</p><p>BISZET GmbH is not liable for damages resulting from the use of the information provided or its possible incorrectness or incompleteness, unless it concerns damages from injury to life, body or health. For other damages, BISZET GmbH is only liable if the damage is based on a willful or grossly negligent breach of duty by one of its legal representatives or vicarious agents.</p>",
+        "copyrightHeadline": "Copyright",
+        "copyrightText": "These websites are subject to copyright, trademark and competition law protection rights. Reproduction, distribution, making available for retrieval or online accessibility (adoption into other websites) of our websites, the layout of the websites, their contents (texts, images, programs) in whole or in part, in modified or unmodified form is only permitted with prior written consent."
+      }
+    }
+  },
+  "dataProtection": {
+    "meta": {
+      "currentUrl": "https://biszet.com/en/data-protection",
+      "title": "Privacy Policy & Security | biszet",
+      "description": "Information on data protection at biszet. Learn how we protect your personal data and what rights you have.",
+      "image": {
+        "src": "/images_en/biszet-b7-interior-led-lighting-glass-shelves.jpg",
+        "alt": "Data protection at biszet"
+      },
+      "keywords": "biszet Data Protection, GDPR Declaration, Privacy Policy, Handling of Data"
+    },
+    "modules": {
+      "privacy": {
+        "headline": "Privacy Policy",
+        "usageHeadline": "Use of our Website",
+        "usageText": "We appreciate your interest in biszet GmbH and your visit to our website. At biszet GmbH, we take the protection of your privacy when collecting, processing and using personal data very seriously. For this reason, we strictly adhere to the Federal Data Protection Act (BDSG). In the following, we inform you about which data may be collected via our website and for what purpose it is collected.<br/>When visiting our website, information about the access is recorded in a so-called log file. This information includes, among other things, your IP address, the date and the pages you accessed. This data is evaluated automatically for statistical purposes and serves to optimize and design our applications according to needs. It cannot be assigned to any specific person.<br/>If you send us personal data as part of an inquiry, it will be used, stored and treated confidentially by us exclusively for the communicated purposes.",
+        "cookiesHeadline": "Cookies",
+        "cookiesText": "We use so-called “cookies” on our website, which enable the recognition of an internet browser. Cookies are small text files sent from the web server to your web browser and stored on your hard drive. They provide information about the use of our website and are used for statistical purposes. You can determine in your browser settings whether you allow the use of cookies, exclude it or whether the use requires your confirmation. ",
+        "rightHeadline": "Right to Information",
+        "rightText": "According to the Federal Data Protection Act (BDSG), you have the right to demand information free of charge about the data stored by us about you at any time. This also applies to the correction, blocking and deletion of this data. Please send an email to:<br/><br/>datenschutz@biszet.de"
+      }
+    }
+  },
+  "knowledge": {
+    "meta": {
+      "currentUrl": "https://biszet.com/en/knowledge",
+      "title": "Skincare Knowledge: Interviews & Facts | biszet",
+      "description": "Why cool cosmetics? Pharmacists and dermatologists explain the effect of temperature on Vitamin C, Retinol, and hygiene. Read expert opinions here.",
+      "image": {
+        "src": "/images_en/biszet-b7-interior-led-lighting-glass-shelves.jpg",
+        "alt": "biszet Expert Knowledge Cosmetics Cooling"
+      },
+      "keywords": "Cosmetics Shelf Life, Bacteria in Creams, Vitamin C Oxidation, Dermatologist Interview, Cooling Cosmetics"
+    }
+  },
+  "articles": {
+    "stockebrand": {
+      "slug": "expert-interview-dr-stockebrand",
+      "navLabel": "Shelf Life & Hygiene",
+      "meta": {
+        "title": "Bacteria in Cosmetics: Why Cooling is Essential | biszet",
+        "description": "Do your creams lose their effectiveness? Pharmacist Dr. Stockebrand explains why Vitamin C and Retinol must be cooled and how bacteria grow in jars.",
+        "keywords": "cooling cosmetics, shelf life creams, bacteria in cosmetics, retinol storage, vitamin c decay, cosmetics fridge hygiene"
+      },
+      "title": "Bacteria & Loss of Potency: The Invisible Danger in the Jar",
+      "subtitle": "Expert interview with pharmacist Dr. rer. nat. B. Stockebrand about preservatives, vitamin decay and exploding bacterial cultures.",
+      "date": "14.02.2025",
+      "author": "Redaktion biszet",
+      "image": "/images_en/cabinet-open.jpg",
+      "content": "<p class='lead'>High-quality ingredients like vitamins and nanoparticles are more sensitive than you think. We spoke with pharmacist Dr. B. Stockebrand about why a single breath of air is enough to start bacterial growth, and why temperature fluctuations can destroy the effect of expensive creams.</p><h3>Why cooled storage?</h3><p><strong>biszet:</strong> After opening cosmetics, 'cooled storage' is often recommended. Why?</p><p><strong>Dr. B. Stockebrand:</strong> High-quality cosmetic and care products are manufactured with great care. They contain highly purified ingredients, as germ-free as possible and free of allergens. However, as soon as a tube or jar is opened, a mere breath of air is enough to bring the first bacteria into contact with the ingredients. Further germs are introduced into the substances through use with fingers.<br/>Through oxygen in the air, but above all through temperature effects, these germs can multiply rapidly if the existing preservative system is overwhelmed. However, the trend is towards ever more sparing preservation to keep the burden on the skin as low as possible.</p><h3>Exponential Bacterial Growth</h3><p><strong>biszet:</strong> How quickly do these germs multiply?</p><p><strong>Dr. B. Stockebrand:</strong> Microorganisms are known that multiply exponentially with a temperature jump of 10 °C. Storage at 20 °C may cause some bacteria to multiply 30 times faster than storage at only 10 °C.</p><h3>Loss of Effectiveness through Metabolism</h3><p><strong>biszet:</strong> What influence do bacteria and germs have on the effectiveness of cosmetics?</p><p><strong>Dr. B. Stockebrand:</strong> Bacteria feed on valuable ingredients. This converts the active substances. New metabolic products are released, such as butyric acid. The content is completely changed. The desired effect is absent, and undesirable effects such as allergies can even occur.</p><h3>Vitamin A, C and E in Danger</h3><p><strong>biszet:</strong> Which ingredients react particularly sensitively to heat?</p><p><strong>Dr. B. Stockebrand:</strong> These are mainly vitamins A, C and E. These are contained as so-called antioxidants in many anti-wrinkle creams. They prevent oxidative decomposition processes in the subcutaneous tissue. Because oxidants destroy tissue, collagen fibers of the subcutis change and thus lead to wrinkle formation. This process is prevented by vitamins. However, these are heat-sensitive. The lower the temperature, 'the more comfortable they feel'.</p><h3>When the Cream Separates</h3><p><strong>biszet:</strong> Significant temperature fluctuations often occur during storage. What do these cause in creams?</p><p><strong>Dr. B. Stockebrand:</strong> Surely you have observed that creams separate into thick and thin components after some time. This is often the result of temperature fluctuations.</p><p><strong>biszet:</strong> What happens concretely?</p><p><strong>Dr. B. Stockebrand:</strong> Temperature fluctuations trigger intense particle movement. Highly complicated systems collapse. The ingredients segregate and are no longer available in the desired composition.</p><h3>Decay of Nanoparticles</h3><p><strong>biszet:</strong> Why can this make creams ineffective?</p><p><strong>Dr. B. Stockebrand:</strong> High-quality ingredients are e.g. enveloped by lecithin and channeled as smallest particles (so-called nanoparticles) directly into the subcutaneous tissue of the skin to unfold their anti-aging effect there. All these systems are heat-sensitive, which can lead to these particles simply bursting and the active ingredients no longer reaching their destination in the subcutaneous tissue.</p><h3>Loss of Sun Protection Factor</h3><p><strong>biszet:</strong> Cooled storage is also recommended to maintain the sun protection factor. Why?</p><p><strong>Dr. B. Stockebrand:</strong> Many sun protection substances are simply incorporated by the bacteria mentioned. Storage between 20 and 25 °C results in a loss of effectiveness of 5 - 10 % per year. Through cooled storage, the effect is reduced by only a few percent.</p><h3>Conclusion: The Bathroom is an Imposition</h3><p><strong>biszet:</strong> So do you consider the use of a biszet cabinet to be sensible?</p><p><strong>Dr. B. Stockebrand:</strong> Yes, I consider storage in a biszet cabinet to be sensible, for all women who want to protect their creams. Because the bathroom is basically – due to its usually warm and humid climate – an imposition for cosmetics. In addition, I recommend removing creams not with fingers, but with a spatula.</p><p><strong>Tip:</strong> Which temperature is specifically ideal for which skin type is explained by <a href='/en/knowledge/expert-interview-dr-kruppa' style='text-decoration:underline;'>Dermatologist Dr. Kruppa in this interview</a>.</p><p><strong>biszet:</strong> Thank you very much for the very informative interview.</p><p><strong>Dr. B. Stockebrand:</strong> You are welcome.</p>"
+    },
+    "kruppa": {
+      "slug": "expert-interview-dr-kruppa",
+      "navLabel": "Dermatologist Interview",
+      "meta": {
+        "title": "Dermatologist Advice: Storing Natural Cosmetics Correctly | biszet",
+        "description": "Dr. Kruppa explains in an interview why the bathroom is the wrong place for expensive creams and how cooling helps with natural cosmetics and after laser treatments.",
+        "keywords": "Dermatologist Interview, storing natural cosmetics, cooling after laser therapy, decongestant effect, preservatives allergy"
+      },
+      "title": "Questions for Dr. Andreas Kruppa, Specialist in Dermatology",
+      "subtitle": "An expert interview about germs, cold chains and why the bathroom is often the wrong place for high-quality creams.",
+      "date": "14.02.2025",
+      "author": "Redaktion biszet",
+      "image": "/images_en/biszet-b7-detail.jpg",
+      "content": "<p class='lead'>Many users put their creams in the kitchen fridge – but does that really make sense? We spoke with Cologne specialist Dr. Andreas Kruppa about germ dangers in open jars, the optimal temperature for Vitamin C and Retinol, and the physiological effect of cooled care on the skin.</p><h3>Design Furniture with Cooling: A Good Idea?</h3><p><strong>biszet:</strong> Dr. Kruppa, we have developed an exclusive design piece of furniture specifically for the bathroom. It is very elegant and contains a special feature that has not existed in this form before. Cosmetics can be stored stylishly and cooled at the same time. What do you think of this idea?</p><p><strong>Dr. A. Kruppa:</strong> I think the idea is very good. Many women already keep their cosmetics in the kitchen fridge. That is very practical when you don't have to run from the bathroom to the kitchen and back.</p><h3>Why is Cooled Storage Important?</h3><p><strong>biszet:</strong> Many cosmetics and skin care products bear the label 'please store in a cool place'. Why is cooled storage so important?</p><p><strong>Dr. A. Kruppa:</strong> After opening the jars, germs such as bacteria and fungi often get into the care products. These are in the air, but are increasingly introduced through use with fingers. This germ colonization can expand much faster at high temperatures than at cooler ones. This is comparable to milk that you forgot to put in the fridge. The germs can develop faster and the milk goes bad.</p><h3>Cooled Creams in Practice</h3><p><strong>biszet:</strong> Do you also use cooled creams in your daily practice?</p><p><strong>Dr. A. Kruppa:</strong> Yes, for example after laser therapy, cooled creams with herbal ingredients are applied. These have a pleasantly soothing effect and are decongestant due to the coolness.</p><h3>The Optimal Temperature Range</h3><p><strong>biszet:</strong> Which temperature range is optimal for storing cosmetics?</p><p><strong>Dr. A. Kruppa:</strong> Bacteria simply do not feel as comfortable in the cold as in the warmth. They prefer the warm and humid climate that arises especially with solar radiation when condensation settles in the jars. But even at 20 °C, germs multiply significantly faster than at 10 °C. But it shouldn't be too cold either, otherwise the content crystallizes. Therefore, one should better take cosmetics into carry-on luggage on flights, as they are often exposed to temperatures of up to minus 40 °C in the luggage compartment.<br/>I therefore generally recommend storage at approx. 10 °C, collagen-containing products should rather be stored at approx. 12 °C. Vitamin-containing products, on the other hand, prefer storage at 5 to 8 °C.</p><h3>Influence on Effectiveness</h3><p><strong>biszet:</strong> What influence does cooled storage have on the effectiveness of cosmetics?</p><p><strong>Dr. A. Kruppa:</strong> Well, first of all, the use of cooled creams and lotions is significantly more pleasant than using uncooled products. Subjectively, a tightening sensation is triggered. This is because the blood vessels initially contract due to the coolness and blood circulation is increased. Then the vessels dilate again and the active ingredients can be absorbed much faster and better.</p><h3>Heat-Sensitive Ingredients</h3><p><strong>biszet:</strong> Some cosmetics manufacturers even recommend in their leaflets that the 'cream should not be warmed in the hands so that full effectiveness is maintained'. Which ingredients react so sensitively?</p><p><strong>Dr. A. Kruppa:</strong> That can be completely different ingredients. Many anti-wrinkle creams contain Vitamin C, for example. This oxidizes very quickly and thus loses its effect. Like many other chemical reactions, this process is accelerated by heat supply. <br/><em>(How fast these chemical processes occur is detailed by <a href='/en/knowledge/expert-interview-dr-stockebrand' style='text-decoration:underline;'>Pharmacist Dr. Stockebrand here</a>).</em></p><h3>Products without Preservatives</h3><p><strong>biszet:</strong> Many men and women already use care products without preservatives. What are the advantages and disadvantages of such products?</p><p><strong>Dr. A. Kruppa:</strong> Many patients develop so-called contact allergies to preservatives such as parabens. Eczema develops on the skin, which can be very unpleasant for those affected. Creams without preservatives can spoil faster, however, as germ colonization can occur more easily.</p><h3>Dangers of Spoiled Cosmetics</h3><p><strong>biszet:</strong> What can a spoiled cream cause on the skin?</p><p><strong>Dr. A. Kruppa:</strong> In addition to the lack of effectiveness, different skin irritations such as redness, burning and dandruff can occur. You recognize spoiled creams by the fact that they change their smell (they stink), but also their consistency. Often the content separates into thick and thin. These are signs that unwanted chemical reactions have taken place here, which can have a completely different effect on the skin than originally desired.</p><p><strong>biszet:</strong> Dr. Kruppa, thank you very much for the friendly and informative interview.</p><p><strong>Dr. A. Kruppa:</strong> You are welcome.</p>"
+    }
+  },
+  "ui": {
+    "knowledge_badge": "Knowledge & Expertise",
+    "back_to_tech": "← Back to Technology",
+    "meta_suffix": "biszet Knowledge",
+    "knowledge_overview_title": "Our Knowledge for Your Skin",
+    "knowledge_overview_intro": "In-depth expert knowledge, interviews, and background information on cooling and care.",
+    "read_article": "Read Article →"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "Why isn't a normal fridge sufficient for cosmetics?",
+        "answer": "Household fridges are designed for food – usually 4 to 7 degrees. This is too cold for high-quality creams. Oils can flocculate, emulsions lose their stability. The <strong>biszet b7</strong> operates in a gentle spectrum (approx. 10–15 °C), which is exactly matched to the structure of care products. Additionally, you avoid expensive serums taking on the smell of food.<br/><a href=\"/en/knowledge/expert-interview-dr-kruppa\">Read the interview with Dr. Kruppa about this.</a>"
+      },
+      {
+        "question": "Which products benefit from cooling?",
+        "answer": "Especially <strong>organic natural cosmetics</strong> (without preservatives) and products with unstable active ingredients like <strong>Vitamin C and Retinol</strong>. Cooling extends shelf life, prevents oxidation and enhances the decongestant effect (De-Puffing) upon application."
+      },
+      {
+        "question": "Can the biszet be placed in the bathroom?",
+        "answer": "Yes, that was the basic requirement of the development. Unlike cheap plastic devices, the biszet b7 consists of powder-coated <strong>stainless steel</strong>. Neither high humidity nor splash water in the spa area can harm it. It functions both as an elegant solitaire and built into bathroom furniture."
+      },
+      {
+        "question": "How loud is the cosmetics refrigerator?",
+        "answer": "The b7 is designed for quiet zones such as bedrooms, dressing rooms and bathrooms. It operates extremely quietly. There is no loud compressor humming to disturb your sleep – a decisive difference to conventional mini-bars or camping fridges."
+      },
+      {
+        "question": "Cosmetics fridge or mini-fridge – what is better?",
+        "answer": "Here we compare a technical piece of furniture with simple camping equipment. Cheap mini-fridges often cool uncontrolled (danger of condensation) or use simple fans. The biszet actively controls <strong>three temperature zones</strong> and ensures a dry microclimate. It is a long-term investment in the quality of your skincare and a design object."
+      }
+    ]
+  }
+}

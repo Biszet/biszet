@@ -1,0 +1,44 @@
+* {
+  font-stretch: normal;
+  font-weight: 300;
+}
+
+.h1, h1, .h2, h2, .h3, h3, .h4, h4, .h5, h5 {
+  font-family: var(--biszet-head-font-family) !important;
+  font-weight: normal;
+}
+
+.subline, .h3, h3 {
+  font-family: var(--biszet-body-font-family) !important;
+  font-weight: normal;
+}
+
+.h1, h1, .h2, h2 {
+  font-weight: 400;
+  font-stretch: initial;
+  word-wrap: break-word;
+}
+
+.h3, h3, .subline {
+  font-stretch: normal;
+  font-weight: 300;
+}
+.h3, h3 {
+  margin-bottom: 1.5em;
+}
+
+b,strong {
+  font-weight: bold;
+}
+
+.navbar-toggler, .navbar-toggler:focus {
+  border: none !important;
+  box-shadow: navajowhite;
+}
+.nav-link, caption, figcaption, table, th, td  {
+  font-family: var(--#{$prefix}font-sans-serif) !important;
+}
+
+.figure-caption {
+  font-size: $sub-sup-font-size;
+}

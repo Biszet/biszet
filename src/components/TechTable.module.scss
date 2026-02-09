@@ -1,0 +1,23 @@
+@import "bootstrap/scss/functions";
+@import "../styles/variables";
+@import "bootstrap/scss/mixins";
+
+
+.table  > :not(caption) > * > * {
+  background-color: $turkis !important;
+  border-bottom-width: 3px;
+  border-bottom-color: white;
+  font-size: .75em;
+}
+
+.table  > :not(caption) > * > *:first-child {
+  background-color: $secondary !important;
+}
+
+.table tr {
+  margin-bottom: 2px;
+}
+
+.table caption {
+  font-size: .75em;
+}

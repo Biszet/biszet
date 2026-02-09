@@ -1,0 +1,37 @@
+@import "bootstrap/scss/functions";
+@import "../styles/variables";
+@import "bootstrap/scss/mixins";
+
+.navigation {
+
+}
+
+.navigation__collapse {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  box-shadow: var(--#{$prefix}box-shadow);
+
+  @include media-breakpoint-up(lg) {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    background: none;
+    box-shadow: none;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .hoverDropdown {
+    > :global(.dropdown-menu) {
+      display: none;
+    }
+    &:hover > :global(.dropdown-menu) {
+      display: block;
+      margin-top: 0;
+      border-radius: 0;
+    }
+  }
+}

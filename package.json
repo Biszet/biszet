@@ -1,0 +1,38 @@
+{
+  "name": "biszet",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "start:static": "npx serve@latest out",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "i18next": "^23.10.1",
+    "js-cookie": "^3.0.5",
+    "next": "14.2.4",
+    "react": "^18",
+    "react-bootstrap": "^2.10.1",
+    "react-dom": "^18",
+    "react-i18next": "^14.1.0",
+    "sass": "1.71.1",
+    "sharp": "^0.33.3",
+    "resend": "^3.2.0",
+    "@formatjs/intl-localematcher": "^0.5.4",
+    "negotiator": "^0.6.3"
+  },
+  "devDependencies": {
+    "@netlify/plugin-nextjs": "^4.41.5",
+    "@types/js-cookie": "^3.0.6",
+    "@types/negotiator": "^0.6.3",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4",
+    "typescript": "^5"
+  }
+}

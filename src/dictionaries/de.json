@@ -1,0 +1,643 @@
+{
+  "header": {
+    "logo": {
+      "src": "/images_de/biszet-logo-kosmetik-kuehlschrank.svg",
+      "alt": "biszet Logo – Der Luxus Kosmetik Kühlschrank"
+    }
+  },
+  "footer": {
+    "logo": {
+      "src": "/images_de/biszet-logo-weiss-made-in-germany.svg",
+      "alt": "biszet GmbH – Luxus Kosmetik Kühlschrank aus Köln"
+    }
+  },
+  "home": {
+    "meta": {
+      "currentUrl": "https://biszet.com/de",
+      "title": "biszet b7 | Der Luxus Kosmetik Kühlschrank aus Edelstahl",
+      "description": "Der erste Kosmetik Kühlschrank mit 3 Klimazonen. Made in Germany. Schützen Sie Ihre Beauty Produkte in edlem Edelstahl. Jetzt den b7 entdecken.",
+      "image": {
+        "src": "/images_de/biszet-b7-innenraum-led-beleuchtung-glasboeden.jpg",
+        "alt": "biszet kosmetik kühlschrank"
+      },
+      "keywords": "Kosmetik Kühlschrank, Beauty Kühlschrank, Kosmetik kühlen, Badezimmer Kühlschrank, Gekühlte Kosmetik"
+    },
+    "modules": {
+      "stage": {
+        "headline": "Der erste Kosmetik-Kühlschrank der Luxusklasse made in Germany.",
+        "subline": "Sinnlichkeit und Ästhetik",
+        "ctaHref": "/de/contact",
+        "ctaLabel": "Jetzt den b7 bestellen",
+        "variant": "overlay",
+        "imageSrc": "/images_de/produktbilder/B7-Kosmetikkühlschrank-Szene.jpg",
+        "imageSrcMobile": "/images_de/produktbilder/B7-Kosmetikkühlschrank-Szene-Mobil.jpg"
+      },
+      "carousel": {
+        "title": "Bekannt aus: Vogue, Elle & Fachpresse",
+        "items": [
+          [
+            {
+              "title": "Wallpaper Magazine",
+              "imageSrc": "/images_de/logos/biszet-presse-wallpaper-design-magazine.svg",
+              "imageAlt": "Wallpaper Magazine Feature: Der biszet als Design-Highlight",
+              "description": "„It's the latest accessory for the hi-tech home“"
+            },
+            {
+              "title": "AD Architectural Digest",
+              "imageSrc": "/images_de/logos/biszet-presse-ad-architectural-digest.svg",
+              "imageAlt": "Vorgestellt in AD Architectural Digest: Exklusives Badmöbel von biszet",
+              "description": "„Sie bewahren Ihre Kosmetika im Kühlschrank auf? Dann finden Sie bei biszet etwas, das Ihnen den Weg in die Küche erspart“"
+            },
+            {
+              "title": "VOGUE",
+              "imageSrc": "/images_de/logos/biszet-presse-vogue-magazin.svg",
+              "imageAlt": "Bekannt aus VOGUE: Der Kosmetik Kühlschrank als Beauty-Must-Have",
+              "description": "„Werden Beauty-Produkte falsch gelagert, können sie an Wirkung verlieren.“"
+            }
+          ],
+          [
+            {
+              "title": "House and Garden",
+              "imageSrc": "/images_de/logos/biszet-presse-house-and-garden.svg",
+              "imageAlt": "House and Garden Empfehlung: Luxus für das Badezimmer",
+              "description": "„Bring a bit of the kitchen into the bathroom. biszet's cosmetics cooler is the perfect cold storage…“"
+            },
+            {
+              "title": "BILD",
+              "imageSrc": "/images_de/logos/biszet-presse-bild-zeitung.svg",
+              "imageAlt": "Bericht in BILD: Deutsche Manufaktur-Qualität erobert die Welt",
+              "description": "„Coole Geschäftsidee: Kölner Kosmetik-Kühlschrank erobert die Welt!“"
+            },
+            {
+              "title": "ELLE Decoration",
+              "imageSrc": "/images_de/logos/biszet-presse-elle-decoration.svg",
+              "imageAlt": "ELLE Decoration: Der biszet b7 als Interior-Design Trend",
+              "description": "„Kosmetik-Kühler für coole Cremes: Das Badmöbel mit Mini-Fridge macht Kosmetika länger haltbar“"
+            }
+          ],
+          [
+            {
+              "title": "Myself",
+              "imageSrc": "/images_de/logos/biszet-presse-myself-magazin.svg",
+              "imageAlt": "Myself Magazin über den Rolls-Royce unter den Beauty Kühlschränken",
+              "description": "„Der Rolls-Royce unter den Beauty-Kühlschränken“"
+            },
+            {
+              "title": "ELLE Italia",
+              "imageSrc": "/images_de/logos/biszet-presse-elle-italia.svg",
+              "imageAlt": "ELLE Italia Feature: Italienisches Design trifft deutsche Technik",
+              "description": "„Das „coolste“ Objekt des Augenblicks? Der Badezimmerkühlschrank b7 von biszet“"
+            },
+            {
+              "title": "Gulf Interiors Magazine",
+              "imageSrc": "/images_de/logos/biszet-presse-ad-architectural-digest.svg",
+              "imageAlt": "Gulf Interiors Magazine: biszet als Ausstattung für Luxus-Hotels",
+              "description": "„The product soon became a runaway success. Optimum effect is coupled with optimum presentation“"
+            }
+          ]
+        ]
+      },
+      "featureShowcase": {
+        "title": "Der b7: Einzigartiges Design-Objekt mit patentierter Klimatechnik",
+        "shortText": "Eine Verbindung aus minimalistischem Design und deutscher Ingenieurskunst.",
+        "imageSrc": "/images_de/biszet-kosmetik-kuehlschrank-klimazonen.svg",
+        "imageAlt": "Grafik der drei Temperatur-Klimazonen im biszet Kosmetik Kühlschrank",
+        "description": "<h3 class=\"h5 mt-3 mb-3\">Maximale Haltbarkeit durch drei Klimazonen</h3><p>In Zusammenarbeit mit <a href=\"/de/wissen/experten-interview-dr-kruppa\" style=\"text-decoration:underline;\">Dermatologen</a> und <a href=\"/de/wissen/experten-interview-dr-stockebrand\" style=\"text-decoration:underline;\">Apothekern</a> entwickelt, sorgen drei Klimazonen im eleganten Edelstahl-Schrank für die maximale Haltbarkeit und Wirksamkeit Ihrer hochwertigen Beauty-Produkte.</p><h3 class=\"h5 mt-3 mb-3\">Schutz für Vitamin C, Retinol & Kollagen</h3><p>Sobald Kosmetika geöffnet werden, vermehren sich bei einer Temperatur von 20 Grad <a href=\"/de/wissen/experten-interview-dr-stockebrand\" style=\"text-decoration:underline;\">Bakterien</a> bis zu 30-mal schneller als bei kühlen 10 Grad. Die Wirkungskraft der edlen Inhaltsstoffe wie Vitamin C, Retinol, Peptiden, Säuren und Kollagen geht verloren und im schlimmsten Fall kommt es zu allergischen Reaktionen der Haut.</p><h3 class=\"h5 mt-3 mb-3\">Der Cooling-Effekt: Perfekt für Naturkosmetik</h3><p>Durch den Cooling-Effekt behalten die hochwertigen Kosmetika ihre Reinheit, Konsistenz und Haltbarkeit, auch bei Produkten ohne Konservierungsstoffen, beispielsweise Naturkosmetik. Die Wirkstoffe können gekühlt schneller und tiefer in die Haut eindringen, um dort ihre volle Kraft zu entfalten.</p>",
+        "ctaHref": "/de/technology",
+        "ctaLabel": "Mehr technische Details",
+        "linkText": "Zum Wissens-Bereich & allen Interviews →",
+        "linkHref": "/de/wissen",
+        "isHeading": true,
+        "downloadLabel": "Weitere Details zum Einbau",
+        "downloadHref": "/downloads/biszet-b7-Einbauskizze.pdf",
+        "backgroundColor": "white"
+      },
+      "editorialSplit": {
+        "title": "Ihr Beauty Kühlschrank: Exklusives Design und innovative Qualität für das Badezimmer",
+        "imageSrc": "/images_de/biszet-beauty-kuehlschrank-animation-poster.jpg",
+        "imageAlt": "Schrank Animation",
+        "imageType": "video",
+        "videoSrc": "/videos/biszet-kosmetik-kuehlschrank.m4v",
+        "description": "<h3 class=\"h5 mt-3 mb-3\">Made in Germany: Puristisches Design & Präzision</h3><p>In dieser überzeugenden Verbindung von puristischem Design und deutscher Präzision ist der b7 von biszet der ideale Kosmetik Kühlschrank. Er fügt sich harmonisch in anspruchsvolle Architektur und individuell gestaltete Bäder ein.</p><h3 class=\"h5 mt-3 mb-3\">Ein Statement für Luxus-Interiors & Spas</h3><p>Inzwischen ist der b7 nahezu überall auf der Welt zuhause: In schicken Privathäusern sowie in mondänen Hotels dieser Erde. Er veredelt die Gäste-Suiten der Mega-Yachten und ist das Must-Have der gefragtesten Spa-Locations. Freistehend oder harmonisch integriert, bereichert der b7 jedes luxuriöse Wohn-Konzept.</p>",
+        "ctaHref": "/de/story",
+        "ctaLabel": "b7 - die Story",
+        "variant": "background",
+        "logos": [
+          {
+            "src": "/images/badges/biszet.png",
+            "alt": "biszet logo"
+          },
+          {
+            "src": "/images/badges/Madeingermany.png",
+            "alt": "Made in Germany"
+          },
+          {
+            "src": "/images/badges/AD_siegel.png",
+            "alt": "AD"
+          }
+        ]
+      },
+      "textTeaser": {
+        "title": "Die Welt anspruchsvoller Innenarchitektur und individuell gestalteter Bäder erhält durch den b7 einen neuen Glanzpunkt",
+        "ctaHref": "/de/contact",
+        "ctaLabel": "Jetzt den b7 bestellen"
+      },
+      "textTeaserStory": {
+        "title": "Eine Idee erobert die Welt",
+        "ctaHref": "/de/story",
+        "ctaLabel": "Mehr über unsere Story erfahren"
+      },
+      "contactTeaser": {
+        "title": "Persönliche Beratung & <br/> Individuelle Planung",
+        "shortText": "Sie haben Fragen zu Maßen, Einbau oder Lieferzeiten? Sprechen Sie uns an. Wir freuen uns, von Ihnen zu hören.",
+        "ctaHref": "/de/contact",
+        "ctaLabel": "Mail to",
+        "imageSrc": "/images_de/biszet-b7-kosmetik-kuehlschrank-diagonal-ansicht.jpg",
+        "imageAlt": "Diagonalansicht des biszet b7 Kosmetik Kühlschranks – Ihr Partner für individuelle Bad-Planung"
+      }
+    }
+  },
+  "technology": {
+    "meta": {
+      "currentUrl": "https://biszet.com/de/technology",
+      "title": "Maße, Technik & Einbau | biszet b7 Kosmetik Kühlschrank",
+      "description": "Detaillierte Spezifikationen zum biszet b7. Alle Abmessungen (H/B/T), 3-Zonen-Klima, Stromverbrauch und Einbau-Informationen für Architekten und Planer.",
+      "image": {
+        "src": "/images_de/biszet-b7-kosmetik-kuehlschrank-open-graph.jpg",
+        "alt": "Technische Details des biszet b7 Kosmetik Kühlschranks"
+      },
+      "keywords": "biszet Maße, Einbaumaße Kosmetik Kühlschrank, Stromverbrauch b7, Technische Daten, 3 Klimazonen Temperatur, Lautstärke dB, Einbauskizze, Architekten Datenblatt"
+    },
+    "modules": {
+      "featureShowcase": {
+        "title": "Der b7 von biszet ist der erste Kosmetik-Kühlschrank für höchste Ansprüche",
+        "shortText": "Nach Europäischen Richtlinien entwickelt und produziert in Deutschland",
+        "imageSrc": "/images_de/biszet-b7-technische-zeichnung-abmessungen-masse.svg",
+        "imageAlt": "Technische Zeichnung: Abmessungen und Einbaumaße des biszet b7",
+        "description": "<p>Der b7 von biszet wird komplett aus <strong>hochwertigem Edelstahl</strong> gefertigt – innen und außen. Die Tür besteht aus einer satinierten Isolierglasscheibe, gefasst von einem schmalen Edelstahlrahmen. Glas und Rahmen sind durch ein feines, von Hand eingelegtem Wildleder-Band getrennt.</p><h3>Die Besonderheit</h3><p>Die Tiefe von nur 25 Zentimetern ist eine <strong>technische Meisterleistung</strong> und verleiht „the fridge“ eine elegante Leichtigkeit – Ob als freistehende Skulptur oder als Design-Element integriert.</p><p>Gerne unterstützen wir Sie individuell bei Ihrer Projektplanung. Sprechen Sie uns an.</p>",
+        "ctaHref": "/de/contact",
+        "ctaLabel": "Kontakt",
+        "isHeading": true,
+        "downloadLabel": "Weitere Details zum Einbau",
+        "downloadHref": "/downloads/biszet-b7-Einbauskizze.pdf",
+        "backgroundColor": "white"
+      },
+      "editorialSplit": {
+        "title": "Elegantes Design und präzise Technik",
+        "shortText": "biszet entdecken",
+        "imageSrc": "/images_de/biszet-b7-kosmetikkuehlschrank-elegantes-design-made-in-germany.jpg",
+        "imageSrcMobile": "/images_de/biszet-b7-kosmetikkuehlschrank-elegantes-design-made-in-germany-mobile.jpg",
+        "imageAlt": "Innenraum des b7: Sandgestrahlte Glasböden und LED-Beleuchtung",
+        "description": "<p>Der b7 lässt keine Wünsche offen, sogar das Scharnier wurde speziell für den b7 entwickelt und fügt sich harmonisch in das <strong>elegante Gesamtdesign</strong> ein.</p><p>Die Glasböden sind sandstrahlmattiert, imprägniert und liegen auf filigranen Haltern. Eine sanfte LED-Beleuchtung lässt die edlen Kosmetika hinter satiniertem Glas hin durchschimmern.</p><p>Jeder Design-Schrank von biszet ist mit einem ergonomischen und formschönen Edelstahlgriff ausgestattet. Außerdem verfügt der b7 über ein dezentes Schloss, um „the fridge“ und den wertvollen Inhalt vor unbefugtem Zugriff zu verriegeln.</p>",
+        "ctaHref": "/downloads/biszet b7 - Bedienungsanleitung (2025).pdf",
+        "ctaLabel": "Aktuelle Bedienungsanleitung",
+        "variant": "background",
+        "overlayColor": "white"
+      },
+      "editorialSplit2": {
+        "title": "Technische Details",
+        "imageSrc": "/images_de/biszet-b7-frontansicht-edelstahl-tuergriff.jpg",
+        "imageAlt": "Frontansicht: Edelstahl-Rahmen und satinierte Glastür",
+        "description": "<p class='mb-5'>Der b7 arbeitet mit einem hocheffizienten Kompressor der neuesten Generation.</p>",
+        "linkText": "Warum 10°C ideal sind: Interview mit Dermatologe Dr. Kruppa →",
+        "linkHref": "/de/knowledge/experten-interview-dr-kruppa",
+        "flip": true,
+        "table": {
+          "caption": "Der b7 von biszet entspricht den europäischen Anforderungen für Elektromagentische Verträglichkeit (2014/30/EU) sowie für die Niederspannungsrichtlinie (2006/95/EG).",
+          "details": [
+            {
+              "detail": "Kühlraumtemperatur oben",
+              "specification": "ca. +12 °C"
+            },
+            {
+              "detail": "Kühlraumtemperatur in der Mitte",
+              "specification": "ca. +8 bis +10 °C"
+            },
+            {
+              "detail": "Kühlraumtemperatur unten",
+              "specification": "ca. +5 bis +8 °C"
+            },
+            {
+              "detail": "Innenraumbeleuchtung",
+              "specification": "ca. 3 W, LED Tape warmweiß"
+            },
+            {
+              "detail": "Kälteleistung",
+              "specification": "67 W (Einspritztemperatur: - 10 °C)"
+            },
+            {
+              "detail": "Elektrische Leistung",
+              "specification": "ca. 35 W"
+            },
+            {
+              "detail": "Kompressor",
+              "specification": "SECOP BD-Nano BDN50K"
+            },
+            {
+              "detail": "Verflüssiger",
+              "specification": "Drahtrohrverflüssiger"
+            },
+            {
+              "detail": "Nennspannung",
+              "specification": "DC24 V (SELV)"
+            },
+            {
+              "detail": "Stromaufnahme",
+              "specification": "2,9 A"
+            },
+            {
+              "detail": "Kältemittel",
+              "specification": "R600a"
+            },
+            {
+              "detail": "Kältemittelmenge",
+              "specification": "0,010 kg"
+            },
+            {
+              "detail": "CO₂ -Äquivalent",
+              "specification": "0,00003 t"
+            },
+            {
+              "detail": "Elektrische Schutzart",
+              "specification": "IP20"
+            },
+            {
+              "detail": "Empfohlene Umgebungstemperatur",
+              "specification": "+16 bis +32 °C"
+            },
+            {
+              "detail": "Klimaklasse",
+              "specification": "N"
+            },
+            {
+              "detail": "Betriebslautstärke (aus 1m)",
+              "specification": "max. 46 dBA"
+            },
+            {
+              "detail": "Maße (B, H, T)",
+              "specification": "340 mm, 640 mm, 250 mm"
+            },
+            {
+              "detail": "Volumen des Kühlraums",
+              "specification": "16 L"
+            },
+            {
+              "detail": "Gewicht inkl. Netzteil",
+              "specification": "21 kg"
+            },
+            {
+              "detail": "Traglast Glaszwischenböden",
+              "specification": "max. je 2 kg"
+            }
+          ]
+        }
+      },
+      "textTeaser": {
+        "title": "<blockquote>„It`s the latest accessory for the hi-tech home.“</blockquote>",
+        "quoteImageSrc": "/images_de/logos/biszet-presse-wallpaper-design-magazine.svg",
+        "quoteImageAlt": "Wallpaper",
+        "ctaHref": "/de/contact",
+        "ctaLabel": "Hier können Sie den b7 bestellen",
+        "variant": "secondary",
+        "backgroundColor": "turkis"
+      },
+      "textTeaserStory": {
+        "title": "Eine Idee erobert die Welt",
+        "ctaHref": "/de/story",
+        "ctaLabel": "Mehr über unsere Story erfahren",
+        "variant": "secondary"
+      }
+    }
+  },
+  "story": {
+    "meta": {
+      "currentUrl": "https://biszet.com/de/story",
+      "title": "Vom Startup zum Weltmarktführer | Die biszet Story",
+      "description": "Die biszet Geschichte: Vom Startup zum Weltmarktführer. In Luxushotels wie Ritz-Carlton, Park Hyatt, Cheval Blanc LVMH und auf Mega-Yachten weltweit.",
+      "image": {
+        "src": "/images_de/biszet-b7-kosmetik-kuehlschrank-story-open-graph.jpg",
+        "alt": "Handgefertigte Qualität aus Deutschland"
+      },
+      "keywords": "biszet Geschichte, Weltmarktführer Kosmetik Kühlschrank, Luxushotels Ausstattung, Mega-Yachten Interior, Ritz-Carlton, Cheval Blanc LVMH, Made in Germany"
+    },
+    "modules": {
+      "imageSplit": {
+        "title": "Eine Idee erobert die Welt",
+        "imageSrc1": "/images_de/juergen-kraus-geschaeftsfuehrer-biszet-gmbh.jpg",
+        "imageAlt1": "Jürgen Kraus",
+        "imageCaption1": "<strong>Jürgen Kraus</strong><br/>Geschäftsführer<br/>Marketing und Vertrieb",
+        "imageSrc2": "/images_de/ulla-kraus-geschaeftsfuehrerin-technik-entwicklung.jpg",
+        "imageAlt2": "Ulla Kraus",
+        "imageCaption2": "<strong>Ulla Kraus</strong><br/>Geschäftsführerin<br/>Technik und Entwicklung",
+        "isHeading": true
+      },
+      "editorial": {
+        "title": "Chilling me softly",
+        "shortText": "Von der Idee zur Marke",
+        "image1Src": "/images_de/biszet-b7-im-park-hyatt.jpg",
+        "image1Alt": "Park Hyatt, Istanbul",
+        "image2Src": "/images_de/biszet-b7-kosmetikkühlschrank-im-Ritz-Carlton-Berlin.jpg",
+        "image2Alt": "Ritz Carlton, Berlin",
+        "image3Src": "/images_de/biszet-b7-kosmetikkühlschrank-im-Ritz-Carlton-Berlin-nahaufnahme.jpg",
+        "image3Alt": "Zoom",
+        "description": "<p><strong>Hochwertige natürliche Kosmetika ohne Konservierungsstoffe prägen heute die Welt der Schönheit und erfordern eine kühle Lagerung.</strong><br/>Dazu raten die Kosmetik-Hersteller oft selbst, aber auch die Dermatologen. Ulla und Jürgen Kraus entschieden sich, eine stylishe Aufbewahrung für die kostbaren Produkte zu entwickeln. Damit sollte ein neues Must-Have für jedes moderne Bad geschaffen werden.</p><h3>Die Idee vom b7 war geboren</h3><p>Ein schlankes Design und drei spezielle Klimazonen erfordern eine einzigartige Technik. Nach mehrjähriger Entwicklung entstand der erste Kosmetikkühler für schicke Bäder. Seither wird das tägliche Schönheitsritual zur wahren Freude.</p>",
+        "description2": "<p>Heute wird der b7 in nahezu alle Länder dieser Erde geliefert. Anspruchsvolle Privatkunden, internationale Architekturbüros und renommierte <strong>Yachtbauer sowie Bootausstatter</strong> gehören zu den Kunden von biszet.</p><p>Auch <strong>Luxus-Hotels</strong> erkannten schnell, dass „the fridge“ ein exklusives Highlight für ihre anspruchsvollen Gäste ist. Als eines der ersten stattete das <strong>Jumeirah Emirates Towers</strong> in Dubai die gesamte 40. Etage als „Ladies Floor“ mit dem b7 von biszet aus. Viele weitere Hotels folgten diesem avantgardisti- schen Trend: Noble Hotels wie das <strong>Cheval Blanc (LVMH)</strong> in Paris oder die Gästesuite von <strong>DIOR</strong> auf der Avenue Montaigne verwöhnen ihre anspruchsvollen Besucher mit der Annehmlichkeit und besonderen Frische eines biszet Kosmetik-Klimaschranks.</p>",
+        "quote": "„We put butter in the fridge, but face creams, some costing over 100 € are left out in hot and steamy bathrooms.“",
+        "quoteImageSrc": "/images_de/logos/biszet-presse-wallpaper-design-magazine.svg",
+        "quoteImageAlt": "Wallpaper-Logo"
+      },
+      "textTeaser": {
+        "title": "Diesen Luxus wollen Sie auch für Ihr Bad?",
+        "ctaHref": "/de/contact",
+        "ctaLabel": "Hier können Sie den b7 bestellen"
+      },
+      "reference": {
+        "title": "Cheval Blanc, Paris",
+        "shortText": "Der b7 von biszet ist hier zu Hause",
+        "description": "Moderner Luxus trifft französisches Flair: Seit 2021 verwöhnt das prächtige Pariser Luxus-Hotel Cheval Blanc aus dem Hause LVMH ihre Gäste mit der Annehmlichkeit eines biszet Kosmetik-Klimaschranks",
+        "videoSrc": "/videos/biszet-referenz-cheval-blanc-paris.mp4",
+        "videoPosterSrc": "/videos/biszet-referenz-cheval-blanc-paris.jpg",
+        "videoCaption": "Cheval Blanc, Paris"
+      },
+      "carousel": {
+        "title": "Vertrauen der Weltklasse: Referenzen von LVMH bis Ritz Carlton",
+        "items": [
+          [
+            {
+              "title": "Cheval Blanc Hotel (LVMH), Paris",
+              "imageSrc": "/images_de/logos/referenz-cheval-blanc-hotel-paris-lvmh.svg",
+              "imageAlt": "Referenz Hotel Cheval Blanc Paris (LVMH) mit biszet Kosmetik Klimaschrank",
+              "description": "Moderner Luxus trifft französisches Flair: Das 5-Sterne-Haus „Cheval Blanc“ verwöhnt seine Gäste mit dem Komfort eines biszet Kosmetik Klimaschranks. Ein Standard für höchste Ansprüche im Hotel-Segment."
+            },
+            {
+              "title": "Dior Flagshipstore, Avenue Montaigne",
+              "imageSrc": "/images_de/logos/referenz-dior-flagshipstore-paris.svg",
+              "imageAlt": "Referenz Dior Flagshipstore Paris: Luxusbad mit Beauty Kühlschrank",
+              "description": "Über dem Flagshipstore in Paris hat das Modehaus ein Apartment für VIP-Kunden eingerichtet. Im luxuriösen Bad aus Onyx-Stein ist der Beauty Kühlschrank als stilvolles Design-Element integriert."
+            },
+            {
+              "title": "The Shard, London",
+              "imageSrc": "/images_de/logos/referenz-the-shard-london-luxury-apartments.svg",
+              "imageAlt": "Referenz The Shard London: Ausstattung mit biszet Kosmetik Kühler",
+              "description": "Stararchitekt Renzo Piano schuf mit diesem Wolkenkratzer das Wahrzeichen Londons. In den Luxuswohnungen (55.-65. Etage) gehört der biszet Kosmetik Kühler zur festen Ausstattung der Bäder."
+            }
+          ],
+          [
+            {
+              "title": "Jumeirah Emirates Towers, Dubai",
+              "imageSrc": "/images_de/logos/referenz-jumeirah-emirates-towers-dubai.svg",
+              "imageAlt": "Referenz Jumeirah Emirates Towers Dubai: b7 auf dem Ladies Floor",
+              "description": "Eines der beeindruckendsten Hotels der Welt setzt auf deutsche Qualität. Neben zahlreichen Suiten ist der gesamte „Ladies Floor“ in der 40. Etage mit dem b7 bestückt – exklusiver Service für anspruchsvolle Gäste."
+            },
+            {
+              "title": "The Ritz-Carlton, Berlin",
+              "imageSrc": "/images_de/logos/referenz-ritz-carlton-berlin-potsdamer-platz.svg",
+              "imageAlt": "Referenz The Ritz-Carlton Berlin: Einbau im Marmorbad",
+              "description": "Im 5-Sterne-Haus am Potsdamer Platz wurde das mondäne Marmorbad des Ritz-Carlton Apartments perfekt auf den b7 zugeschnitten. Eine vollkommene Einheit aus Naturstein und Edelstahl-Design."
+            },
+            {
+              "title": "Park Hyatt, Istanbul",
+              "imageSrc": "/images_de/logos/referenz-park-hyatt-istanbul.svg",
+              "imageAlt": "Referenz Park Hyatt Istanbul: Empfohlen von Architekten für biszet",
+              "description": "Auf Empfehlung der New Yorker Architekten „Gerner Kronick & Valcarcel“ wurde der Kosmetik Kühlschrank in vielen Suiten installiert. Ein Beweis für die internationale Anerkennung bei Top-Planern."
+            }
+          ],
+          [
+            {
+              "title": "Sylter Fährhaus, Sylt",
+              "imageSrc": "/images_de/logos/referenz-sylter-faehrhaus-wellness-hotel.png",
+              "imageAlt": "Referenz Sylter Fährhaus: 5-Sterne-Hotel mit biszet b7",
+              "description": "Die Top-Adresse auf der mondänen Nordseeinsel. Das 5-Sterne-Superior-Haus stattet seine Suiten mit dem biszet b7 aus – ein Zeichen für erlebbare Service-Leidenschaft und Wellness-Kompetenz."
+            },
+            {
+              "title": "Hotel Budersand, Sylt-Hörnum",
+              "imageSrc": "/images_de/logos/referenz-hotel-budersand-sylt.png",
+              "imageAlt": "Referenz Hotel Budersand Sylt: Kosmetikschrank im Wellness-Bereich",
+              "description": "Moderne Innenarchitektur trifft auf exklusive Naturmaterialien. Den Inbegriff von Selfcare-Wellness liefert der gekühlte Kosmetikschrank in zahlreichen Zimmern dieses 5-Sterne-Hauses."
+            },
+            {
+              "title": "B.S.C. Group, Hong Kong",
+              "imageSrc": "/images_de/logos/referenz-bsc-group-hong-kong-interiors.png",
+              "imageAlt": "Referenz B.S.C. Group Hong Kong: Partner für Hoteliers und Architekten",
+              "description": "Als führender Innenausstatter in Fernost vertritt B.S.C. erstklassige Marken. biszet ist hier gelistet als Anbieter für Gesamtlösungen für Hoteliers und Architekten im asiatischen Raum."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "contact": {
+    "meta": {
+      "currentUrl": "https://biszet.com/de/contact",
+      "title": "Kontakt & Beratung | biszet Service & Planung",
+      "description": "Haben Sie Fragen zum b7 oder planen ein Projekt? Kontaktieren Sie das biszet-Team direkt. Wir beraten Sie gerne zu Einbau, Maßen und Details.",
+      "image": {
+        "src": "/images_de/biszet-b7-kosmetik-kuehlschrank-open-graph.jpg",
+        "alt": "Persönliche Beratung bei biszet"
+      },
+      "keywords": "biszet Kontakt, Beratung Kosmetik Kühlschrank, Anfrage b7, Kundenservice biszet"
+    },
+    "modules": {
+      "contact": {
+        "title": "Möchten Sie persönliche Informationen?",
+        "description": "Wir freuen uns von Ihnen zu hören",
+        "formTitle": "Ihre Nachricht",
+        "formFieldNameLabel": "Name",
+        "formFieldNamePlaceholder": "Ihr Name...",
+        "formFieldNameError": "Bitte geben Sie Ihren Namen an",
+        "formFieldAwareLabel": "Wie sind sie auf uns aufmerksam geworden?",
+        "formFieldAwarePlaceholder": "Ihre Eingabe...",
+        "formFieldEmailLabel": "E-Mail",
+        "formFieldEmailPlaceholder": "Ihre E-Mail...",
+        "formFieldEmailError": "Bitte geben Sie Ihre Email-Adresse an",
+        "formFieldPhoneLabel": "Telefon",
+        "formFieldPhonePlaceholder": "Ihre Telefonnummer...",
+        "formFieldPhoneError": "Bitte geben Sie Ihre Telefonnummer in einem internationalem Format an (z.B. +49123123456)",
+        "formFieldMessageLabel": "Ihre Nachricht an uns",
+        "formFieldMessagePlaceholder": "Ihre Nachricht...",
+        "formFieldMessageError": "Bitte geben Sie eine Nachricht ein",
+        "formFieldConsentLabel": "Ich erkläre mich mit der Verarbeitung der eingegebenen Daten sowie der Datenschutzerklärung einverstanden.",
+        "formFieldConsentError": "Bitte stimmen Sie den Datenschutzbestimmungen zu",
+        "formFieldsetPersonalData": "Persönliche Angaben",
+        "formFieldsetTypeOfContact": "Am besten bin ich zu erreichen",
+        "formFieldsetYourRequest": "Mein Anliegen",
+        "formSubmitLabel": "Jetzt abschicken",
+        "formSubmitThankYouUrl": "/de/thankyou/ ",
+        "formCaption": "* Pflichtfelder",
+        "mailTitle": "Schreiben Sie uns eine Mail",
+        "phoneTitle": "Rufen Sie uns jetzt an",
+        "addressTitle": "Anschrift",
+        "address": "biszet GmbH<br/>[STRASSE_NR]<br/>[PLZ_ORT]<br/>Deutschland",
+        "email": "[EMAIL]",
+        "phone": "[TELEFON]"
+      }
+    }
+  },
+  "contactSuccess": {
+    "meta": {
+      "currentUrl": "https://biszet.com/de/contact/success",
+      "title": "Vielen Dank für Ihre Anfrage | biszet",
+      "description": "Vielen Dank für Ihre Anfrage. Wir haben Ihre Nachricht erhalten und melden uns in Kürze persönlich bei Ihnen.",
+      "image": {
+        "src": "/images_de/biszet-b7-kosmetik-kuehlschrank-open-graph.jpg",
+        "alt": "Kontakt Anfrage erfolgreich"
+      },
+      "keywords": "biszet Kontaktbestätigung"
+    },
+    "modules": {
+      "success": {
+        "title": "Vielen Dank für Ihre Anfrage!",
+        "imageSrc": "/images_de/B1-Animation.gif",
+        "imageAlt": "Schrank Animation",
+        "imageType": "gif",
+        "description": "<p>Wir werden uns umgehend bei Ihnen melden.</p><p>In dieser überzeugenden Verbindung von puristischem Design und deutscher Präzision ist „the fridge\" von biszet der ideale Kosmetik-Kühlschrank, der sich harmonisch einfügt in die Welt von anspruchsvoller Architektur und individuell gestalteten Bädern.</p>",
+        "ctaHref": "/",
+        "ctaLabel": "zurück zur Homepage",
+        "variant": "background",
+        "logos": [
+          {
+            "src": "/images/badges/biszet.png",
+            "alt": "biszet"
+          },
+          {
+            "src": "/images/badges/Madeingermany.png",
+            "alt": "Made in Germany"
+          },
+          {
+            "src": "/images/badges/AD_siegel.png",
+            "alt": "AD"
+          }
+        ]
+      }
+    }
+  },
+  "imprint": {
+    "meta": {
+      "currentUrl": "https://biszet.com/de/imprint",
+      "title": "Impressum & Rechtliches | biszet GmbH Köln",
+      "description": "Angaben gemäß § 5 TMG. Kontakt, Handelsregistereintrag und rechtliche Hinweise der biszet GmbH, Köln.",
+      "image": {
+        "src": "/images_de/biszet-b7-kosmetik-kuehlschrank-open-graph.jpg",
+        "alt": "biszet GmbH Köln"
+      },
+      "keywords": "biszet Impressum, biszet GmbH Geschäftsführer, Handelsregister Köln, Kontakt"
+    },
+    "modules": {
+      "imprint": {
+        "headline": "Impressum & Legal",
+        "editor": "Herausgeber",
+        "editorAddress": "biszet GmbH<br/>Genter Str. 26<br/>50672 Köln<br/>Deutschland<br/><br/>Steuer-Nr.: 215/5805/2679<br/>VAT-ID No.: DE 233 149 288<br/><br/>Geschäftsführer: Ulla Kraus, Jürgen Kraus<br/>Tel: +49 221 / 51 80 08<br/><a href=\"mailto:info@biszet.de\">info@biszet.de</a>",
+        "legalHeadline": "Legal",
+        "legalText": "<p>Wir, die BISZET GmbH, 50672 Köln, nehmen den Schutz Ihrer persönlichen Daten sehr ernst und halten uns strikt an die Regeln der Datenschutzgesetze. Personenbezogene Daten werden auf dieser Webseite nur im technisch notwendigen Umfang erhoben. In keinem Fall werden die erhobenen Daten verkauft oder aus anderen Gründen an Dritte weitergegeben.</p><p>Die nachfolgende Erklärung gibt Ihnen einen Überblick darüber, wie wir diesen Schutz gewährleisten und welche Art von Daten zu welchem Zweck erhoben werden.</p>",
+        "dataHeadline": "Personenbezogene Daten",
+        "dataText": "Die von Ihnen übermittelten Daten (per E-Mail oder Kontaktformular) nutzen wir ausschließlich dazu, Ihr Anliegen zu bearbeiten. Es werden nur die Daten gespeichert und verarbeitet, die dazu absolut notwendig sind. Wir geben Ihre persönlichen Daten nicht an Dritte weiter. Ihr Vertrauen ist uns wichtig. Daher möchten wir Ihnen jederzeit Rede und Antwort bezüglich der Verarbeitung Ihrer personenbezogenen Daten stehen. Wenn Sie Fragen haben, die Ihnen diese Datenschutzerklärung nicht beantworten konnte oder wenn Sie zu einem Punkt vertiefte Informationen wünschen, wenden Sie sich bitte jederzeit an uns.",
+        "googleHeadline": "Nutzung von Google Analytics",
+        "googleText": "Unsere Homepage benutzt Google Analytics, einen Webanalysedienst von Google. Google Analytics verwendet so genannte Cookies (kleine Textdateien), die auf Ihrem Computer gespeichert werden  und die eine Analyse der Benutzung der Website durch Sie ermöglichen. Die durch die Cookie erzeugten Informationen über Ihre Benutzung dieser Homepage (einschließlich Ihrer IP-Adresse) werden an einen Server von Google in den USA übertragen und dort gespeichert. Google wird diese Informationen benutzen, um Ihre Nutzung der Website auszuwerten, um Reports über die Websiteaktivitäten für die Homepage-Betreiber zusammenzustellen und um weitere mit der Websitenutzung und der Internetnutzung verbundene Dienstleistungen zu erbringen. Auch wird Google diese Informationen gegebenenfalls an Dritte übertragen, sofern dieses gesetzlich vorgeschrieben ist oder soweit Dritte diese Daten im Auftrag von Google verarbeiten. Google wird in keinem Fall Ihre IP-Adresse mit anderen Daten von Google in Verbindung bringen. Sie können die Installation der Cookies durch eine entsprechende Einstellung in Ihrer Browser-Software verhindern, wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website in vollem Umfang nutzen können. Durch die Nutzung unserer Homepage erklären Sie sich mit der Bearbeitung, der über Sie erhobenen Daten durch Google, in der zuvor beschriebenen Art und Weise und zu dem zuvor benannten Zweck einverstanden.",
+        "liabilityHeadline": "Haftungshinweis",
+        "liabilityText": "<p>Alle in unseren Internetseiten enthaltenen Angaben und Informationen wurden sorgfältig recherchiert und geprüft. Trotz aller Sorgfalt kann die BISZET GmbH für die Richtigkeit, Vollständigkeit und Aktualität keine Gewähr übernehmen.</p><p>Die BISZET GmbH haftet nicht für Schäden, die aus der Nutzung der bereitgestellten Informationen beziehungsweise deren eventueller Fehlerhaftigkeit oder Unvollständigkeit herrühren, es sei denn es  handelt sich um Schäden aus der Verletzung des Lebens, des Körpers oder der Gesundheit. Bei sonstigen Schäden haftet die BISZET GmbH nur dann, wenn der Schaden auf einer vorsätzlichen oder grob fahrlässigen Pflichtverletzung eines ihrer gesetzlichen Vertreter oder eines ihrer Erfüllungsgehilfen beruht.</p>",
+        "copyrightHeadline": "Copyright / Urheberrecht",
+        "copyrightText": "Diese Webseiten unterliegen urheber-, marken- und wettbewerbsrechtlichen Schutzrechten. Eine Vervielfältigung, Verbreitung, Bereithaltung zum Abruf oder zur Online-Zugänglichmachung (Übernahme in andere Webseiten) unserer Webseiten, des Layouts der Webseiten, ihrer Inhalte (Texte, Bilder, Programme) ganz oder teilweise, in veränderter oder unveränderter Form ist nur nach vorheriger schriftlicher Zustimmung zulässig."
+      }
+    }
+  },
+  "dataProtection": {
+    "meta": {
+      "currentUrl": "https://biszet.com/de/data-protection",
+      "title": "Datenschutzerklärung & Sicherheit | biszet",
+      "description": "Informationen zum Datenschutz bei biszet. Erfahren Sie, wie wir Ihre personenbezogenen Daten schützen und welche Rechte Sie haben.",
+      "image": {
+        "src": "/images_de/biszet-b7-kosmetik-kuehlschrank-open-graph.jpg",
+        "alt": "Datenschutz bei biszet"
+      },
+      "keywords": "biszet Datenschutz, DSGVO Erklärung, Privacy Policy, Umgang mit Daten"
+    },
+    "modules": {
+      "privacy": {
+        "headline": "Datenschutzerklärung",
+        "usageHeadline": "Nutzung unserer Website",
+        "usageText": "Wir freuen uns über Ihr Interesse an der biszet GmbH und den Besuch auf unserer Website. Den Schutz Ihrer Privatsphäre bei der Erhebung, Verarbeitung und Nutzung personenbezogener Daten nehmen wir bei der biszet GmbH sehr ernst. Aus diesem Grund halten wir uns strikt an das Bundesdatenschutzgesetz (BDSG). Im Folgenden informieren wir Sie darüber, welche Daten über unsere Website möglicherweise erfasst und zu welchem Zweck diese erhoben werden.<br/>Bei dem Besuch unserer Website werden Informationen über den Zugriff in einer sogenannten Logdatei erfasst. Diese Informationen umfassen u.a. Ihre IP-Adresse, das Datum und die von Ihnen aufgerufenen Seiten. Diese Daten werden automatisiert zu statistischen Zwecken ausgewertet und dienen der Optimierung sowie bedarfsgerechten Gestaltung unserer Anwendungen. Sie können keiner konkreten Person zugeordnet werden.<br/>Sofern Sie uns im Rahmen einer Anfrage personenbezogene Daten zusenden, werden diese von uns ausschließlich zu den mitgeteilten Zwecken genutzt, gespeichert und vertraulich behandelt.",
+        "cookiesHeadline": "Cookies",
+        "cookiesText": "Wir verwenden auf unserer Website sogenannte „Cookies“, die die Wiedererkennung eines Internet-Browsers ermöglichen. Cookies sind kleine Textdateien, die vom Webserver an Ihren Webbrowser gesendet und auf Ihrer Festplatte gespeichert werden. Sie liefern Informationen über die Nutzung unseres Webangebotes und werden für statistische Zwecke genutzt. Sie können in den Einstellungen Ihres Browsers festlegen, ob Sie die Verwendung von Cookies zulassen, ausschließen oder der Einsatz Ihrer Bestätigung bedarf. ",
+        "rightHeadline": "Auskunftsrecht",
+        "rightText": "Nach dem Bundesdatenschutzgesetz (BDSG) haben Sie jederzeit das Recht, über die bei uns von Ihnen gespeicherten Daten, unentgeltlich Auskunft zu verlangen. Dies gilt ebenfalls für die Berichtigung, Sperrung und Löschung dieser Daten. Bitte senden Sie dazu eine Mail an:<br/><br/>datenschutz@biszet.de"
+      }
+    }
+  },
+  "knowledge": {
+    "meta": {
+      "currentUrl": "https://biszet.com/de/knowledge",
+      "title": "Hautpflege Wissen: Interviews & Fakten | biszet",
+      "description": "Warum Kosmetik kühlen? Apotheker und Dermatologen erklären die Wirkung von Temperatur auf Vitamin C, Retinol und Hygiene. Lesen Sie hier die Experten-Meinungen.",
+      "image": {
+        "src": "/images_de/biszet-b7-innenraum-led-beleuchtung-glasboeden.jpg",
+        "alt": "biszet Expertenwissen Kosmetik Kühlung"
+      },
+      "keywords": "Kosmetik Haltbarkeit, Bakterien in Cremes, Vitamin C Oxidation, Dermatologen Interview, Kühlung Kosmetik"
+    }
+  },
+  "articles": {
+    "stockebrand": {
+      "slug": "experten-interview-dr-stockebrand",
+      "navLabel": "Haltbarkeit & Hygiene",
+      "meta": {
+        "title": "Bakterien in Kosmetik: Warum Kühlung wichtig ist | biszet",
+        "description": "Verlieren Ihre Cremes an Wirkung? Apotheker Dr. Stockebrand erklärt, warum Vitamin C und Retinol gekühlt werden müssen und wie Bakterien im Tiegel entstehen.",
+        "keywords": "Kosmetik kühlen, Haltbarkeit Cremes, Bakterien in Kosmetik, Retinol Lagerung, Vitamin C Zerfall, Kosmetikkühlschrank Hygiene"
+      },
+      "title": "Bakterien & Wirkstoffverlust: Die unsichtbare Gefahr im Tiegel",
+      "subtitle": "Experten-Interview mit Apotheker Dr. rer. nat. B. Stockebrand über Konservierungsmittel, Vitamin-Zerfall und explodierende Bakterienkulturen.",
+      "date": "14.02.2025",
+      "author": "Redaktion biszet",
+      "image": "/images_de/experten-interview-dr-stockebrand-teaser.jpg",
+      "content": "<p class='lead'>Hochwertige Inhaltsstoffe wie Vitamine und Nanopartikel sind empfindlicher als man denkt. Wir sprachen mit Apotheker Dr. B. Stockebrand darüber, warum ein einziger Lufthauch genügt, um Bakterienwachstum zu starten, und weshalb Temperaturschwankungen die Wirkung teurer Cremes zunichte machen können.</p><h3>Warum gekühlte Lagerung?</h3><p><strong>biszet:</strong> Nach dem Öffnen von Kosmetika wird häufig 'gekühlte Lagerung' empfohlen. Warum?</p><p><strong>Dr. B. Stockebrand:</strong> Hochwertige Kosmetik- und Pflegeprodukte werden mit sehr großer Sorgfalt hergestellt. Sie enthalten hochgereinigte Inhaltsstoffe, möglichst keimarm und frei von Allergenen. Sobald aber eine Tube oder ein Tiegel geöffnet werden, reicht bereits ein Lufthauch, um erste Bakterien mit den Inhaltsstoffen in Berührung zu bringen. Durch die Benutzung mit den Fingern werden weitere Keime in die Substanzen hineingetragen.<br/>Durch den Sauerstoff in der Luft, vor allem aber durch Temperatureinwirkung können sich diese Keime rasch vermehren, wenn das vorhandene Konservierungsmittelsystem überfordert ist. Allerdings geht der Trend zu immer sparsamerer Konservierung, um die Belastung der Haut möglichst gering zu halten.</p><h3>Exponentielles Bakterienwachstum</h3><p><strong>biszet:</strong> Wie rasch vermehren sich denn diese Keime?</p><p><strong>Dr. B. Stockebrand:</strong> Es sind Mikroorganismen bekannt, die sich bei einem Temperatursprung von 10 °C exponentiell vermehren. Bei einer Lagerung bei 20 °C vermehren sich manche Bakterien unter Umständen 30-fach so schnell wie bei einer Lagerung bei nur 10 °C.</p><h3>Wirkungsverlust durch Stoffwechsel</h3><p><strong>biszet:</strong> Welchen Einfluss haben Bakterien und Keime auf die Wirksamkeit von Kosmetika?</p><p><strong>Dr. B. Stockebrand:</strong> Bakterien ernähren sich von den wertvollen Inhaltsstoffen. Dadurch werden die Wirkstoffe umgebaut. Neue Stoffwechselprodukte werden abgegeben, wie z. B. Buttersäure. Der Inhalt wird völlig verändert. Die gewünschte Wirkung bleibt aus, es können sogar unerwünschte Wirkungen eintreten, wie z.B. Allergien.</p><h3>Vitamin A, C und E in Gefahr</h3><p><strong>biszet:</strong> Welche Inhaltsstoffe reagieren besonders sensibel auf Wärme?</p><p><strong>Dr. B. Stockebrand:</strong> Das sind vor allem die Vitamine A, C und E. Diese sind als so genannte Antioxidanzien in vielen Anti-Falten-Crèmes enthalten. Sie verhindern oxidative Zersetzungsprozesse im Unterhautgewebe. Denn Oxidanzien zerstören das Gewebe, Kollagenfasern der Unterhaut verändern sich und führen so zur Faltenbildung. Durch die Vitamine wird dieser Prozess verhindert. Diese sind jedoch wärmeempfindlich. Je niedriger die Temperatur, 'umso wohler fühlen sie sich'.</p><h3>Wenn sich die Creme trennt</h3><p><strong>biszet:</strong> Bei der Lagerung kommt es häufig zu erheblichen Temperaturschwankungen. Was bewirken diese in den Crèmes?</p><p><strong>Dr. B. Stockebrand:</strong> Sicher haben Sie schon mal beobachtet, dass sich Crèmes nach einiger Zeit in dicke und dünne Bestandteile trennen. Dies ist oft die Folge von Temperaturschwankungen.</p><p><strong>biszet:</strong> Was passiert denn da konkret?</p><p><strong>Dr. B. Stockebrand:</strong> Temperaturschwankungen lösen eine intensive Teilchenbewegung aus. Hochkomplizierte Systeme fallen in sich zusammen. Die Inhaltsstoffe entmischen sich und stehen nicht mehr in der gewünschten Zusammensetzung zur Verfügung.</p><h3>Zerfall von Nanopartikeln</h3><p><strong>biszet:</strong> Warum kann das die Crèmes unwirksam machen?</p><p><strong>Dr. B. Stockebrand:</strong> Hochwertige Inhaltsstoffe werden z.B. durch Lecithin umhüllt und als kleinste Teilchen (so genannte Nanopartikel) direkt in das Untergewebe der Haut geschleust, um dort ihre Anti-Aging-Wirkung zu entfalten. Alle diese Systeme sind wärmeempfindlich, was dazu führen kann, dass diese Partikel einfach platzen und die Wirkstoffe nicht mehr an ihren Bestimmungsort im Unterhautgewebe gelangen können.</p><h3>Verlust des Lichtschutzfaktors</h3><p><strong>biszet:</strong> Auch zur Erhaltung des Lichtschutzfaktors wird gekühlte Lagerung empfohlen. Warum?</p><p><strong>Dr. B. Stockebrand:</strong> Viele Lichtschutzsubstanzen werden von den bereits erwähnten Bakterien einfach einverleibt. Bei einer Lagerung zwischen 20 und 25 °C kommt es zu einem Verlust der Wirksamkeit von 5 - 10 % pro Jahr. Durch gekühlte Aufbewahrung reduziert sich die Wirkung nur um einige wenige Prozent.</p><h3>Fazit: Das Bad ist eine Zumutung</h3><p><strong>biszet:</strong> Halten Sie also die Nutzung eines biszet-Schranks für sinnvoll?</p><p><strong>Dr. B. Stockebrand:</strong> Ja, ich halte die Aufbewahrung in einem biszet-Schrank allerdings für sinnvoll, für alle Frauen, die ihre Crèmes schützen wollen. Denn das Bad ist im Grunde – durch sein meist feuchtwarmes Klima – eine Zumutung für Kosmetika. Zudem empfehle ich, Crèmes möglichst nicht mit den Fingern, sondern mit dem Spartel zu entnehmen.</p><p><strong>Tipp:</strong> Welche Temperatur konkret für welchen Hauttyp ideal ist, erklärt <a href='/de/wissen/experten-interview-dr-kruppa' style='text-decoration:underline;'>Dermatologe Dr. Kruppa in diesem Interview</a>.</p><p><strong>biszet:</strong> Vielen Dank für das sehr informative Interview.</p><p><strong>Dr. B. Stockebrand:</strong> Gerne.</p>"
+    },
+    "kruppa": {
+      "slug": "experten-interview-dr-kruppa",
+      "navLabel": "Dermatologen-Interview",
+      "meta": {
+        "title": "Dermatologe empfiehlt: So lagern Sie Naturkosmetik richtig | biszet",
+        "description": "Dr. Kruppa erklärt im Interview, warum das Badezimmer der falsche Ort für teure Cremes ist und wie Kühlung bei Naturkosmetik und nach Laserbehandlungen hilft.",
+        "keywords": "Dermatologe Interview, Naturkosmetik lagern, Kühlung nach Lasertherapie, Abschwellende Wirkung, Konservierungsstoffe Allergie"
+      },
+      "title": "Fragen an Dr. Andreas Kruppa, Facharzt für Dermatologie",
+      "subtitle": "Ein Experten-Interview über Keime, Kühlketten und warum das Badezimmer oft der falsche Ort für hochwertige Cremes ist.",
+      "date": "14.02.2025",
+      "author": "Redaktion biszet",
+      "image": "/images_de/experten-interview-dr-kruppa-teaser.jpg",
+      "content": "<p class='lead'>Viele Nutzerinnen stellen ihre Cremes in den Küchenkühlschrank – doch ist das wirklich sinnvoll? Wir sprachen mit dem Kölner Facharzt Dr. Andreas Kruppa über Keimgefahren in offenen Tiegeln, die optimale Temperatur für Vitamin C und Retinol sowie den physiologischen Effekt gekühlter Pflege auf der Haut.</p><h3>Design-Möbel mit Kühlung: Eine gute Idee?</h3><p><strong>biszet:</strong> Herr Dr. Kruppa, wir haben ein exklusives Design-Möbel speziell für das Bad entwickelt. Es ist sehr elegant und enthält eine Besonderheit, die es bisher in dieser Form noch nicht gab. Kosmetika können zugleich stilvoll und gekühlt aufbewahrt werden. Was halten Sie von dieser Idee?</p><p><strong>Dr. A. Kruppa:</strong> Ich halte die Idee für sehr gut. Schon jetzt bewahren viele Frauen ihre Kosmetika im Küchenkühlschrank auf. Das ist doch sehr praktisch, wenn man nicht mehr vom Bad zur Küche und zurücklaufen muss.</p><h3>Warum ist gekühlte Lagerung wichtig?</h3><p><strong>biszet:</strong> Viele Kosmetika und Hautpflegeprodukte tragen die Aufschrift 'bitte kühl lagern'. Warum ist gekühlte Lagerung so wichtig?</p><p><strong>Dr. A. Kruppa:</strong> Nach dem Öffnen der Tiegel gelangen oft Keime, wie Bakterien und Pilze, an die Pflegeprodukte. Diese befinden sich in der Luft, werden verstärkt aber durch die Benutzung mit den Fingern eingebracht. Diese Keimbesiedlung kann sich bei hohen Temperaturen viel schneller ausdehnen als bei kühleren. Das ist vergleichbar mit Milch, die man vergessen hat in den Kühlschrank zu stellen. Die Keime können sich schneller entwickeln und die Milch wird schlecht.</p><h3>Gekühlte Cremes in der Praxis</h3><p><strong>biszet:</strong> Benutzen Sie in Ihrer täglichen Praxis auch gekühlte Crèmes?</p><p><strong>Dr. A. Kruppa:</strong> Ja, zum Beispiel nach einer Lasertherapie werden gekühlte Crèmes mit pflanzlichen Inhaltsstoffen aufgetragen. Diese wirken angenehm beruhigend und durch die Kühle abschwellend.</p><h3>Der optimale Temperaturbereich</h3><p><strong>biszet:</strong> Welcher Temperaturbereich ist für die Lagerung von Kosmetika optimal?</p><p><strong>Dr. A. Kruppa:</strong> Bakterien fühlen sich bei Kälte einfach nicht so wohl wie bei Wärme. Am liebsten mögen sie das feuchtwarme Klima, das vor allem bei Sonneneinstrahlung entsteht, wenn sich in den Tiegeln Kondenswasser absetzt. Aber auch bei 20 °C vermehren sich die Keime deutlich schneller als bei 10 °C. Zu kalt darf es aber auch nicht sein, da sonst der Inhalt kristallisiert. Deshalb sollte man seine Kosmetika bei Flügen auch besser mit ins Bordgepäck nehmen, da es im Gepäckraum oft Temperaturen von bis zu minus 40 °C ausgesetzt ist.<br/>Ich empfehle daher allgemein eine Lagerung bei ca. 10 °C, kollagenhaltige Produkte sollten jedoch eher bei ca. 12 °C gelagert werden. Vitaminhaltige Produkte bevorzugen dagegen eine Lagerung bei 5 bis 8 °C.</p><h3>Einfluss auf die Wirksamkeit</h3><p><strong>biszet:</strong> Welchen Einfluss auf die Wirksamkeit der Kosmetika hat die gekühlte Lagerung?</p><p><strong>Dr. A. Kruppa:</strong> Nun, zunächst einmal ist die Benutzung gekühlter Crèmes und Lotionen deutlich angenehmer als die Benutzung ungekühlter Produkte. Subjektiv wird ein Straffungsgefühl ausgelöst. Das liegt daran, dass sich die Blutgefäße durch die Kühle zunächst zusammenziehen und die Durchblutung verstärkt wird. Daraufhin weiten sich die Gefäße wieder und die Wirkstoffe können viel schneller und besser aufgenommen werden.</p><h3>Wärmeempfindliche Inhaltsstoffe</h3><p><strong>biszet:</strong> Manche Kosmetikhersteller empfehlen in ihren Beilagen sogar, dass die 'Crème nicht in den Händen angewärmt werden soll, damit die volle Wirksamkeit erhalten bleibt'. Welche Inhaltsstoffe reagieren denn so empfindlich?</p><p><strong>Dr. A. Kruppa:</strong> Das können ganz unterschiedliche Inhaltsstoffe sein. Viele Anti-Falten-Crèmes enthalten beispielsweise Vitamin C. Dies oxidiert sehr schnell und verliert damit seine Wirkung. Wie viele andere chemische Reaktionen wird dieser Prozess durch Wärmezufuhr noch beschleunigt. <br/><em>(Wie schnell diese chemischen Prozesse ablaufen, schildert <a href='/de/wissen/experten-interview-dr-stockebrand' style='text-decoration:underline;'>Apotheker Dr. Stockebrand im Detail</a>).</em></p><h3>Produkte ohne Konservierungsstoffe</h3><p><strong>biszet:</strong> Viele Männer und Frauen nutzen bereits Pflegeartikel ohne Konservierungsstoffe. Welche Vor- und Nachteile haben solche Produkte?</p><p><strong>Dr. A. Kruppa:</strong> Viele Patienten entwickeln auf Konservierungsstoffe, wie z.B. Parabene, so genannte Kontaktallergien. Es entstehen Ekzeme auf der Haut, die für die Betroffenen sehr unangenehm sein können. Crèmes ohne Konservierungsstoffe können jedoch schneller verderben, da die Keimbesiedlung einfacher erfolgen kann.</p><h3>Gefahren verdorbener Kosmetik</h3><p><strong>biszet:</strong> Was kann eine verdorbene Crème auf der Haut verursachen?</p><p><strong>Dr. A. Kruppa:</strong> Neben der fehlenden Wirksamkeit, können unterschiedliche Hautreizungen, wie z. B. Rötung, Brennen und Schuppen erfolgen. Man erkennt verdorbene Crèmes daran, dass sie ihren Geruch verändert (sie stinkt), aber auch ihre Konsistenz. Oft trennt sich der Inhalt in dick und dünn auf. Das sind Zeichen dafür, dass hier ungewollte chemische Reaktionen abgelaufen sind, die auf der Haut eine ganz andere Wirkung haben können, als die ursprünglich erwünschte.</p><p><strong>biszet:</strong> Herr Dr. Kruppa, vielen Dank für das freundliche und informative Interview.</p><p><strong>Dr. A. Kruppa:</strong> Gerne geschehen.</p>"
+    }
+  },
+  "ui": {
+    "knowledge_badge": "Wissen & Expertise",
+    "back_to_tech": "← Zurück zur Technik",
+    "meta_suffix": "biszet Wissen",
+    "knowledge_overview_title": "Unser Wissen für Ihre Haut",
+    "knowledge_overview_intro": "Fundiertes Expertenwissen, Interviews und Hintergründe zur Kühlung und Pflege.",
+    "read_article": "Artikel lesen →"
+  },
+  "faq": {
+    "title": "Häufige Fragen zum Kosmetik Kühlschrank",
+    "items": [
+      {
+        "question": "Reicht nicht auch der normale Kühlschrank für Kosmetik?",
+        "answer": "Ein Haushaltskühlschrank ist auf Lebensmittel ausgelegt – meist 4 bis 7 Grad. Für hochwertige Cremes ist das zu kalt. Öle können ausflocken, Emulsionen verlieren ihre Stabilität. Der <strong>biszet b7</strong> operiert in einem schonenden Spektrum (ca. 10–15 °C), das exakt auf die Struktur von Pflegeprodukten abgestimmt ist. Zudem verhindern Sie so, dass teure Seren den Geruch von Lebensmitteln annehmen.<br/><a href=\"/de/wissen/experten-interview-dr-kruppa\">Lesen Sie dazu das Interview mit Dr. Kruppa.</a>"
+      },
+      {
+        "question": "Welche Produkte profitieren von der Kühlung?",
+        "answer": "Vor allem <strong>organische Naturkosmetik</strong>, die oft auf starke Konservierungsstoffe verzichtet. Aber auch High-Performance-Wirkstoffe wie <strong>Vitamin C und Retinol</strong> sind extrem wärmeempfindlich. Die Kühlung verhindert Oxidation und sichert die Wirksamkeit. Ein positiver Nebeneffekt: Gekühlte Augenpads oder Ampullen verstärken den abschwellenden Effekt (De-Puffing) bei der Anwendung deutlich."
+      },
+      {
+        "question": "Kann man den biszet im Badezimmer betreiben?",
+        "answer": "Absolut. Das war die Grundvoraussetzung der Entwicklung. Anders als lackierte Blechgehäuse besteht der b7 aus pulverbeschichtetem <strong>Edelstahl</strong>. Weder hohe Luftfeuchtigkeit noch Spritzwasser im Spa-Bereich können ihm schaden. Er funktioniert sowohl als eleganter Solitär als auch fest eingebaut in der Wand (Einbau-Lösung)."
+      },
+      {
+        "question": "Wie laut ist der Kosmetik Kühlschrank im Betrieb?",
+        "answer": "Das Gerät ist für Ruhezonen wie Schlafzimmer und private Rückzugsorte konzipiert. Die Lärmentwicklung ist minimal. Es gibt kein typisches Kompressor-Schlagen oder Vibrationen, die Ihre Nachtruhe stören könnten. Diskretion und Ruhe stehen hier im Fokus."
+      },
+      {
+        "question": "Ist ein Kosmetik Kühlschrank hygienischer?",
+        "answer": "Eindeutig. Im feuchtwarmen Badezimmer vermehren sich Keime in angebrochenen Tiegeln rasant. Die kühle, trockene Lagerung im biszet hemmt das Bakterienwachstum drastisch. So bleibt Ihre Pflege bis zum letzten Tag so rein wie beim Öffnen – ein entscheidender Faktor für gesunde Haut."
+      }
+    ]
+  }
+}

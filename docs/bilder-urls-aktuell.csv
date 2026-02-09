@@ -1,0 +1,39 @@
+Seite,Pfad im Dictionary,Bild-URL,Mobile URL,Aktueller Alt-Text DE
+contact,meta.image,/images/schrank-offen.jpg,-,biszet kosmetik kühlschrank
+contactSuccess,meta.image,/images/schrank-offen.jpg,-,biszet kosmetik kühlschrank
+contactSuccess,modules.success,/images/B1-Animation.gif,-,Schrank Animation
+contactSuccess,modules.success.logos[0],/images/batches/biszet.png,-,biszet
+contactSuccess,modules.success.logos[1],/images/batches/Madeingermany.png,-,Made in Germany
+contactSuccess,modules.success.logos[2],/images/batches/AD_siegel.png,-,AD
+dataProtection,meta.image,/images/schrank-offen.jpg,-,biszet kosmetik kühlschrank
+home,meta.image,/images/schrank-offen.jpg,-,biszet kosmetik kühlschrank
+home,modules.carousel.items[0][0],/images/logos/Wallpaper.svg,-,Wallpaper Logo
+home,modules.carousel.items[0][1],/images/logos/AD.svg,-,AD Logo
+home,modules.carousel.items[0][2],/images/logos/Vogue.svg,-,Vogue Logo
+home,modules.carousel.items[1][0],/images/logos/house-and-garden.svg,-,House and Garden
+home,modules.carousel.items[1][1],/images/logos/Logo_BILD.svg,-,BILD
+home,modules.carousel.items[1][2],/images/logos/Elle_Decoration_regular_logo.svg,-,Elle Decoration
+home,modules.carousel.items[2][0],/images/logos/Myself-Logo.svg,-,Myself
+home,modules.carousel.items[2][1],/images/logos/Elle_logo.svg,-,Elle
+home,modules.carousel.items[2][2],/images/logos/AD.svg,-,Gulf Interiors Magazine
+home,modules.contactTeaser,/images/Biszet0060-2.jpg,-,Schrank Diagonal
+home,modules.editorialSplit,/images/B1-Animation.gif,-,Schrank Animation
+home,modules.editorialSplit.logos[0],/images/batches/biszet.png,-,biszet
+home,modules.editorialSplit.logos[1],/images/batches/Madeingermany.png,-,Made in Germany
+home,modules.editorialSplit.logos[2],/images/batches/AD_siegel.png,-,AD
+home,modules.featureShowcase,/images/Grafik_Zonen.svg,-,Zonen
+imprint,meta.image,/images/schrank-offen.jpg,-,biszet kosmetik kühlschrank
+story,meta.image,/images/schrank-offen.jpg,-,biszet kosmetik kühlschrank
+story,modules.carousel.items[0][0],/images/logos/LVMH.svg,-,LVMH Logo
+story,modules.carousel.items[0][1],/images/logos/Dior_Logo.svg,-,DIOR Logo
+story,modules.carousel.items[0][2],/images/logos/the-shard.svg,-,The Shard Logo
+story,modules.carousel.items[1][0],/images/logos/Jumeirah_logo.svg,-,Jumeirah_logo
+story,modules.carousel.items[1][1],/images/logos/Logo_RitzCarlton.svg,-,Ritz Carlton Logo
+story,modules.carousel.items[1][2],/images/logos/GrandHyatt_logo.svg,-,Park Hyatt Istanbul Logo
+story,modules.carousel.items[2][0],/images/logos/references_faehrhaus-sylt.png,-,Myself
+story,modules.carousel.items[2][1],/images/logos/references_budersand.png,-,Elle
+story,modules.carousel.items[2][2],/images/logos/references_bsc.png,-,Gulf Interiors Magazine
+technology,meta.image,/images/schrank-offen.jpg,-,biszet kosmetik kühlschrank
+technology,modules.editorialSplit,/images/Biszet0207.jpg,/images/Biszet0207-mobile.jpg,Schrank offen
+technology,modules.editorialSplit2,/images/Biszet0195-2.jpg,-,Schrank geschlossen
+technology,modules.featureShowcase,/images/Grafik_Cooler_neue Maße.svg,-,Zonen

@@ -1,0 +1,31 @@
+@import "bootstrap/scss/functions";
+@import "../styles/variables";
+@import "bootstrap/scss/mixins";
+
+
+.editorial__image_container {
+  position: relative;
+  height: 25vh
+}
+
+
+
+@include media-breakpoint-up(sm) {
+  .editorial__image_container {
+    height: 300px
+  }
+}
+
+
+
+@include media-breakpoint-up(md) {
+  .editorial__image_container {
+    height: 400px
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .editorial__image_container {
+    height: 500px
+  }
+}

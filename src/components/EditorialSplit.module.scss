@@ -1,0 +1,273 @@
+@import "bootstrap/scss/functions";
+@import "../styles/variables";
+@import "bootstrap/scss/mixins";
+
+.editorialSplit__imageContainer {
+  position: relative;
+  width: 100%;
+}
+
+// Desktop image - hidden on mobile (below md breakpoint) for regular variant
+.editorialSplit__image_desktop {
+  display: none;
+  
+  @include media-breakpoint-up(md) {
+    display: block !important;
+  }
+}
+
+// Mobile image - hidden on desktop (md breakpoint and up) for regular variant
+.editorialSplit__image_mobile {
+  display: block;
+  
+  @include media-breakpoint-up(md) {
+    display: none !important;
+  }
+}
+
+.editorialSplit__overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+  
+  // Only show overlay on desktop viewports (lg and up)
+  display: none;
+  
+  @include media-breakpoint-up(lg) {
+    display: block;
+  }
+}
+
+.editorialSplit__overlay_turkis {
+  background: linear-gradient(to left, $turkis 0%, $turkis calc(100% - 200px), transparent 100%);
+}
+
+.editorialSplit__overlay_secondary {
+  background: linear-gradient(to left, var(--bs-secondary) 0%, var(--bs-secondary) calc(100% - 300px), transparent 100%);
+}
+
+.editorialSplit__overlay_white {
+  background: linear-gradient(to left, $white 0%, $white calc(100% - 200px), transparent 100%);
+}
+
+// Background variant styles - full background image with text on left (like Stage)
+.editorialSplit__background {
+  position: relative;
+  width: 100%;
+  
+  // On mobile: stack image and text vertically
+  @include media-breakpoint-down(lg) {
+    height: auto;
+  }
+  
+  // On desktop: overlay text on image
+  @include media-breakpoint-up(lg) {
+    height: 100vh;
+    min-height: 600px;
+  }
+}
+
+.editorialSplit__backgroundImageContainer {
+  width: 100%;
+  z-index: 0;
+  
+  // On mobile: relative positioning for stacked layout
+  @include media-breakpoint-down(lg) {
+    position: relative;
+    height: 50vh;
+    min-height: 400px;
+  }
+  
+  // On desktop: absolute positioning for overlay
+  @include media-breakpoint-up(lg) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+  }
+}
+
+// Desktop image - hidden on mobile (below lg breakpoint)
+.editorialSplit__backgroundImage_desktop {
+  display: none;
+  
+  @include media-breakpoint-up(lg) {
+    display: block !important;
+  }
+}
+
+// Mobile image - hidden on desktop (lg breakpoint and up)
+.editorialSplit__backgroundImage_mobile {
+  display: block;
+  
+  @include media-breakpoint-up(lg) {
+    display: none !important;
+  }
+}
+
+.editorialSplit__backgroundContent {
+  z-index: 2;
+  
+  // On mobile: normal flow positioning (underneath image)
+  @include media-breakpoint-down(lg) {
+    position: relative;
+  }
+  
+  // On desktop: overlay positioning with flex centering
+  @include media-breakpoint-up(lg) {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  // Add glow effect for mobile views (similar to Stage component)  
+  & h1 {
+    @include media-breakpoint-down(lg) {
+      text-shadow: 0px 0px 30px white, 0px 0px 30px white;
+    }
+  }
+  
+  // Position text on the left side on desktop only
+  @include media-breakpoint-up(lg) {
+    .row {
+      width: 100%;
+    }
+    
+    .col-sm-12 {
+      max-width: 50%;
+    }
+  }
+}
+
+// Background overlay styles for text readability
+.editorialSplit__backgroundOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+  
+  // Only show overlay on desktop viewports (lg and up)
+  display: none;
+  
+  @include media-breakpoint-up(lg) {
+    display: block;
+  }
+}
+
+.editorialSplit__backgroundOverlay_turkis {
+  background: linear-gradient(to right, $turkis 0%, $turkis 75%, transparent 100%);
+}
+
+.editorialSplit__backgroundOverlay_secondary {
+  background: linear-gradient(to right, var(--bs-secondary) 0%, var(--bs-secondary) 75%, transparent 100%);
+}
+
+.editorialSplit__backgroundOverlay_white {
+  background: linear-gradient(to right, $white 0%, $white 75%, transparent 100%);
+}
+
+// GIF-specific styling for EditorialSplit
+.editorialSplit__gif {
+    // Desktop: contain to show full GIF, centered in 50% column
+    object-fit: contain !important;
+    object-position: center center !important;
+    
+    // Container should be 50% of viewport width, positioned on the right
+    // This assumes the parent container is set up as a flex or grid layout
+    width: 100% !important;
+    height: 100% !important;
+    
+    // For desktop screens where we want the 50% column approach
+    @include media-breakpoint-up(lg) {
+      // The parent container should handle the 50vw width
+      // GIF should fill that space and be centered
+      object-fit: contain !important;
+      object-position: 70% center !important;
+    }
+    
+    // Mobile: cover to fill container
+    @include media-breakpoint-down(lg) {
+      object-fit: cover !important;
+      object-position: center center !important;
+    }
+}
+
+// Container for GIF in 50% viewport width layout
+.editorialSplit__gifContainer {
+  // On desktop: take up 50% of viewport width, positioned on the right
+  @include media-breakpoint-up(lg) {
+    width: 60vw !important;
+    height: 100vh !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    overflow: hidden !important;
+    z-index: 0; // Behind the overlay and content
+  }
+  
+  // On mobile: full width, normal flow
+  @include media-breakpoint-down(lg) {
+    width: 100% !important;
+    height: 50vh !important;
+    min-height: 400px !important;
+    position: relative !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+}
+
+// Logo styling for background variant
+.editorialSplit__logos {
+  margin-top: 10rem;
+  
+  @include media-breakpoint-down(md) {
+    margin-top: 6rem;
+  }
+}
+
+.editorialSplit__logo {
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+  filter: brightness(0) invert(1); // Make logos white for better contrast on background
+  height: 30px !important; // Smaller height for mobile
+  width: auto !important; // Let width adjust to maintain aspect ratio
+  
+  // Larger height on medium devices and up
+  @include media-breakpoint-up(md) {
+    height: 50px !important;
+  }
+  
+  &:hover {
+    opacity: 1;
+  }
+  
+  // On light backgrounds, make logos darker
+  .editorialSplit__backgroundOverlay_white ~ .editorialSplit__backgroundContent & {
+    filter: brightness(0) invert(0);
+  }
+  
+  // Special handling for batch logos - they are typically designed to be visible on dark backgrounds
+  // Remove filter for better visibility
+  &[alt*="biszet"], &[alt*="Made in Germany"], &[alt*="AD"] {
+    filter: none;
+    opacity: 0.95;
+    
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+

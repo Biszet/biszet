@@ -1,0 +1,31 @@
+
+
+@import 'bootstrap/scss/functions';
+@import './variables';
+
+@import 'bootstrap/scss/maps';
+@import 'bootstrap/scss/mixins';
+@import 'bootstrap/scss/utilities';
+
+// Import Bootstrap utilities
+@import 'bootstrap/scss/bootstrap-utilities';
+
+// Import Bootstrap components
+@import 'bootstrap/scss/root';
+@import 'bootstrap/scss/reboot';
+@import 'bootstrap/scss/type';
+@import 'bootstrap/scss/grid';
+@import 'bootstrap/scss/containers';
+@import 'bootstrap/scss/forms';
+@import 'bootstrap/scss/tables';
+@import 'bootstrap/scss/nav';
+@import 'bootstrap/scss/navbar';
+@import 'bootstrap/scss/transitions';
+@import 'bootstrap/scss/carousel';
+
+
+@import './buttons';
+
+@import "type";
+@import "custom";
+
