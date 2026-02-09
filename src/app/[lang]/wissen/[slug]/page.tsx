@@ -63,24 +63,14 @@ export default async function Page({ params }: PageProps) {
     const a = article as any;
 
     return (
-        <article className="article-page py-5 mt-5">
+        <article className="article-page">
             <Container>
-                <Row className="mb-4">
-                    <Col>
-                        <Button
-                            variant="link"
-                            href={`/${params.lang}/${params.lang === 'de' ? 'wissen' : 'knowledge'}`}
-                            className="text-muted p-0 text-decoration-none"
-                        >
-                            {ui?.back_to_overview || (params.lang === 'de' ? 'Zurück zur Übersicht' : 'Back to overview')}
-                        </Button>
-                    </Col>
-                </Row>
 
                 <Row className="mb-5">
                     <Col lg={8}>
-                        <span className="badge bg-secondary mb-3">
-                            {ui?.knowledge_badge || 'Wissen & Expertise'}
+
+                        <span className="badge bg-secondary mb-3 text-uppercase" style={{letterSpacing: '2px'}}>
+                            {ui?.knowledge_badge || (params.lang === 'de' ? 'Wissen' : 'Knowledge')}
                         </span>
 
                         <h1 className="display-5 mb-3">{a.title}</h1>
@@ -89,7 +79,20 @@ export default async function Page({ params }: PageProps) {
                         <div className="text-muted mt-3">
                             <small>{a.date} • {a.author}</small>
                         </div>
+
                     </Col>
+
+                    <Col lg={4}>
+                        <Button
+                            variant="link"
+                            href={`/${params.lang}/${params.lang === 'de' ? 'wissen' : 'knowledge'}`}
+                            className="text-muted p-0 text-decoration-none btn-link-reverse"
+                            style={{ float: "right" }}
+                        >
+                            {ui?.back_to_overview || (params.lang === 'de' ? 'Zurück zur Übersicht' : 'Back to overview')}
+                        </Button>
+                    </Col>
+
                 </Row>
 
                 {a.image && (

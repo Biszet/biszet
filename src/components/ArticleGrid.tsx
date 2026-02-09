@@ -21,8 +21,8 @@ export const ArticleGrid = ({ articles, btnLabel }: ArticleGridProps) => {
         <Row className="g-4">
             {articles.map((article) => (
                 <Col key={article.slug} md={6} lg={4}>
-                    <Card className="h-100 shadow-sm border-0">
-                        {/* Bild Bereich */}
+                    <Card className="h-100 shadow border-0">
+
                         <div style={{
                             height: '240px',
                             backgroundColor: '#e9ecef',
@@ -31,7 +31,7 @@ export const ArticleGrid = ({ articles, btnLabel }: ArticleGridProps) => {
                             backgroundPosition: 'center'
                         }} />
 
-                        <Card.Body className="d-flex flex-column p-4">
+                        <Card.Body className="d-flex flex-column p-5">
                             <Card.Title as="h3" className="h5 mb-3">
                                 {article.title}
                             </Card.Title>

@@ -4,41 +4,44 @@
 
 // Custom background utility class for türkis color
 .bg-turkis {
-  background-color: $turkis !important;
+    background-color: $turkis !important;
 }
 
 .carousel-indicators {
-  margin-bottom: 0;
-  bottom: -3rem;
+    margin-bottom: 0;
+    bottom: -3rem;
 
-  [data-bs-target] {
-    border-radius: 50%;
-  }
+    [data-bs-target] {
+        border-radius: 50%;
+    }
 }
 
 .carousel-control-prev, .carousel-control-next {
-  background: none;
+    background: none;
 }
 
 cite {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .dropdown-menu {
-  padding-top: var(--biszet-nav-link-padding-y);
-  background: #FFF;
-  a {
-    padding: var(--biszet-nav-link-padding-y) var(--biszet-navbar-nav-link-padding-x);
-    text-decoration: none;
-    font-weight: var(--biszet-nav-link-font-weight);
-    color: var(--biszet-nav-link-color);
-    &:hover {
-      color: var(--biszet-nav-link-hover-color);
+    padding-top: var(--biszet-nav-link-padding-y);
+    background: #FFF;
+
+    a {
+        padding: var(--biszet-nav-link-padding-y) var(--biszet-navbar-nav-link-padding-x);
+        text-decoration: none;
+        font-weight: var(--biszet-nav-link-font-weight);
+        color: var(--biszet-nav-link-color);
+
+        &:hover {
+            color: var(--biszet-nav-link-hover-color);
+        }
     }
-  }
-  hr {
-    margin: 0.5rem 1rem;
-  }
+
+    hr {
+        margin: 0.5rem 1rem;
+    }
 }
 
 /* Spacing */
@@ -49,33 +52,61 @@ section.my-5 {
 
 /* FAQ Accordion */
 .accordion-header {
-  border: none;
-  border-bottom: 1px solid $border-color;
-  background: transparent;
+    border: none;
+    border-bottom: 1px solid $border-color;
+    background: transparent;
 }
+
 .accordion-button {
-  border: none;
-  padding: 0;
-  background: transparent;
+    border: none;
+    padding: 0;
+    background: transparent;
 }
 
 .accordion-body {
-  margin-bottom: 1.5em;
+    margin-bottom: 1.5em;
 }
 
 /* Redaktion */
 .article-content > h3 {
-  font-weight: 600;
+    font-weight: 600;
 }
 
 #faq-section a,
 .feature-showcase.bg-turkis a:not(.btn-link) {
-  font-weight: bold;
-  color: var(--biszet-body-color);
-  text-decoration: none !important;
-  border-bottom: 1px dotted var(--biszet-body-color);
-  &:hover {
-    opacity: .8;
-  }
+    font-weight: bold;
+    color: var(--biszet-body-color);
+    text-decoration: none !important;
+    border-bottom: 1px dotted var(--biszet-body-color);
+
+    &:hover {
+        opacity: .8;
+    }
 }
 
+
+.article-page,
+.article-overview {
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+}
+
+.badge {
+    padding: 5px 10px;
+}
+
+
+.btn-link-reverse:after {
+    content: none !important;
+}
+
+.btn-link.btn-link-reverse:before {
+    content: "";
+    display: inline-block;
+    background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI4LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkViZW5lXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA4Mi42IDI2LjQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDgyLjYgMjYuNDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLnN0MHtjbGlwLXBhdGg6dXJsKCNTVkdJRF8wMDAwMDAxOTY1NjAzMDgzMzg4MTMyMzg2MDAwMDAxNzc5ODQzMTAxMzUyNjM5NDc4Ml8pO2ZpbGw6bm9uZTtzdHJva2U6IzRBNTQ1QztzdHJva2Utd2lkdGg6MC4zNjc7fQo8L3N0eWxlPgo8Zz4KCTxkZWZzPgoJCTxyZWN0IGlkPSJTVkdJRF8xXyIgeD0iMTYuNyIgeT0iMTAuNCIgd2lkdGg9IjQwLjQiIGhlaWdodD0iNi41Ii8+Cgk8L2RlZnM+Cgk8Y2xpcFBhdGggaWQ9IlNWR0lEXzAwMDAwMDc5NDc5Nzk0Mjc5NjA2MjI5NTMwMDAwMDE3NDI0NDIyODgxMzUyODMyOTQ3XyI+CgkJPHVzZSB4bGluazpocmVmPSIjU1ZHSURfMV8iICBzdHlsZT0ib3ZlcmZsb3c6dmlzaWJsZTsiLz4KCTwvY2xpcFBhdGg+CgkKCQk8bGluZSBzdHlsZT0iY2xpcC1wYXRoOnVybCgjU1ZHSURfMDAwMDAwNzk0Nzk3OTQyNzk2MDYyMjk1MzAwMDAwMTc0MjQ0MjI4ODEzNTI4MzI5NDdfKTtmaWxsOm5vbmU7c3Ryb2tlOiM0QTU0NUM7c3Ryb2tlLXdpZHRoOjAuMzY3OyIgeDE9IjE2LjciIHkxPSIxMy43IiB4Mj0iNTYuOSIgeTI9IjEzLjciLz4KCQoJCTxwb2x5bGluZSBzdHlsZT0iY2xpcC1wYXRoOnVybCgjU1ZHSURfMDAwMDAwNzk0Nzk3OTQyNzk2MDYyMjk1MzAwMDAwMTc0MjQ0MjI4ODEzNTI4MzI5NDdfKTtmaWxsOm5vbmU7c3Ryb2tlOiM0QTU0NUM7c3Ryb2tlLXdpZHRoOjAuMzY3OyIgcG9pbnRzPSIKCQk1My42LDEwLjYgNTYuOSwxMy43IDUzLjYsMTYuNyAJIi8+CjwvZz4KPC9zdmc+Cg==");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    width: 75px;
+    height: 30px;
+    transform: rotate(180deg) translateY(-2px);
+}
