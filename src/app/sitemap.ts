@@ -1,54 +1,85 @@
 import { MetadataRoute } from 'next'
-import { getDictionary } from '@/get-dictionaries' // Pfad ggf. anpassen
+import { getDictionary } from '@/get-dictionaries'
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-
   const baseUrl = 'https://biszet.com';
 
-  // 2. Sprachen und Seiten definieren
-  const languages = ['de', 'en'];
+  // 1. Wir laden BEIDE Wörterbücher, um an die korrekten Slugs zu kommen
+  const dictDe = await getDictionary('de');
+  const dictEn = await getDictionary('en');
 
-  // Die statischen Pfade, die es gibt
-  // ('wissen' ist der Ordnername, daher auch im Englischen technisch '/en/wissen')
+  // 2. Statische Seiten (ohne 'wissen', das machen wir manuell)
   const staticRoutes = [
-    '',
+    '', // Home
     'story',
     'technology',
     'contact',
-    'wissen'
+    'imprint',
+    'data-protection'
   ];
 
-  // 3. Dynamische Artikel-Slugs holen
-  // Wir laden einmal das deutsche Wörterbuch, um die Keys (Slugs) zu bekommen.
-  // Da die Slugs in der JSON vermutlich gleich sind (Keys), reicht ein Dictionary.
-  const dict = await getDictionary('de');
-  const articles = (dict as any).articles;
-  const articleSlugs = Object.keys(articles);
-
-  // 4. Sitemap zusammenbauen
   let entries: MetadataRoute.Sitemap = [];
 
-  for (const lang of languages) {
-    // A) Statische Seiten hinzufügen
-    for (const route of staticRoutes) {
+  // --- A) Statische Seiten generieren ---
+  for (const route of staticRoutes) {
+    // Deutsch
+    entries.push({
+      url: `${baseUrl}/de${route ? `/${route}` : ''}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: route === '' ? 1.0 : 0.8,
+    });
+
+    // Englisch
+    entries.push({
+      url: `${baseUrl}/en${route ? `/${route}` : ''}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: route === '' ? 1.0 : 0.8,
+    });
+  }
+
+  // --- B) Die Wissens-Übersicht (Spezialfall wegen URL-Namen) ---
+  entries.push({
+    url: `${baseUrl}/de/wissen`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly',
+    priority: 0.9,
+  });
+  entries.push({
+    url: `${baseUrl}/en/knowledge`, // WICHTIG: Hier erzwingen wir "knowledge"
+    lastModified: new Date(),
+    changeFrequency: 'weekly',
+    priority: 0.9,
+  });
+
+  // --- C) Artikel DEUTSCH ---
+  // Wir iterieren über die Werte (Objects), nicht die Keys!
+  const articlesDe = (dictDe as any).articles || {};
+  Object.values(articlesDe).forEach((article: any) => {
+    if (article.slug) {
       entries.push({
-        url: `${baseUrl}/${lang}${route ? `/${route}` : ''}`,
+        url: `${baseUrl}/de/wissen/${article.slug}`,
         lastModified: new Date(),
         changeFrequency: 'monthly',
-        priority: route === '' ? 1.0 : 0.8, // Startseite ist am wichtigsten
-      });
-    }
-
-    // B) Artikel hinzufügen
-    for (const slug of articleSlugs) {
-      entries.push({
-        url: `${baseUrl}/${lang}/wissen/${slug}`,
-        lastModified: new Date(),
-        changeFrequency: 'weekly', // Artikel ändern sich evtl. öfter (oder sind neu)
         priority: 0.7,
       });
     }
-  }
+  });
+
+  // --- D) Artikel ENGLISCH ---
+  const articlesEn = (dictEn as any).articles || {};
+  Object.values(articlesEn).forEach((article: any) => {
+    if (article.slug) {
+      entries.push({
+        // WICHTIG: Pfad "knowledge" und englischer Slug aus der JSON
+        url: `${baseUrl}/en/knowledge/${article.slug}`,
+        lastModified: new Date(),
+        changeFrequency: 'monthly',
+        priority: 0.7,
+      });
+    }
+  });
 
   return entries;
 }

@@ -73,7 +73,8 @@ export default async function Page({ params }: PageProps) {
                             {ui?.knowledge_badge || (params.lang === 'de' ? 'Wissen' : 'Knowledge')}
                         </span>
 
-                        <h1 className="display-5 mb-3">{a.title}</h1>
+                        <h1 className="display-5 mt-3 mb-3">{a.title}</h1>
+                        <hr/>
                         <p className="lead text-muted">{a.subtitle}</p>
 
                         <div className="text-muted mt-3">

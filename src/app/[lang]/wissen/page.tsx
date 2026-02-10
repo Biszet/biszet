@@ -55,10 +55,10 @@ export default async function Page({ params }: PageProps) {
                             {ui?.knowledge_badge || (params.lang === 'de' ? 'Wissen' : 'Knowledge')}
                         </span>
 
-                        <h1 className="display-4 mb-3">
+                        <h1 className="display-4 mt-3 mb-3">
                             {ui?.knowledge_overview_title || "Unser Wissen"}
                         </h1>
-
+                        <hr/>
                         <p className="lead text-muted">
                             {ui?.knowledge_overview_intro || "Expertenwissen zur Lagerung von Kosmetik."}
                         </p>

@@ -1,40 +1,43 @@
-// app/lang/[lang]/page.tsx
-// This file acts as the entry point for a dynamic language route.
-
-import Stage from "@/components/Stage";
-import {getDictionary} from "@/get-dictionaries";
-import {LanguageChooser} from "@/components/LanguageChooser";
-import {Navigation} from "@/components/Navigation";
-import {Contact} from "@/components/Contact";
-import {getMetadata} from "@/utils/getMetadata";
-import {EditorialText} from "@/components/EditorialText";
+import { getDictionary } from "@/get-dictionaries";
+import { getMetadata } from "@/utils/getMetadata";
 import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import { Locale } from "@/i18n-config";
 
-// @ts-ignore
-export async function generateMetadata({params}) {
-    const {imprint: {meta}} = await getDictionary(params.lang);
-    return getMetadata(meta)
+// Interface für die params
+interface PageProps {
+    params: { lang: string }
 }
 
-// @ts-ignore
-export default async function Page({params}) {
+export async function generateMetadata({ params }: PageProps) {
+    const dict = await getDictionary(params.lang as Locale);
+    // Zugriff sicherstellen (mit Fallback, falls imprint noch nicht geladen ist)
+    const meta = (dict as any).imprint?.meta || {};
+    return getMetadata(meta);
+}
 
-    const {imprint: {modules: {imprint: content}}} = await getDictionary(params.lang);
+export default async function Page({ params }: PageProps) {
+    const dict = await getDictionary(params.lang as Locale);
+    
+    // Wir holen uns den HTML-String aus dem Feld 'content'
+    const moduleData = (dict as any).imprint?.modules?.imprint || {};
+    const contentHtml = moduleData.content || "";
 
     return (
-        <>
-            <EditorialText title={content.headline} variant={"subtle"}>
-                <h2>{content.editor}</h2>
-                <p dangerouslySetInnerHTML={{__html: content.editorAddress}}></p>
-                <h2>{content.legalHeadline}</h2>
-                <div dangerouslySetInnerHTML={{__html: content.legalText}}></div>
-                <h2>{content.dataHeadline}</h2>
-                <p dangerouslySetInnerHTML={{__html: content.dataText}}></p>
-                <h2>{content.liabilityHeadline}</h2>
-                <div dangerouslySetInnerHTML={{__html: content.liabilityText}}></div>
-                <h2>{content.copyrightHeadline}</h2>
-                <p dangerouslySetInnerHTML={{__html: content.copyrightText}}></p>
-            </EditorialText>
-        </>
+        <div className="py-5 mt-5">
+            <Container>
+                <Row className="justify-content-center">
+                    <Col lg={8}>
+                        {/* Hier rendern wir das komplette HTML aus der JSON.
+                           Die Klasse 'imprint-content' hilft dir, falls du später CSS-Anpassungen brauchst.
+                        */}
+                        <div 
+                            className="imprint-content" 
+                            dangerouslySetInnerHTML={{ __html: contentHtml }} 
+                        />
+                    </Col>
+                </Row>
+            </Container>
+        </div>
     );
 }

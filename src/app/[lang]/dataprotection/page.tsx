@@ -1,33 +1,42 @@
-// app/lang/[lang]/page.tsx
-// This file acts as the entry point for a dynamic language route.
-
-import {getDictionary} from "@/get-dictionaries";
-import {getMetadata} from "@/utils/getMetadata";
-import {EditorialText} from "@/components/EditorialText";
+import { getDictionary } from "@/get-dictionaries";
+import { getMetadata } from "@/utils/getMetadata";
 import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import { Locale } from "@/i18n-config";
 
-// @ts-ignore
-export async function generateMetadata({params}) {
-    const {dataProtection: {meta}} = await getDictionary(params.lang);
-    return getMetadata(meta)
+interface PageProps {
+    params: { lang: string }
 }
 
-// @ts-ignore
-export default async function Page({params}) {
+export async function generateMetadata({ params }: PageProps) {
+    const dict = await getDictionary(params.lang as Locale);
+    // Sicherer Zugriff mit Fallback
+    const meta = (dict as any).dataProtection?.meta || {};
+    return getMetadata(meta);
+}
+
+export default async function Page({ params }: PageProps) {
+    const dict = await getDictionary(params.lang as Locale);
     
-    const {dataProtection: {modules: {privacy}}} = await getDictionary(params.lang);
+    // Zugriff auf das neue 'content' Feld
+    const privacyModule = (dict as any).dataProtection?.modules?.privacy || {};
+    const contentHtml = privacyModule.content || "";
 
     return (
-        <>
-            <EditorialText title={privacy.headline} variant={"subtle"}>
-                <h2 >{privacy.usageHeadline}</h2>
-                <p dangerouslySetInnerHTML={{__html: privacy.usageText}}></p>
-                <h2 >{privacy.cookiesHeadline}</h2>
-                <p dangerouslySetInnerHTML={{__html: privacy.cookiesText}}></p>
-                <h2 >{privacy.rightHeadline}</h2>
-                <p dangerouslySetInnerHTML={{__html: privacy.rightText}}></p>
-
-            </EditorialText>
-        </>
+        <div className="py-5 mt-5">
+            <Container>
+                <Row className="justify-content-center">
+                    <Col lg={8}>
+                        {/* Wir rendern den kompletten HTML-String.
+                           Die Klasse 'privacy-content' erlaubt dir späteres Styling.
+                        */}
+                        <div 
+                            className="privacy-content" 
+                            dangerouslySetInnerHTML={{ __html: contentHtml }} 
+                        />
+                    </Col>
+                </Row>
+            </Container>
+        </div>
     );
 }
