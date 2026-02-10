@@ -1,4 +1,6 @@
 import '../../styles/globals.scss'
+// NEU: Import für Metadata Typ
+import type { Metadata } from 'next'
 
 import { Noto_Sans_Display, Noto_Serif, Noto_Serif_Display } from 'next/font/google'
 import { Navigation } from "@/components/Navigation";
@@ -33,6 +35,12 @@ const notoSansDisplay = Noto_Sans_Display({
     variable: '--biszet-font-sans-serif',
     display: 'swap'
 })
+
+export const metadata: Metadata = {
+    metadataBase: new URL('https://biszet.com'),
+    title: 'biszet | Der Luxus Kosmetik Kühlschrank',
+    description: 'Made in Germany.',
+}
 
 export async function generateStaticParams() {
     return [{ lang: 'de' }, { lang: 'en' }]
