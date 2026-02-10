@@ -172,7 +172,7 @@
         "shortText": "Nach Europäischen Richtlinien entwickelt und produziert in Deutschland",
         "imageSrc": "/images_de/biszet-b7-technische-zeichnung-abmessungen-masse.svg",
         "imageAlt": "Technische Zeichnung: Abmessungen und Einbaumaße des biszet b7",
-        "description": "<p>Der b7 von biszet wird komplett aus <strong>hochwertigem Edelstahl</strong> gefertigt – innen und außen. Die Tür besteht aus einer satinierten Isolierglasscheibe, gefasst von einem schmalen Edelstahlrahmen. Glas und Rahmen sind durch ein feines, von Hand eingelegtem Wildleder-Band getrennt.</p><h3>Die Besonderheit</h3><p>Die Tiefe von nur 25 Zentimetern ist eine <strong>technische Meisterleistung</strong> und verleiht „the fridge“ eine elegante Leichtigkeit – Ob als freistehende Skulptur oder als Design-Element integriert.</p><p>Gerne unterstützen wir Sie individuell bei Ihrer Projektplanung. Sprechen Sie uns an.</p>",
+        "description": "<p>Der b7 von biszet wird komplett aus <strong>hochwertigem Edelstahl</strong> gefertigt – innen und außen. Die Tür besteht aus einer satinierten Isolierglasscheibe, gefasst von einem schmalen Edelstahlrahmen. Glas und Rahmen sind durch ein feines, von Hand eingelegtem Wildleder-Band getrennt.</p><h3>Die Innovation: 25 cm Bautiefe</h3><p>Die Tiefe von nur 25 Zentimetern ist eine <strong>technische Meisterleistung</strong> und verleiht „the fridge“ eine elegante Leichtigkeit – Ob als freistehende Skulptur oder als Design-Element integriert.</p><p>Gerne unterstützen wir Sie individuell bei Ihrer Projektplanung. Sprechen Sie uns an.</p>",
         "ctaHref": "/de/contact",
         "ctaLabel": "Kontakt",
         "isHeading": true,
@@ -182,12 +182,11 @@
       },
       "editorialSplit": {
         "title": "Elegantes Design und präzise Technik",
-        "shortText": "biszet entdecken",
+        "shortText": "Qualität im Detail",
         "imageSrc": "/images_de/biszet-b7-kosmetikkuehlschrank-elegantes-design-made-in-germany.jpg",
         "imageSrcMobile": "/images_de/biszet-b7-kosmetikkuehlschrank-elegantes-design-made-in-germany-mobile.jpg",
         "imageAlt": "Innenraum des b7: Sandgestrahlte Glasböden und LED-Beleuchtung",
-        "description": "<p>Der b7 lässt keine Wünsche offen, sogar das Scharnier wurde speziell für den b7 entwickelt und fügt sich harmonisch in das <strong>elegante Gesamtdesign</strong> ein.</p><p>Die Glasböden sind sandstrahlmattiert, imprägniert und liegen auf filigranen Haltern. Eine sanfte LED-Beleuchtung lässt die edlen Kosmetika hinter satiniertem Glas hin durchschimmern.</p><p>Jeder Design-Schrank von biszet ist mit einem ergonomischen und formschönen Edelstahlgriff ausgestattet. Außerdem verfügt der b7 über ein dezentes Schloss, um „the fridge“ und den wertvollen Inhalt vor unbefugtem Zugriff zu verriegeln.</p>",
-        "ctaHref": "/downloads/biszet b7 - Bedienungsanleitung (2025).pdf",
+        "description": "<p>Der b7 lässt keine Wünsche offen, sogar das Scharnier wurde speziell für den b7 entwickelt und fügt sich harmonisch in das <strong>elegante Gesamtdesign</strong> ein.</p><h3 class=\"h5 mt-3 mb-3\">Interieur & Beleuchtung</h3><p>Die Glasböden sind sandstrahlmattiert, imprägniert und liegen auf filigranen Haltern. Eine sanfte LED-Beleuchtung lässt die edlen Kosmetika hinter satiniertem Glas hin durchschimmern.</p><h3 class=\"h5 mt-3 mb-3\">Griff & Sicherheit</h3><p>Jeder Design-Schrank von biszet ist mit einem ergonomischen und formschönen Edelstahlgriff ausgestattet. Außerdem verfügt der b7 über ein dezentes Schloss, um „the fridge“ und den wertvollen Inhalt vor unbefugtem Zugriff zu verriegeln.</p>",        "ctaHref": "/downloads/biszet b7 - Bedienungsanleitung (2025).pdf",
         "ctaLabel": "Aktuelle Bedienungsanleitung",
         "variant": "background",
         "overlayColor": "white"
@@ -305,6 +304,27 @@
         "ctaLabel": "Mehr über unsere Story erfahren",
         "variant": "secondary"
       }
+    },
+    "faq": {
+      "title": "Häufige Fragen zu Technik & Einbau",
+      "items": [
+        {
+          "question": "Was muss beim Wandeinbau beachtet werden?",
+          "answer": "Der b7 ist für den bündigen Einbau (25 cm Tiefe) konzipiert. Da der Wärmetauscher hinten liegt, ist eine ausreichende Belüftung entscheidend (Kamineffekt). Wir empfehlen einen Luftspalt von min. 200 cm² für Zu- und Abluft oder entsprechende Schattenfugen."
+        },
+        {
+          "question": "Können Kosmetikprodukte durch zu starke Kühlung Schaden nehmen?",
+          "answer": "Ja, in herkömmlichen Kühlschränken (4 °C) können Emulsionen ausflocken oder Öle kristallisieren. Der b7 verhindert dies durch seine 3 Klimazonen (8–12 °C). Dieser Bereich ist speziell auf die Stabilität von Kosmetika abgestimmt und verhindert Frostschäden."
+        },
+        {
+          "question": "Kann ein Kosmetik-Kühlschrank Schimmel oder Feuchtigkeit verursachen?",
+          "answer": "Billige Geräte oft ja, der biszet b7 nein. Durch die thermische Trennung (Wildleder-Band) zwischen Innenraum und Außenrahmen wird Kondenswasser an der Front verhindert. Die Feuchtigkeit im Innenraum wird automatisch in eine Verdunstungsschale abgeleitet."
+        },
+        {
+          "question": "Verbraucht der b7 viel Strom?",
+          "answer": "Nein. Dank des hocheffizienten SECOP-Kompressors und der massiven Isolierung liegt die Leistungsaufnahme im Eco-Betrieb bei nur ca. 35 Watt. Das ist vergleichbar mit einer schwachen Glühbirne."
+        }
+      ]
     }
   },
   "story": {
@@ -609,7 +629,7 @@
       },
       {
         "question": "Kann man den biszet im Badezimmer betreiben?",
-        "answer": "Absolut. Das war die Grundvoraussetzung der Entwicklung. Anders als lackierte Blechgehäuse besteht der b7 aus pulverbeschichtetem <strong>Edelstahl</strong>. Weder hohe Luftfeuchtigkeit noch Spritzwasser im Spa-Bereich können ihm schaden. Er funktioniert sowohl als eleganter Solitär als auch fest eingebaut in der Wand (Einbau-Lösung)."
+        "answer": "Absolut. Das war die Grundvoraussetzung der Entwicklung. Der b7 besteht aus pulverbeschichtetem <strong>Edelstahl</strong>. Weder hohe Luftfeuchtigkeit noch Spritzwasser im Spa-Bereich können ihm schaden. Er funktioniert sowohl als eleganter Solitär als auch fest eingebaut in der Wand (Einbau-Lösung)."
       },
       {
         "question": "Wie laut ist der Kosmetik Kühlschrank im Betrieb?",

@@ -172,7 +172,7 @@
         "shortText": "Developed according to European guidelines and produced in Germany",
         "imageSrc": "/images_en/biszet-b7-technical-drawing-dimensions.svg",
         "imageAlt": "Technical drawing: Dimensions and installation dimensions of the biszet b7",
-        "description": "<p>The b7 from biszet is made entirely of <strong>high-quality stainless steel</strong> – inside and out. The door consists of a satin-finished insulating glass pane, framed by a narrow stainless steel frame. Glass and frame are separated by a fine, hand-inlaid suede strip.</p><h3>The Special Feature</h3><p>The depth of only 25 centimeters is a <strong>technical masterpiece</strong> and gives “the fridge” an elegant lightness – whether as a free-standing sculpture or integrated as a design element.</p><p>We are happy to support you individually with your project planning. Contact us.</p>",
+        "description": "<p>The b7 from biszet is made entirely of <strong>high-quality stainless steel</strong> – inside and out. The door consists of a satin-finished insulating glass pane, framed by a narrow stainless steel frame. Glass and frame are separated by a fine, hand-inlaid suede strip.</p><h3>Innovation: 25 cm depth</h3><p>The depth of only 25 centimeters is a <strong>technical masterpiece</strong> and gives “the fridge” an elegant lightness – whether as a free-standing sculpture or integrated as a design element.</p><p>We are happy to support you individually with your project planning. Contact us.</p>",
         "ctaHref": "/en/contact",
         "ctaLabel": "Contact",
         "isHeading": true,
@@ -182,12 +182,11 @@
       },
       "editorialSplit": {
         "title": "Elegant Design and Precise Technology",
-        "shortText": "Discover biszet",
+        "shortText": "Quality in Detail",
         "imageSrc": "/images_en/biszet-b7-cosmetics-fridge-elegant-design-made-in-germany.jpg",
         "imageSrcMobile": "/images_en/biszet-b7-cosmetics-fridge-elegant-design-made-in-germany-mobile.jpg",
         "imageAlt": "Interior of the b7: Sandblasted glass shelves and LED lighting",
-        "description": "<p>The b7 leaves nothing to be desired, even the hinge was specially developed for the b7 and blends harmoniously into the <strong>elegant overall design</strong>.</p><p>The glass shelves are sandblasted, impregnated and rest on filigree holders. Soft LED lighting lets the noble cosmetics shimmer through satin-finished glass.</p><p>Every design cabinet from biszet is equipped with an ergonomic and beautifully shaped stainless steel handle. In addition, the b7 has a discreet lock to lock “the fridge” and its valuable contents against unauthorized access.</p>",
-        "ctaHref": "/downloads/biszet_manual_english.pdf",
+        "description": "<p>The b7 leaves nothing to be desired, even the hinge was specially developed for the b7 and blends harmoniously into the <strong>elegant overall design</strong>.</p><h3 class=\"h5 mt-3 mb-3\">Interior & Lighting</h3><p>The glass shelves are sandblasted, impregnated and rest on filigree holders. Soft LED lighting lets the noble cosmetics shimmer through satin-finished glass.</p><h3 class=\"h5 mt-3 mb-3\">Handle & Security</h3><p>Every design cabinet from biszet is equipped with an ergonomic and beautifully shaped stainless steel handle. In addition, the b7 has a discreet lock to lock “the fridge” and its valuable contents against unauthorized access.</p>",        "ctaHref": "/downloads/biszet_manual_english.pdf",
         "ctaLabel": "Current User Manual",
         "variant": "background",
         "overlayColor": "white"
@@ -305,6 +304,27 @@
         "ctaLabel": "Learn more about our story",
         "variant": "secondary"
       }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions about Technology & Installation",
+      "items": [
+        {
+          "question": "What must be observed during wall installation?",
+          "answer": "The b7 is designed for flush installation (25 cm depth). Since the heat exchanger is at the back, sufficient ventilation is crucial (chimney effect). We recommend an air gap of min. 200 cm² for inlet and outlet air or corresponding shadow gaps."
+        },
+        {
+          "question": "Can cosmetic products be damaged by excessive cooling?",
+          "answer": "Yes, in conventional refrigerators (4 °C), emulsions can flocculate or oils crystallize. The b7 prevents this with its 3 climate zones (8–12 °C). This range is specifically tuned to the stability of cosmetics and prevents frost damage."
+        },
+        {
+          "question": "Can a cosmetics refrigerator cause mold or moisture?",
+          "answer": "Cheap devices often yes, the biszet b7 no. Due to the thermal separation (suede strip) between the interior and the outer frame, condensation on the front is prevented. The moisture in the interior is automatically drained into an evaporation tray."
+        },
+        {
+          "question": "Does the b7 consume a lot of electricity?",
+          "answer": "No. Thanks to the highly efficient SECOP compressor and massive insulation, power consumption in Eco mode is only approx. 35 watts. That is comparable to a weak light bulb."
+        }
+      ]
     }
   },
   "story": {
@@ -608,7 +628,7 @@
       },
       {
         "question": "Can the biszet be placed in the bathroom?",
-        "answer": "Yes, that was the basic requirement of the development. Unlike cheap plastic devices, the biszet b7 consists of powder-coated <strong>stainless steel</strong>. Neither high humidity nor splash water in the spa area can harm it. It functions both as an elegant solitaire and built into bathroom furniture."
+        "answer": "Yes, that was the basic requirement of the development. The biszet b7 consists of powder-coated <strong>stainless steel</strong>. Neither high humidity nor splash water in the spa area can harm it. It functions both as an elegant solitaire and built into bathroom furniture."
       },
       {
         "question": "How loud is the cosmetics refrigerator?",
