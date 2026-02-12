@@ -73,12 +73,12 @@ section.my-5 {
 }
 
 #faq-section a,
+.article-page a,
 .feature-showcase.bg-turkis a:not(.btn-link) {
     font-weight: bold;
     color: var(--biszet-body-color);
     text-decoration: none !important;
     border-bottom: 1px dotted var(--biszet-body-color);
-
     &:hover {
         opacity: .8;
     }

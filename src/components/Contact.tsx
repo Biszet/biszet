@@ -17,9 +17,7 @@ export type ContactProps = {
     formFieldEmailLabel: string,
     formFieldEmailPlaceholder: string,
     formFieldEmailError: string,
-    formFieldPhoneLabel: string,
-    formFieldPhonePlaceholder: string,
-    formFieldPhoneError: string,
+    // Telefon-Props entfernt
     formFieldMessageLabel: string,
     formFieldMessagePlaceholder: string,
     formFieldMessageError: string,
@@ -41,7 +39,7 @@ const encode = (data: any) => {
 export const Contact: React.FC<ContactProps> = (props) => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
-    const [phone, setPhone] = useState('');
+    // const [phone, setPhone] = useState(''); // Entfernt
     const [aware, setAware] = useState('');
     const [message, setMessage] = useState('');
     const [consent, setConsent] = useState(false);
@@ -54,12 +52,10 @@ export const Contact: React.FC<ContactProps> = (props) => {
         formSubmitLabel,
         formFieldEmailLabel,
         formFieldEmailPlaceholder,
-        formFieldPhoneLabel,
-        formFieldPhonePlaceholder,
         formFieldAwareLabel,
         formFieldAwarePlaceholder,
         formFieldEmailError,
-        formFieldPhoneError,
+        // Phone Props entfernt
         formFieldNameLabel,
         formFieldNamePlaceholder,
         formFieldNameError,
@@ -81,7 +77,8 @@ export const Contact: React.FC<ContactProps> = (props) => {
         if (form.checkValidity() === false) {
             event.stopPropagation();
         } else {
-            const data = {name, email, message, phone, aware, consent: consent ? 'true' : 'false'}
+            // Phone aus dem Daten-Objekt entfernt
+            const data = {name, email, message, aware, consent: consent ? 'true' : 'false'}
             fetch("/", {
                 method: "POST",
                 headers: {"Content-Type": "application/x-www-form-urlencoded"},
@@ -135,15 +132,9 @@ export const Contact: React.FC<ContactProps> = (props) => {
                                     {formFieldEmailError}
                                 </Form.Control.Feedback>
                             </Form.Group>
-                            <Form.Group className="mb-3" controlId="formPhone">
-                                <Form.Label>{formFieldPhoneLabel}</Form.Label>
-                                <Form.Control type="phone" placeholder={formFieldPhonePlaceholder} name="phone"
-                                              required
-                                              onChange={e => setPhone(e.target.value)}/>
-                                <Form.Control.Feedback type="invalid">
-                                    {formFieldPhoneError}
-                                </Form.Control.Feedback>
-                            </Form.Group>
+
+                            {/* Telefon Form.Group wurde hier entfernt */}
+
                             <Form.Group className="mb-3" controlId="formAware">
                                 <Form.Label>{formFieldAwareLabel}</Form.Label>
                                 <Form.Control type="text" placeholder={formFieldAwarePlaceholder} name="aware"

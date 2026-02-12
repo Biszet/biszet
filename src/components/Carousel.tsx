@@ -33,7 +33,10 @@ const MultiItemCarousel: React.FC<MultiItemCarouselProps> = ({title, items, show
             <Container fluid className={classNames(styles.carousel)}>
                 {title ? <Row className="justify-content-center mb-5">
                     <Col>
-                        <h2 className="text-center">{title}</h2>
+                        <h2
+                            className="text-center"
+                            dangerouslySetInnerHTML={{ __html: title }}
+                        />
                     </Col>
                 </Row> : ''}
                 <Carousel interval={5000}>
