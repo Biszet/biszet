@@ -172,7 +172,7 @@
         "shortText": "Nach Europäischen Richtlinien entwickelt und produziert in Deutschland",
         "imageSrc": "/images_de/biszet-b7-technische-zeichnung-abmessungen-masse.svg",
         "imageAlt": "Technische Zeichnung: Abmessungen und Einbaumaße des biszet b7",
-        "description": "<p>Der b7 von biszet wird komplett aus <strong>hochwertigem Edelstahl</strong> gefertigt – innen und außen. Die Tür besteht aus einer satinierten Isolierglasscheibe, gefasst von einem schmalen Edelstahlrahmen. Glas und Rahmen sind durch ein feines, von Hand eingelegtem Wildleder-Band getrennt.</p><h3>Die Innovation: 25 cm Bautiefe</h3><p>Die Tiefe von nur 25 Zentimetern ist eine <strong>technische Meisterleistung</strong> und verleiht „the fridge“ eine elegante Leichtigkeit – Ob als freistehende Skulptur oder als Design-Element integriert.</p><p>Gerne unterstützen wir Sie individuell bei Ihrer Projektplanung. Sprechen Sie uns an.</p>",
+        "description": "<p>Der b7 von biszet wird komplett aus <strong>hochwertigem Edelstahl</strong> gefertigt – innen und außen. Die Tür besteht aus einer satinierten Isolierglasscheibe, gefasst von einem schmalen Edelstahlrahmen. Glas und Rahmen sind durch ein feines, von Hand eingelegtem Wildleder-Band getrennt.</p><h3>Die Innovation: schlanke 25 cm Bautiefe</h3><p>Die Tiefe von nur 25 Zentimetern ist eine <strong>technische Meisterleistung</strong> und verleiht „the fridge“ eine elegante Leichtigkeit – Ob als freistehende Skulptur oder als Design-Element integriert.</p><p>Gerne unterstützen wir Sie individuell bei Ihrer Projektplanung. Sprechen Sie uns an.</p>",
         "ctaHref": "/de/contact",
         "ctaLabel": "Kontakt",
         "isHeading": true,
@@ -182,11 +182,12 @@
       },
       "editorialSplit": {
         "title": "Elegantes Design und präzise Technik",
-        "shortText": "Qualität im Detail",
+        "shortText": "Biszet B7: Qualität im Detail",
         "imageSrc": "/images_de/biszet-b7-kosmetikkuehlschrank-elegantes-design-made-in-germany.jpg",
         "imageSrcMobile": "/images_de/biszet-b7-kosmetikkuehlschrank-elegantes-design-made-in-germany-mobile.jpg",
         "imageAlt": "Innenraum des b7: Sandgestrahlte Glasböden und LED-Beleuchtung",
-        "description": "<p>Der b7 lässt keine Wünsche offen, sogar das Scharnier wurde speziell für den b7 entwickelt und fügt sich harmonisch in das <strong>elegante Gesamtdesign</strong> ein.</p><h3 class=\"h5 mt-3 mb-3\">Interieur & Beleuchtung</h3><p>Die Glasböden sind sandstrahlmattiert, imprägniert und liegen auf filigranen Haltern. Eine sanfte LED-Beleuchtung lässt die edlen Kosmetika hinter satiniertem Glas hin durchschimmern.</p><h3 class=\"h5 mt-3 mb-3\">Griff & Sicherheit</h3><p>Jeder Design-Schrank von biszet ist mit einem ergonomischen und formschönen Edelstahlgriff ausgestattet. Außerdem verfügt der b7 über ein dezentes Schloss, um „the fridge“ und den wertvollen Inhalt vor unbefugtem Zugriff zu verriegeln.</p>",        "ctaHref": "/downloads/biszet b7 - Bedienungsanleitung (2025).pdf",
+        "description": "<p>Der b7 lässt keine Wünsche offen, sogar das Scharnier wurde speziell für den b7 entwickelt und fügt sich harmonisch in das <strong>elegante Gesamtdesign</strong> ein.</p><h3 class=\"mt-3 mb-3\">Interieur & Beleuchtung</h3><p>Die Glasböden sind sandstrahlmattiert, imprägniert und liegen auf filigranen Haltern. Eine sanfte LED-Beleuchtung lässt die edlen Kosmetika hinter satiniertem Glas hin durchschimmern.</p><h3 class=\"mt-3 mb-3\">Griff & Sicherheit</h3><p>Jeder Design-Schrank von biszet ist mit einem ergonomischen und formschönen Edelstahlgriff ausgestattet. Außerdem verfügt der b7 über ein dezentes Schloss, um „the fridge“ und den wertvollen Inhalt vor unbefugtem Zugriff zu verriegeln.</p>",
+        "ctaHref": "/downloads/biszet b7 - Bedienungsanleitung (2025).pdf",
         "ctaLabel": "Aktuelle Bedienungsanleitung",
         "variant": "background",
         "overlayColor": "white"
@@ -309,12 +310,24 @@
       "title": "Häufige Fragen zu Technik & Einbau",
       "items": [
         {
-          "question": "Können Kosmetikprodukte durch zu starke Kühlung Schaden nehmen?",
-          "answer": "Ja, in herkömmlichen Kühlschränken (4 °C) können Emulsionen ausflocken oder Öle kristallisieren. Der b7 verhindert dies durch seine 3 Klimazonen (8–12 °C). Dieser Bereich ist speziell auf die Stabilität von Kosmetika abgestimmt und verhindert Frostschäden."
+          "question": "Gibt es Besonderheiten beim Aufbau?",
+          "answer": "Nein, die Installation ist bewusst einfach gehalten. Der b7 wird steckerfertig geliefert und benötigt keine komplexen Anschlüsse."
+        },
+        {
+          "question": "Kann der b7 direkt an die Wand gehängt werden?",
+          "answer": "Ja, der b7 kann <strong>ohne Abstand</strong> direkt an der Wand montiert werden. Durch die geringe Tiefe von nur 25 cm wirkt er dabei sehr elegant. Auf Wunsch liefern wir eine passende <strong>Bohrschablone</strong> mit, um die Montage zu erleichtern."
+        },
+        {
+          "question": "Was muss beim Wandeinbau beachtet werden?",
+          "answer": "Dank seiner <strong>Tiefe von nur 25 Zentimetern</strong> ist der b7 eine technische Meisterleistung, die sich perfekt als Design-Element bündig in Nischen integrieren lässt. Er ragt nicht in den Raum hinein."
+        },
+        {
+          "question": "Kann Kondenswasser an meine Produkte gelangen?",
+          "answer": "Nein. Die spezielle Technik des b7 verhindert, dass sich Feuchtigkeit im Innenraum an den Produkten niederschlägt. Ihre Kosmetik bleibt trocken und geschützt."
         },
         {
           "question": "Verbraucht der b7 viel Strom?",
-          "answer": "Nein. Dank des hocheffizienten SECOP-Kompressors und der massiven Isolierung liegt die Leistungsaufnahme im Eco-Betrieb bei nur ca. 35 Watt. Das ist vergleichbar mit einer schwachen Glühbirne."
+          "answer": "Nein. Trotz der hohen Kühlleistung für drei Klimazonen arbeitet der b7 sehr effizient. Die Leistungsaufnahme liegt im Betrieb bei lediglich <strong>ca. 35 Watt</strong>."
         }
       ]
     }
@@ -624,11 +637,19 @@
     "title": "Häufige Fragen zum Kosmetik Kühlschrank",
     "items": [
       {
+        "question": "Wieso sollte man Kosmetika kühlen?",
+        "answer": "Wärme und Feuchtigkeit im Badezimmer beschleunigen den Verfall kosmetischer Produkte. Kühlung schützt empfindliche Wirkstoffe wie **Vitamin C und Retinol** vor Oxidation und Wirkungsverlust. Zudem hemmt die Kälte das Bakterienwachstum in angebrochenen Tiegeln massiv – besonders wichtig bei Naturkosmetik. Ein weiterer Vorteil: Der Kälte-Reiz wirkt beim Auftragen sofort abschwellend (De-Puffing-Effekt)."
+      },
+      {
+        "question": "Welcher ist der beste Kosmetikkühlschrank?",
+        "answer": "<p>Das hängt von Ihren Ansprüchen an Hygiene und Haltbarkeit ab. Experten definieren den 'besten' Standard über drei Faktoren:</p><ul><li><strong>Material:</strong> Edelstahl ist hygienischer als Kunststoff.</li><li><strong>Technik:</strong> Er darf kein Kondenswasser im Innenraum bilden.</li><li><strong>Temperatur:</strong> Er muss verschiedene Klimazonen (4–12°C) bieten, da Vitamine andere Temperaturen benötigen als Kollagen.</li></ul>Der <strong>biszet b7</strong> wurde als einziges Gerät weltweit entwickelt, um exakt diese professionellen Kriterien in einem Design-Objekt zu vereinen."
+      },
+      {
         "question": "Reicht nicht auch der normale Kühlschrank für Kosmetik?",
         "answer": "Ein Haushaltskühlschrank in der Küche ist auf Lebensmittel ausgelegt – meist 4 bis 7 Grad. Für hochwertige Cremes ist das zu kalt. Öle können ausflocken, Emulsionen verlieren ihre Stabilität. Der <strong>biszet b7</strong> operiert in einem schonenden Spektrum (ca. 4–12 °C) auf 3 Ebenen, das exakt auf die Struktur von Pflegeprodukten abgestimmt ist. Zudem verhindern Sie so, dass teure Seren den Geruch von Lebensmitteln annehmen.<br/><a href=\"/de/wissen/experten-interview-dr-kruppa\">Lesen Sie dazu das Interview mit Dr. Kruppa.</a>"
       },
       {
-        "question": "Welche Produkte profitieren von der Kühlung?",
+        "question": "Welche Produkte profitieren noch von der Kühlung?",
         "answer": "Vor allem <strong>organische Naturkosmetik</strong>, die oft auf starke Konservierungsstoffe verzichtet. Aber auch High-Performance-Wirkstoffe wie <strong>Vitamin C und Retinol</strong> sind extrem wärmeempfindlich. Die Kühlung verhindert Oxidation und sichert die Wirksamkeit. Ein positiver Nebeneffekt: Gekühlte Augenpads oder Ampullen verstärken den abschwellenden Effekt (De-Puffing) bei der Anwendung deutlich."
       },
       {

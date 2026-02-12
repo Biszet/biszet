@@ -172,7 +172,7 @@
         "shortText": "Developed according to European guidelines and produced in Germany",
         "imageSrc": "/images_en/biszet-b7-technical-drawing-dimensions.svg",
         "imageAlt": "Technical drawing: Dimensions and installation dimensions of the biszet b7",
-        "description": "<p>The b7 from biszet is made entirely of <strong>high-quality stainless steel</strong> – inside and out. The door consists of a satin-finished insulating glass pane, framed by a narrow stainless steel frame. Glass and frame are separated by a fine, hand-inlaid suede strip.</p><h3>Innovation: 25 cm depth</h3><p>The depth of only 25 centimeters is a <strong>technical masterpiece</strong> and gives “the fridge” an elegant lightness – whether as a free-standing sculpture or integrated as a design element.</p><p>We are happy to support you individually with your project planning. Contact us.</p>",
+        "description": "<p>The b7 from biszet is made entirely of <strong>high-quality stainless steel</strong> – inside and out. The door consists of a satin-finished insulating glass pane, framed by a narrow stainless steel frame. Glass and frame are separated by a fine, hand-inlaid suede strip.</p><h3>Innovation: Sleek 25 cm depth</h3><p>The depth of only 25 centimeters is a <strong>technical masterpiece</strong> and gives “the fridge” an elegant lightness – whether as a free-standing sculpture or integrated as a design element.</p><p>We are happy to support you individually with your project planning. Contact us.</p>",
         "ctaHref": "/en/contact",
         "ctaLabel": "Contact",
         "isHeading": true,
@@ -182,11 +182,12 @@
       },
       "editorialSplit": {
         "title": "Elegant Design and Precise Technology",
-        "shortText": "Quality in Detail",
+        "shortText": "Biszet B7: Quality in Detail",
         "imageSrc": "/images_en/biszet-b7-cosmetics-fridge-elegant-design-made-in-germany.jpg",
         "imageSrcMobile": "/images_en/biszet-b7-cosmetics-fridge-elegant-design-made-in-germany-mobile.jpg",
         "imageAlt": "Interior of the b7: Sandblasted glass shelves and LED lighting",
-        "description": "<p>The b7 leaves nothing to be desired, even the hinge was specially developed for the b7 and blends harmoniously into the <strong>elegant overall design</strong>.</p><h3 class=\"h5 mt-3 mb-3\">Interior & Lighting</h3><p>The glass shelves are sandblasted, impregnated and rest on filigree holders. Soft LED lighting lets the noble cosmetics shimmer through satin-finished glass.</p><h3 class=\"h5 mt-3 mb-3\">Handle & Security</h3><p>Every design cabinet from biszet is equipped with an ergonomic and beautifully shaped stainless steel handle. In addition, the b7 has a discreet lock to lock “the fridge” and its valuable contents against unauthorized access.</p>",        "ctaHref": "/downloads/biszet_manual_english.pdf",
+        "description": "<p>The b7 leaves nothing to be desired, even the hinge was specially developed for the b7 and blends harmoniously into the <strong>elegant overall design</strong>.</p><h3 class=\"mt-3 mb-3\">Interior & Lighting</h3><p>The glass shelves are sandblasted, impregnated and rest on filigree holders. Soft LED lighting lets the noble cosmetics shimmer through satin-finished glass.</p><h3 class=\"mt-3 mb-3\">Handle & Security</h3><p>Every design cabinet from biszet is equipped with an ergonomic and beautifully shaped stainless steel handle. In addition, the b7 has a discreet lock to lock “the fridge” and its valuable contents against unauthorized access.</p>",
+        "ctaHref": "/downloads/biszet_manual_english.pdf",
         "ctaLabel": "Current User Manual",
         "variant": "background",
         "overlayColor": "white"
@@ -309,12 +310,24 @@
       "title": "Frequently Asked Questions about Technology & Installation",
       "items": [
         {
-          "question": "Can cosmetic products be damaged by excessive cooling?",
-          "answer": "Yes, in conventional refrigerators (4 °C), emulsions can flocculate or oils crystallize. The b7 prevents this with its 3 climate zones (8–12 °C). This range is specifically tuned to the stability of cosmetics and prevents frost damage."
+          "question": "Are there any special requirements for setup?",
+          "answer": "No, the installation is intentionally kept simple. The b7 is delivered ready to plug in and requires no complex connections."
+        },
+        {
+          "question": "Can the b7 be hung directly on the wall?",
+          "answer": "Yes, the b7 can be mounted directly on the wall <strong>without a gap</strong>. Due to the shallow depth of only 25 cm, it looks very elegant. Upon request, we supply a matching <strong>drilling template</strong> to facilitate assembly."
+        },
+        {
+          "question": "What must be observed during wall installation?",
+          "answer": "Thanks to its <strong>depth of only 25 centimeters</strong>, the b7 is a technical masterpiece that can be perfectly integrated flush into niches as a design element. It does not protrude into the room."
+        },
+        {
+          "question": "Can condensation reach my products?",
+          "answer": "No. The special technology of the b7 prevents moisture from settling on the products inside. Your cosmetics remain dry and protected."
         },
         {
           "question": "Does the b7 consume a lot of electricity?",
-          "answer": "No. Thanks to the highly efficient SECOP compressor and massive insulation, power consumption in Eco mode is only approx. 35 watts. That is comparable to a weak light bulb."
+          "answer": "No. Despite the high cooling capacity for three climate zones, the b7 operates very efficiently. The power consumption during operation is only <strong>approx. 35 watts</strong>."
         }
       ]
     }
@@ -623,8 +636,17 @@
     "title": "Frequently Asked Questions",
     "items": [
       {
+        "question": "Why should cosmetics be cooled?",
+        "answer": "Heat and humidity in the bathroom accelerate the decay of your products. Cooling protects sensitive active ingredients such as **Vitamin C and Retinol** from oxidation and loss of effectiveness. [cite_start]In addition, the cold massively inhibits bacterial growth in opened jars – particularly important for natural cosmetics[cite: 6, 7]. Another benefit: The cold stimulus has an immediate de-puffing effect when applied."
+      },
+      {
+        "question": "Which is the best cosmetics fridge?",
+        "answer": "<p>That depends on your requirements for hygiene and shelf life. Experts define the 'best' standard by three factors:</p><ul><li><strong>Material:</strong> Stainless steel is more hygienic than plastic.</li><li><strong>Technology:</strong> It must prevent condensation inside.</li><li><strong>Temperature:</strong> It must offer different climate zones (4–12°C), as vitamins require different temperatures than collagen.</li></ul>The <strong>biszet b7</strong> is the only device worldwide developed to combine exactly these professional criteria in one design object."
+      },
+      {
         "question": "Why isn't a normal fridge sufficient for cosmetics?",
-        "answer": "A household refrigerator in the kitchen is designed for food – usually 4 to 7 degrees. This is too cold for high-quality creams. Oils can flocculate, emulsions lose their stability. The <strong>biszet b7</strong> operates in a gentle spectrum (approx. 4–12 °C) across 3 levels, which is exactly matched to the structure of skincare products. Additionally, this prevents expensive serums from taking on the smell of food.<br/><a href=\"/en/knowledge/expert-interview-dr-kruppa\">Read the interview with Dr. Kruppa.</a>"      },
+        "answer": "A household refrigerator in the kitchen is designed for food – usually 4 to 7 degrees. This is too cold for high-quality creams. Oils can flocculate, emulsions lose their stability. The <strong>biszet b7</strong> operates in a gentle spectrum (approx. 4–12 °C) across 3 levels, which is exactly matched to the structure of skincare products. Additionally, this prevents expensive serums from taking on the smell of food.<br/><a href=\"/en/knowledge/expert-interview-dr-kruppa\">Read the interview with Dr. Kruppa.</a>"
+      },
       {
         "question": "Which products benefit from cooling?",
         "answer": "Especially <strong>organic natural cosmetics</strong> (without preservatives) and products with unstable active ingredients like <strong>Vitamin C and Retinol</strong>. Cooling extends shelf life, prevents oxidation and enhances the decongestant effect (De-Puffing) upon application."
