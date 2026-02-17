@@ -32,14 +32,12 @@ export type EditorialSplitProps = {
 export const EditorialSplit: React.FC<EditorialSplitProps> = (props) => {
     const {title, shortText, description, imageAlt, imageSrc, videoSrc, imageSrcMobile, ctaLabel, ctaHref, flip, children, variant, overlayColor = 'turkis', imageType = 'image', logos} = props
 
-    // Refs
     const containerRef = useRef<HTMLDivElement>(null);
     const videoRef = useRef<HTMLVideoElement>(null);
 
-    // State
     const [shouldLoadVideo, setShouldLoadVideo] = useState(false);
 
-    // --- 1. LOADER LOGIK (Lädt das Video 200px bevor es sichtbar wird) ---
+    // 1. LOADER LOGIK
     useEffect(() => {
         if (imageType !== 'video') return;
 
@@ -60,9 +58,20 @@ export const EditorialSplit: React.FC<EditorialSplitProps> = (props) => {
         return () => observer.disconnect();
     }, [imageType]);
 
-    // --- 2. PAUSE LOGIK (Spart Akku, wenn nicht sichtbar) ---
-    // Wir nutzen hier trotzdem autoPlay im Tag für den initialen Start auf Mobile,
-    // aber pausieren es, wenn der User weiterscrollt.
+    // 2. FIX FÜR MOBILE AUTOPLAY (Muted erzwingen)
+    useEffect(() => {
+        if (shouldLoadVideo && videoRef.current) {
+            // WICHTIG: Das hier repariert den Bug!
+            // Wir setzen die Property direkt am DOM-Element, weil React das Attribut manchmal "verschluckt".
+            videoRef.current.muted = true;
+            videoRef.current.defaultMuted = true;
+
+            // Versuchen direkt zu starten
+            videoRef.current.play().catch(e => console.log("Initial Play attempt", e));
+        }
+    }, [shouldLoadVideo]);
+
+    // 3. PAUSE LOGIK (Performance)
     useEffect(() => {
         if (!shouldLoadVideo || imageType !== 'video') return;
 
@@ -74,13 +83,11 @@ export const EditorialSplit: React.FC<EditorialSplitProps> = (props) => {
                 if (!video) return;
 
                 if (entry.isIntersecting) {
-                    // Versuchen abzuspielen, falls pausiert
-                    // Auf Mobile ist das 'autoPlay' Attribut im Tag wichtiger als dieser JS-Call
-                    if(video.paused) {
-                        video.play().catch(e => console.log("Autoplay blocked/handled by browser", e));
-                    }
+                    // Sicherstellen, dass es wirklich stumm ist, bevor wir play rufen
+                    if (!video.muted) video.muted = true;
+
+                    video.play().catch(e => console.log("Autoplay blocked", e));
                 } else {
-                    // Wenn <50% sichtbar -> Pause (spart Ressourcen)
                     video.pause();
                 }
             },
@@ -95,7 +102,6 @@ export const EditorialSplit: React.FC<EditorialSplitProps> = (props) => {
     }, [shouldLoadVideo, imageType]);
 
 
-    // BACKGROUND VARIANTE
     if (variant === 'background') {
         return (
             <section className={classNames('editorial-split', styles.editorialSplit__background)} ref={containerRef}>
@@ -103,7 +109,6 @@ export const EditorialSplit: React.FC<EditorialSplitProps> = (props) => {
                 {/* FALL A: VIDEO */}
                 {imageType === 'video' ? (
                     <div className={styles.editorialSplit__gifContainer}>
-                        {/* Poster Image (wird angezeigt bis Video lädt) */}
                         <Image
                             src={imageSrc}
                             alt={imageAlt}
@@ -112,14 +117,15 @@ export const EditorialSplit: React.FC<EditorialSplitProps> = (props) => {
                             style={{ objectFit: 'cover', zIndex: 1 }}
                         />
 
-                        {/* Video Player */}
                         {shouldLoadVideo && videoSrc && (
                             <video
                                 ref={videoRef}
-                                autoPlay // WICHTIG für Mobile Start
-                                loop     // WICHTIG für Dauerschleife
-                                muted    // WICHTIG: Ohne muted kein Autoplay auf Mobile
-                                playsInline // WICHTIG: Verhindert Vollbild auf iOS
+                                autoPlay
+                                loop
+                                muted
+                                playsInline
+                                // @ts-ignore
+                                defaultMuted={true} // React-spezifisch
                                 className={styles.editorialSplit__video}
                                 style={{
                                     objectFit: 'cover',
@@ -137,12 +143,10 @@ export const EditorialSplit: React.FC<EditorialSplitProps> = (props) => {
                         )}
                     </div>
                 ) : imageType === 'gif' ? (
-                    // FALL B: GIF (Legacy)
                     <div className={styles.editorialSplit__gifContainer}>
                         <img src={imageSrc} alt={imageAlt} className={styles.editorialSplit__gif} />
                     </div>
                 ) : (
-                    // FALL C: Statisches Bild
                     <div className={styles.editorialSplit__backgroundImageContainer}>
                         <Image src={imageSrc} alt={imageAlt} fill
                                className={imageSrcMobile ? styles.editorialSplit__backgroundImage_desktop : ''}
@@ -201,7 +205,6 @@ export const EditorialSplit: React.FC<EditorialSplitProps> = (props) => {
         )
     }
 
-    // STANDARD VARIANTE
     return (
         <section className={classNames('editorial-split', variant === 'subtle' ? "bg-light-subtle" : '', 'py-5')}>
             <Container className={'py-5'}>

@@ -111,6 +111,10 @@ section.my-5 {
     transform: rotate(180deg) translateY(-2px);
 }
 
+.accordion-header > button {
+    color: #000 !important
+}
+
 /* Mobile */
 @media screen and (max-width: 767px) {
 
@@ -126,4 +130,9 @@ section.my-5 {
         text-align: left;
     }
 
+    .btn-link-reverse.btn {
+        margin-top: 1.5rem ;
+    }
+
 }
+
