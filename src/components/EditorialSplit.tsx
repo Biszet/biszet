@@ -34,7 +34,7 @@ export const EditorialSplit: React.FC<EditorialSplitProps> = (props) => {
 
     // Refs
     const containerRef = useRef<HTMLDivElement>(null);
-    const videoRef = useRef<HTMLVideoElement>(null); // NEU: Referenz zum Video-Player
+    const videoRef = useRef<HTMLVideoElement>(null);
 
     // State
     const [shouldLoadVideo, setShouldLoadVideo] = useState(false);
@@ -46,7 +46,7 @@ export const EditorialSplit: React.FC<EditorialSplitProps> = (props) => {
         const observer = new IntersectionObserver(
             (entries) => {
                 if (entries[0].isIntersecting) {
-                    setShouldLoadVideo(true); // Rendert das Video-Tag in den DOM
+                    setShouldLoadVideo(true);
                     observer.disconnect();
                 }
             },
@@ -60,9 +60,10 @@ export const EditorialSplit: React.FC<EditorialSplitProps> = (props) => {
         return () => observer.disconnect();
     }, [imageType]);
 
-    // --- 2. PLAYER LOGIK (Startet erst bei 50% Sichtbarkeit) ---
+    // --- 2. PAUSE LOGIK (Spart Akku, wenn nicht sichtbar) ---
+    // Wir nutzen hier trotzdem autoPlay im Tag für den initialen Start auf Mobile,
+    // aber pausieren es, wenn der User weiterscrollt.
     useEffect(() => {
-        // Wir beobachten erst, wenn das Video geladen wurde
         if (!shouldLoadVideo || imageType !== 'video') return;
 
         const observer = new IntersectionObserver(
@@ -73,14 +74,17 @@ export const EditorialSplit: React.FC<EditorialSplitProps> = (props) => {
                 if (!video) return;
 
                 if (entry.isIntersecting) {
-                    // Wenn >50% sichtbar -> Play
-                    video.play().catch(e => console.log("Autoplay blocked", e));
+                    // Versuchen abzuspielen, falls pausiert
+                    // Auf Mobile ist das 'autoPlay' Attribut im Tag wichtiger als dieser JS-Call
+                    if(video.paused) {
+                        video.play().catch(e => console.log("Autoplay blocked/handled by browser", e));
+                    }
                 } else {
-                    // Wenn <50% sichtbar -> Pause (optional, spart Ressourcen)
+                    // Wenn <50% sichtbar -> Pause (spart Ressourcen)
                     video.pause();
                 }
             },
-            { threshold: 0.5 } // WICHTIG: 50% muss sichtbar sein
+            { threshold: 0.5 }
         );
 
         if (containerRef.current) {
@@ -99,7 +103,7 @@ export const EditorialSplit: React.FC<EditorialSplitProps> = (props) => {
                 {/* FALL A: VIDEO */}
                 {imageType === 'video' ? (
                     <div className={styles.editorialSplit__gifContainer}>
-                        {/* Poster Image */}
+                        {/* Poster Image (wird angezeigt bis Video lädt) */}
                         <Image
                             src={imageSrc}
                             alt={imageAlt}
@@ -111,10 +115,11 @@ export const EditorialSplit: React.FC<EditorialSplitProps> = (props) => {
                         {/* Video Player */}
                         {shouldLoadVideo && videoSrc && (
                             <video
-                                ref={videoRef} // NEU: Ref verknüpfen
-                                // autoPlay entfernt! Wir steuern das jetzt manuell.
-                                muted
-                                playsInline
+                                ref={videoRef}
+                                autoPlay // WICHTIG für Mobile Start
+                                loop     // WICHTIG für Dauerschleife
+                                muted    // WICHTIG: Ohne muted kein Autoplay auf Mobile
+                                playsInline // WICHTIG: Verhindert Vollbild auf iOS
                                 className={styles.editorialSplit__video}
                                 style={{
                                     objectFit: 'cover',

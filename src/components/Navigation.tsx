@@ -132,11 +132,12 @@ export const Navigation = ({current, logo, articles, slugMap}: NavigationProps) 
                                 </Dropdown>
 
                                 <Nav.Link href={`/${current}/contact`}>{isDe ? 'kontakt' : 'contact'}</Nav.Link>
+
                             </Nav>
 
                             {/* Wir reichen die SlugMap an den LanguageChooser weiter */}
                             <LanguageChooser
-                                className="ms-lg-3 mt-lg-0 mt-sm-3"
+                                className="ms-lg-3 mt-lg-0 mt-sm-3 language-switch"
                                 current={current}
                                 slugMap={slugMap}
                             />

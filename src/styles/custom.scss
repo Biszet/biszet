@@ -110,3 +110,20 @@ section.my-5 {
     height: 30px;
     transform: rotate(180deg) translateY(-2px);
 }
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+
+    .language-switch.navbar-nav {
+        flex-direction: row;
+    }
+
+    #knowledge-dropdown + .dropdown-menu {
+        display: none;
+    }
+
+    .accordion-button {
+        text-align: left;
+    }
+
+}
