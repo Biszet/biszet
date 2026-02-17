@@ -15,24 +15,22 @@
 /de/datenschutz          /de/data-protection 301
 /en/imprint              /en/data-protection 301
 
-# --- 2. Domain-Strategie: Alles auf biszet.com (301!) ---
-# WICHTIG: Das '!' erzwingt die Umleitung, auch wenn die Datei existiert.
+# --- 2. Domain-Strategie: VORÜBERGEHEND DEAKTIVIERT ---
+# Wir kommentieren das aus, bis die .com Domain läuft.
+# https://biszet.de/* https://biszet.com/:splat  301!
+# https://www.biszet.de/* https://biszet.com/:splat  301!
 
-# Alte .de Domain -> ab nach .com
-https://biszet.de/* https://biszet.com/:splat  301!
-https://www.biszet.de/* https://biszet.com/:splat  301!
+# Andere Domains -> ebenfalls deaktivieren, falls diese auf .de zeigen sollen
+# https://biszet-beauty-fridge.com/* https://biszet.com/:splat  301!
+# https://www.biszet-beauty-fridge.com/* https://biszet.com/:splat  301!
+# https://biszet-beauty-fridge.de/* https://biszet.com/:splat  301!
+# https://www.biszet-beauty-fridge.de/* https://biszet.com/:splat  301!
+# https://beauty-fridge.de/* https://biszet.com/:splat  301!
+# https://www.beauty-fridge.de/* https://biszet.com/:splat  301!
+# https://cosmeticfridge.de/* https://biszet.com/:splat  301!
+# https://www.cosmeticfridge.de/* https://biszet.com/:splat  301!
 
-# Andere Domains -> ab nach .com
-https://biszet-beauty-fridge.com/* https://biszet.com/:splat  301!
-https://www.biszet-beauty-fridge.com/* https://biszet.com/:splat  301!
-https://biszet-beauty-fridge.de/* https://biszet.com/:splat  301!
-https://www.biszet-beauty-fridge.de/* https://biszet.com/:splat  301!
-https://beauty-fridge.de/* https://biszet.com/:splat  301!
-https://www.beauty-fridge.de/* https://biszet.com/:splat  301!
-https://cosmeticfridge.de/* https://biszet.com/:splat  301!
-https://www.cosmeticfridge.de/* https://biszet.com/:splat  301!
-
-# www.biszet.com -> biszet.com (SEO Canonical)
+# www.biszet.com -> biszet.com (Kann bleiben, greift erst wenn .com aktiv ist)
 https://www.biszet.com/* https://biszet.com/:splat  301!
 
 # --- 3. Startseiten-Logik (Spracherkennung) ---
