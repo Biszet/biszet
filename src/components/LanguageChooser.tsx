@@ -11,10 +11,16 @@ type LanguageChooserProps = {
 
 export const LanguageChooser = ({current, className, slugMap}: LanguageChooserProps) => {
     const pathname = usePathname();
-    const params = useParams(); // Zugriff auf URL-Parameter (z.B. der aktuelle Slug)
+    const params = useParams();
 
     const getTargetUrl = (targetLang: string) => {
         if (!pathname) return `/${targetLang}`;
+
+        // FIX: Wenn die Zielsprache gleich der aktuellen ist,
+        // gib einfach den aktuellen Pfad zurück (verhindert fehlerhafte Slug-Übersetzung auf sich selbst)
+        if (targetLang === current) {
+            return pathname;
+        }
 
         // 1. Basis-Sprache tauschen (z.B. /en/... -> /de/...)
         let newPath = pathname.replace(`/${current}`, `/${targetLang}`);
@@ -29,7 +35,6 @@ export const LanguageChooser = ({current, className, slugMap}: LanguageChooserPr
         }
 
         // 3. Dynamische Artikel-Slugs übersetzen
-        // Wir holen den aktuellen Slug aus den Parametern
         const currentSlug = params?.slug;
         const slugString = Array.isArray(currentSlug) ? currentSlug[0] : currentSlug;
 
