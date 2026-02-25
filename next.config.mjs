@@ -29,6 +29,16 @@ const nextConfig = {
     },
     redirects: () => {
         return [
+            {
+                source: '/en/wissen',
+                destination: '/en/knowledge',
+                permanent: true,
+            },
+            {
+                source: '/en/wissen/:slug',
+                destination: '/en/knowledge/:slug',
+                permanent: true,
+            },
             // German redirects
             {
                 source: '/de/produkte',
