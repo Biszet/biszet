@@ -32,18 +32,18 @@ export async function generateMetadata({ params }: PageProps) {
     }
 
     const a = article as any;
-    // Hier greifen wir auf das neue "meta" Objekt zu
     const meta = a.meta || {};
 
     return {
-        // Prio 1: Meta-Title aus JSON | Prio 2: Artikel-Title
         title: meta.title ? meta.title : `${a.title} | biszet`,
-
-        // Prio 1: Meta-Description | Prio 2: Artikel-Subtitle
         description: meta.description || a.subtitle,
-
-        // NEU: Keywords (falls im JSON vorhanden)
         keywords: meta.keywords || '',
+
+        // Explizite Indexierung für Google & KIs anfordern
+        robots: {
+            index: true,
+            follow: true,
+        },
 
         openGraph: {
             title: meta.title || a.title,
@@ -62,10 +62,37 @@ export default async function Page({ params }: PageProps) {
 
     const a = article as any;
 
+    // --- NEU: Das Schema.org JSON-LD für den Artikel ---
+    const articleJsonLd = {
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        'headline': a.title,
+        'description': a.subtitle,
+        'image': `https://biszet.com${a.image}`,
+        'author': {
+            '@type': 'Person',
+            'name': a.author // Nimmt dynamisch den Namen aus der JSON (z.B. Dr. Kruppa)
+        },
+        'publisher': {
+            '@type': 'Organization',
+            'name': 'biszet GmbH',
+            'logo': {
+                '@type': 'ImageObject',
+                'url': 'https://biszet.com/images_de/biszet-logo-kosmetik-kuehlschrank.svg'
+            }
+        },
+        'datePublished': a.date // (Optional: wandelt das Datum idealerweise in YYYY-MM-DD um)
+    };
+
     return (
         <article className="article-page">
-            <Container>
 
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+            />
+
+            <Container>
                 <Row className="mb-5">
                     <Col lg={8}>
 

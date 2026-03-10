@@ -33,19 +33,38 @@ export default async function Page({ params }: PageProps) {
     const story = (dict as any).story;
     const faqData = (dict as any).faq; // WICHTIG: Das hat gefehlt!
 
-    // 3. Schema.org JSON-LD generieren (für SEO)
-    const jsonLd = {
-        '@context': 'https://schema.org',
-        '@type': 'FAQPage',
-        'mainEntity': faqData.items.map((item: any) => ({
-            '@type': 'Question',
-            'name': item.question,
-            'acceptedAnswer': {
-                '@type': 'Answer',
-                'text': item.answer
+    // 3. Schema.org JSON-LD generieren (FAQ & Product kombiniert)
+    const jsonLd = [
+        {
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            'mainEntity': faqData.items.map((item: any) => ({
+                '@type': 'Question',
+                'name': item.question,
+                'acceptedAnswer': {
+                    '@type': 'Answer',
+                    'text': item.answer
+                }
+            }))
+        },
+        {
+            '@context': 'https://schema.org',
+            '@type': 'Product',
+            'name': 'biszet b7 Kosmetik Kühlschrank',
+            'image': 'https://biszet.com/images_de/produktbilder/B7-Kosmetikkühlschrank-Szene.jpg',
+            'description': 'Der erste Kosmetik Kühlschrank mit 3 Klimazonen. Made in Germany. Schützen Sie Ihre Beauty Produkte in edlem Edelstahl.',
+            'brand': {
+                '@type': 'Brand',
+                'name': 'biszet'
+            },
+            // Hilft KIs zu verstehen, dass es ein käufliches Luxusprodukt ist
+            'offers': {
+                '@type': 'AggregateOffer',
+                'availability': 'https://schema.org/InStock',
+                'priceCurrency': 'EUR'
             }
-        }))
-    };
+        }
+    ];
 
     return (
         <>
