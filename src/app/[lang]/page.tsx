@@ -57,12 +57,6 @@ export default async function Page({ params }: PageProps) {
                 '@type': 'Brand',
                 'name': 'biszet'
             },
-            // Hilft KIs zu verstehen, dass es ein käufliches Luxusprodukt ist
-            'offers': {
-                '@type': 'AggregateOffer',
-                'availability': 'https://schema.org/InStock',
-                'priceCurrency': 'EUR'
-            }
         }
     ];
 
