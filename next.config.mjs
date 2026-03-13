@@ -18,6 +18,10 @@ const nextConfig = {
     rewrites: async () => {
         return [
             {
+                source: '/.well-known/llms.txt',
+                destination: '/ai.txt',
+            },
+            {
                 source: '/en/knowledge',
                 destination: '/en/wissen',
             },

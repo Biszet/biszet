@@ -34,6 +34,10 @@ export async function generateMetadata({ params }: PageProps) {
     const a = article as any;
     const meta = a.meta || {};
 
+    // --- NEU: Dynamische Canonical URL berechnen ---
+    const basePath = params.lang === 'de' ? 'wissen' : 'knowledge';
+    const canonicalUrl = `https://biszet.com/${params.lang}/${basePath}/${params.slug}`;
+
     return {
         title: meta.title ? meta.title : `${a.title} | biszet`,
         description: meta.description || a.subtitle,
@@ -43,6 +47,11 @@ export async function generateMetadata({ params }: PageProps) {
         robots: {
             index: true,
             follow: true,
+        },
+
+        // --- NEU: Der Canonical Tag für perfekte SEO ---
+        alternates: {
+            canonical: canonicalUrl,
         },
 
         openGraph: {
@@ -62,7 +71,7 @@ export default async function Page({ params }: PageProps) {
 
     const a = article as any;
 
-    // --- NEU: Das Schema.org JSON-LD für den Artikel ---
+    // Das Schema.org JSON-LD für den Artikel
     const articleJsonLd = {
         '@context': 'https://schema.org',
         '@type': 'Article',
@@ -81,12 +90,12 @@ export default async function Page({ params }: PageProps) {
                 'url': 'https://biszet.com/images_de/biszet-logo-kosmetik-kuehlschrank.svg'
             }
         },
-        'datePublished': a.date // (Optional: wandelt das Datum idealerweise in YYYY-MM-DD um)
+        'datePublished': a.date
     };
 
     return (
         <article className="article-page">
-
+            {/* Hier wird das Schema unsichtbar für Google in den Head gerendert */}
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}

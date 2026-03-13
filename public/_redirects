@@ -36,12 +36,3 @@ https://www.cosmeticfridge.de/* https://biszet.com/:splat  301!
 
 # www.biszet.com -> biszet.com (Kann bleiben, greift erst wenn .com aktiv ist)
 https://www.biszet.com/* https://biszet.com/:splat  301!
-
-# --- 3. Startseiten-Logik (Spracherkennung) ---
-# Nur auf der Startseite ("/") prüfen wir die Browser-Sprache
-
-# Wenn Browser = Deutsch -> /de
-/  /de  302  Language=de
-
-# Alle anderen (Default) -> /en
-/  /en  301
