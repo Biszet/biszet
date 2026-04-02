@@ -136,3 +136,28 @@ section.my-5 {
 
 }
 
+.biszet-call-to-action {
+    color: #FFF;
+    background: #49535c;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    padding: 10px 30px;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+.biszet-call-to-action:hover {
+    background: #596670;
+    color: #FFF;
+}
+
+.biszet-call-to-action img {
+    margin-left: 5px;
+}
+
+.biszet-call-to-action:after {
+    display: none;
+}
