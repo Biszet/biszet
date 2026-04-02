@@ -76,22 +76,23 @@ export const Contact: React.FC<ContactProps> = (props) => {
 
         if (form.checkValidity() === false) {
             event.stopPropagation();
+            setValidated(true);
         } else {
-            // Phone aus dem Daten-Objekt entfernt
             const data = {name, email, message, aware, consent: consent ? 'true' : 'false'}
-            fetch("/", {
+
+            fetch(window.location.pathname, {
                 method: "POST",
                 headers: {"Content-Type": "application/x-www-form-urlencoded"},
-                // @ts-ignore
-                body: encode({"form-name": "contact", ...data}),
+                body: encode({"form-name": "contact", "bot-field": "", ...data}),
             })
-                .then(() => {
+                .then((response) => {
+                    if (!response.ok) {
+                        throw new Error(`Netlify lehnte die Anfrage ab (Status: ${response.status})`);
+                    }
                     window.location.href = formSubmitThankYouUrl;
                 })
-                .catch(error => alert("Error: " + error));
+                .catch(error => alert("Es gab einen Fehler beim Senden: " + error));
         }
-
-        setValidated(true);
     };
 
     return (
