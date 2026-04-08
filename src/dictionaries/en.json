@@ -26,7 +26,7 @@
       "stage": {
         "headline": "The first luxury cosmetics refrigerator made in Germany.",
         "subline": "Sensuality and Aesthetics",
-        "ctaHref": "mailto:info@biszet.de",
+        "ctaHref": "/en/contact",
         "ctaLabel": "Order the b7 now",
         "variant": "overlay",
         "imageSrc": "/images_en/product-images/B7-Cosmetics-Fridge-Scene.jpg",
@@ -137,7 +137,7 @@
       },
       "textTeaser": {
         "title": "The world of sophisticated interior design and individually designed bathrooms gets a new highlight with the b7",
-        "ctaHref": "mailto:info@biszet.de",
+        "ctaHref": "/en/contact",
         "ctaLabel": "Order the b7 now"
       },
       "textTeaserStory": {
@@ -148,7 +148,7 @@
       "contactTeaser": {
         "title": "Personal Consultation & <br/> Individual Planning",
         "shortText": "Do you have questions about dimensions, installation or delivery times? Contact us. We look forward to hearing from you.",
-        "ctaHref": "mailto:info@biszet.de",
+        "ctaHref": "/en/contact",
         "ctaLabel": "Mail to",
         "imageSrc": "/images_en/biszet-b7-cosmetics-fridge-diagonal-view.jpg",
         "imageAlt": "Diagonal view of the biszet b7 cosmetics refrigerator – Your partner for individual bathroom planning"
@@ -173,7 +173,7 @@
         "imageSrc": "/images_en/biszet-b7-technical-drawing-dimensions.svg",
         "imageAlt": "Technical drawing: Dimensions and installation dimensions of the biszet b7",
         "description": "<p>The b7 from biszet is made entirely of <strong>high-quality stainless steel</strong> – inside and out. The door consists of a satin-finished insulating glass pane, framed by a narrow stainless steel frame. Glass and frame are separated by a fine, hand-inlaid suede strip.</p><h3>Innovation: Sleek 25 cm depth</h3><p>The depth of only 25 centimeters is a <strong>technical masterpiece</strong> and gives “the fridge” an elegant lightness – whether as a free-standing sculpture or integrated as a design element.</p><p>We are happy to support you individually with your project planning. Contact us.</p>",
-        "ctaHref": "mailto:info@biszet.de",
+        "ctaHref": "/en/contact",
         "ctaLabel": "Contact",
         "isHeading": true,
         "downloadLabel": "More details on installation",
@@ -294,7 +294,7 @@
         "title": "<blockquote>“It`s the latest accessory for the hi-tech home.”</blockquote>",
         "quoteImageSrc": "/images_en/logos/biszet-press-wallpaper-design-magazine.svg",
         "quoteImageAlt": "Wallpaper",
-        "ctaHref": "mailto:info@biszet.de",
+        "ctaHref": "/en/contact",
         "ctaLabel": "Order the b7 here",
         "variant": "secondary",
         "backgroundColor": "turkis"
@@ -375,7 +375,7 @@
       },
       "textTeaser": {
         "title": "Do you want this luxury for your bathroom too?",
-        "ctaHref": "mailto:info@biszet.de",
+        "ctaHref": "/en/contact",
         "ctaLabel": "Order the b7 here"
       },
       "reference": {
@@ -511,9 +511,10 @@
     "modules": {
       "success": {
         "title": "Thank you for your request!",
-        "imageSrc": "/images_en/B1-Animation.gif",
+        "imageSrc": "/images_en/biszet-b7-cosmetics-fridge-open-graph.jpg",
         "imageAlt": "Cabinet Animation",
-        "imageType": "gif",
+        "imageType": "video",
+        "videoSrc": "/videos/biszet-cosmetics-fridge-bath.mp4",
         "description": "<p>We will contact you immediately.</p><p>In this convincing combination of purist design and German precision, “the fridge” from biszet is the ideal cosmetics refrigerator, which blends harmoniously into the world of sophisticated architecture and individually designed bathrooms.</p>",
         "ctaHref": "/en",
         "ctaLabel": "back to homepage",

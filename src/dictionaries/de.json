@@ -26,7 +26,7 @@
       "stage": {
         "headline": "Der erste Kosmetik-Kühlschrank der Luxusklasse made in Germany.",
         "subline": "Sinnlichkeit und Ästhetik",
-        "ctaHref": "mailto:info@biszet.de",
+        "ctaHref": "/de/contact",
         "ctaLabel": "Jetzt den b7 bestellen",
         "variant": "overlay",
         "imageSrc": "/images_de/produktbilder/B7-Kosmetikkühlschrank-Szene.jpg",
@@ -137,7 +137,7 @@
       },
       "textTeaser": {
         "title": "Die Welt anspruchsvoller Innenarchitektur und individuell gestalteter Bäder erhält durch den b7 einen neuen Glanzpunkt",
-        "ctaHref": "mailto:info@biszet.de",
+        "ctaHref": "/de/contact",
         "ctaLabel": "Jetzt den b7 bestellen"
       },
       "textTeaserStory": {
@@ -148,7 +148,7 @@
       "contactTeaser": {
         "title": "Persönliche Beratung & <br/> Individuelle Planung",
         "shortText": "Sie haben Fragen zu Maßen, Einbau oder Lieferzeiten? Sprechen Sie uns an. Wir freuen uns, von Ihnen zu hören.",
-        "ctaHref": "mailto:info@biszet.de",
+        "ctaHref": "/de/contact",
         "ctaLabel": "Mail to",
         "imageSrc": "/images_de/biszet-b7-kosmetik-kuehlschrank-diagonal-ansicht.jpg",
         "imageAlt": "Diagonalansicht des biszet b7 Kosmetik Kühlschranks – Ihr Partner für individuelle Bad-Planung"
@@ -173,7 +173,7 @@
         "imageSrc": "/images_de/biszet-b7-technische-zeichnung-abmessungen-masse.svg",
         "imageAlt": "Technische Zeichnung: Abmessungen und Einbaumaße des biszet b7",
         "description": "<p>Der b7 von biszet wird komplett aus <strong>hochwertigem Edelstahl</strong> gefertigt – innen und außen. Die Tür besteht aus einer satinierten Isolierglasscheibe, gefasst von einem schmalen Edelstahlrahmen. Glas und Rahmen sind durch ein feines, von Hand eingelegtem Wildleder-Band getrennt.</p><h3>Die Innovation: schlanke 25 cm Bautiefe</h3><p>Die Tiefe von nur 25 Zentimetern ist eine <strong>technische Meisterleistung</strong> und verleiht „the fridge“ eine elegante Leichtigkeit – Ob als freistehende Skulptur oder als Design-Element integriert.</p><p>Gerne unterstützen wir Sie individuell bei Ihrer Projektplanung. Sprechen Sie uns an.</p>",
-        "ctaHref": "mailto:info@biszet.de",
+        "ctaHref": "/de/contact",
         "ctaLabel": "Kontakt",
         "isHeading": true,
         "downloadLabel": "Weitere Details zum Einbau",
@@ -294,7 +294,7 @@
         "title": "<blockquote>„It`s the latest accessory for the hi-tech home.“</blockquote>",
         "quoteImageSrc": "/images_de/logos/biszet-presse-wallpaper-design-magazine.svg",
         "quoteImageAlt": "Wallpaper",
-        "ctaHref": "mailto:info@biszet.de",
+        "ctaHref": "/de/contact",
         "ctaLabel": "Hier können Sie den b7 bestellen",
         "variant": "secondary",
         "backgroundColor": "turkis"
@@ -375,7 +375,7 @@
       },
       "textTeaser": {
         "title": "Diesen Luxus wollen Sie auch für Ihr Bad?",
-        "ctaHref": "mailto:info@biszet.de",
+        "ctaHref": "/de/contact",
         "ctaLabel": "Hier können Sie den b7 bestellen"
       },
       "reference": {
@@ -511,9 +511,10 @@
     "modules": {
       "success": {
         "title": "Vielen Dank für Ihre Anfrage!",
-        "imageSrc": "/images_de/B1-Animation.gif",
+        "imageSrc": "/images_de/biszet-b7-kosmetik-kuehlschrank-open-graph.jpg",
         "imageAlt": "Schrank Animation",
-        "imageType": "gif",
+        "imageType": "video",
+        "videoSrc": "/videos/biszet-kosmetik-kuehlschrank-bad.mp4",
         "description": "<p>Wir werden uns umgehend bei Ihnen melden.</p><p>In dieser überzeugenden Verbindung von puristischem Design und deutscher Präzision ist „the fridge\" von biszet der ideale Kosmetik-Kühlschrank, der sich harmonisch einfügt in die Welt von anspruchsvoller Architektur und individuell gestalteten Bädern.</p>",
         "ctaHref": "/",
         "ctaLabel": "zurück zur Homepage",
